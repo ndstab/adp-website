@@ -2,6 +2,7 @@
 
 import {useEffect, useRef, useState} from 'react';
 import Image from 'next/image';
+import {useLinkStatus} from 'next/link';
 import {useTranslations} from 'next-intl';
 import {ArrowUpRight, Menu, X} from 'lucide-react';
 import {Link, usePathname} from '@/i18n/navigation';
@@ -18,6 +19,18 @@ const links = [
   {href: '/industries', key: 'industries'},
   {href: '/insights', key: 'insights'}
 ] as const;
+
+// A prefetched route still takes a moment to commit, and until it does nothing on screen
+// reacts to the click. useLinkStatus reports the pending state of the Link above it, so the
+// item the visitor clicked takes its active colour straight away instead of after the swap.
+function NavLabel({active, children}: {active: boolean; children: React.ReactNode}) {
+  const {pending} = useLinkStatus();
+  return (
+    <span className={cn('transition-colors duration-150', active || pending ? 'text-blue-600' : 'text-ink-900 group-hover:text-blue-600')}>
+      {children}
+    </span>
+  );
+}
 
 export function Header() {
   const t = useTranslations('common');
@@ -98,15 +111,13 @@ export function Header() {
             const active = pathname === href || pathname.startsWith(`${href}/`);
             return (
               <li key={key}>
-                <Link prefetch={prefetch}
+                <Link
+                  prefetch={prefetch}
                   href={href}
                   aria-current={active ? 'page' : undefined}
-                  className={cn(
-                    'label-caps rounded-full px-3.5 py-2.5 transition-colors hover:text-blue-600',
-                    active ? 'text-blue-600' : 'text-ink-900'
-                  )}
+                  className="label-caps group block rounded-full px-3.5 py-2.5"
                 >
-                  {t(`nav.${key}`)}
+                  <NavLabel active={active}>{t(`nav.${key}`)}</NavLabel>
                 </Link>
               </li>
             );
