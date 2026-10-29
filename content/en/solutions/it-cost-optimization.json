@@ -1,0 +1,59 @@
+{
+  "slug": "it-cost-optimization",
+  "hero": {
+    "eyebrow": "Efficiency & operations",
+    "title1": "IT Cost Optimization.",
+    "title2": "Fund your AI journey from the savings.",
+    "subtitle": "Automated discovery, normalized inventory, entitlement mapping and licence reclamation that turn your software estate into a source of budget."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Software spend keeps rising while nobody has a complete picture of what is installed, used and owned. Vendor audits arrive with little warning, and budget for new AI initiatives competes with renewals nobody can challenge.",
+    "points": [
+      "No single, trusted inventory of hardware and software",
+      "Unused licences renewed year after year",
+      "Audit exposure and unbudgeted true-up costs",
+      "Contracts managed in spreadsheets and inboxes"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "A normalized view of every asset and entitlement shows where money is wasted and where compliance risk sits. The savings can fund the AI, cloud and security projects your strategy calls for.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Automated hardware and software discovery", "body": "Agent and agentless discovery across data centre, cloud and endpoints."},
+    {"title": "Normalized inventory", "body": "Clean publisher, product and version data you can report on."},
+    {"title": "Entitlement mapping", "body": "Match what you own to what is deployed and used."},
+    {"title": "Contract lifecycle management", "body": "Renewal calendars, terms and obligations in one place."},
+    {"title": "Licence compliance risk", "body": "See your position before the auditor does."},
+    {"title": "Licence reclamation", "body": "Reclaim and re-harvest unused licences automatically."}
+  ],
+  "applications": [
+    {"title": "Audit readiness", "body": "Answer a vendor audit with evidence in days, not months."},
+    {"title": "Renewal negotiations", "body": "Go into renewals knowing real usage and need."},
+    {"title": "Cloud and SaaS spend control", "body": "Find idle subscriptions and oversized instances."},
+    {"title": "Merger and restructuring", "body": "Consolidate estates and contracts after organizational change."}
+  ],
+  "outcomes": [
+    {"value": "20%+", "label": "Software cost reduction"},
+    {"value": "5×", "label": "Faster audit response"},
+    {"value": "75%", "label": "Less unbudgeted spend"},
+    {"value": "~6 months", "label": "Typical payback"}
+  ],
+  "sectors": ["government", "bfsi", "telecom", "energy-utilities", "healthcare"],
+  "vision2030": {
+    "body": "Better value from public and corporate IT spend supports fiscal efficiency and frees investment for digital transformation.",
+    "programs": ["Fiscal Sustainability Program", "National Transformation Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Discovery and inventory can run on-premise or in an in-Kingdom cloud tenant."
+  },
+  "seo": {
+    "title": "IT Cost Optimization & Software Asset Management | KSA",
+    "description": "Discover every IT asset, reclaim unused licences and prepare for audits. Typical 20%+ software savings that can fund your AI journey in Saudi Arabia."
+  }
+}

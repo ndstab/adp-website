@@ -1,0 +1,54 @@
+{
+  "slug": "cloud-modernization",
+  "hero": {
+    "eyebrow": "Efficiency & operations",
+    "title1": "Cloud & Multi-Cloud.",
+    "title2": "Modernized, governed and in-Kingdom.",
+    "subtitle": "Public, private and hybrid cloud: migration, cloud-native hosting, backup and disaster recovery, DevOps and multi-cloud governance."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "The government's Cloud First policy and new in-Kingdom cloud regions have accelerated migration. Organizations now need to move the right workloads, keep personal data resident, control spend and avoid creating new security gaps.",
+    "points": [
+      "Choosing what to move, where, and in what order",
+      "Data-residency obligations under the PDPL and sector rules",
+      "Cloud bills that grow faster than value",
+      "Inconsistent security posture across several clouds"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "A planned, governed move to in-Kingdom cloud gives agility and resilience, and creates the platform AI and modern applications need, without losing control of data or cost.",
+    "sources": ["cloud-first", "pdpl"]
+  },
+  "capabilities": [
+    {"title": "Public, private and hybrid cloud", "body": "Architecture that matches each workload to the right environment."},
+    {"title": "Migration planning and execution", "body": "Assessment, wave planning and low-risk migration."},
+    {"title": "Cloud-native hosting", "body": "Containers, Kubernetes and managed platforms."},
+    {"title": "Backup, disaster recovery and storage", "body": "Recovery objectives defined, tested and met."},
+    {"title": "DevOps and cost optimization", "body": "Automated pipelines and continuous FinOps."},
+    {"title": "Multi-cloud governance and security posture", "body": "Policies, guardrails and posture management across every cloud."}
+  ],
+  "applications": [
+    {"title": "Data-centre exit", "body": "Move workloads out of ageing facilities in planned waves."},
+    {"title": "Disaster recovery in-Kingdom", "body": "Secondary sites and tested recovery for critical systems."},
+    {"title": "Platform for AI workloads", "body": "GPU-ready, governed environments for enterprise AI."},
+    {"title": "Cost and posture review", "body": "Find waste and misconfigurations across existing cloud accounts."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "bfsi", "healthcare", "retail-hospitality", "education"],
+  "vision2030": {
+    "body": "Cloud adoption in line with the Cloud First policy supports a more agile government and a competitive digital economy.",
+    "programs": ["National Transformation Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "In-Kingdom public cloud regions, private cloud in your data centre, or a governed hybrid of both."
+  },
+  "seo": {
+    "title": "Cloud & Multi-Cloud Modernization | Saudi Arabia",
+    "description": "Cloud migration, cloud-native hosting, backup and DR, DevOps and multi-cloud governance, aligned with Cloud First and in-Kingdom data residency."
+  }
+}

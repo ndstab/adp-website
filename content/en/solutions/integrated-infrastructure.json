@@ -1,0 +1,54 @@
+{
+  "slug": "integrated-infrastructure",
+  "hero": {
+    "eyebrow": "Core infrastructure & engineering",
+    "title1": "Integrated Infrastructure.",
+    "title2": "Designed, built and run by one team.",
+    "subtitle": "Converged networking and IT, data centres, unified communications, low-current and audio-visual systems, delivered end to end by our own engineers."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "New ministries, giga-projects and regional headquarters are opening buildings and campuses faster than ever. Infrastructure is often split across many contractors, so nobody owns the whole result when something fails.",
+    "points": [
+      "Fragmented contracts for network, data centre, low-current and AV work",
+      "Tight handover dates on new buildings and campuses",
+      "Operations teams inheriting systems they did not design"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "A single accountable partner for the physical and digital foundation shortens delivery, reduces integration risk and gives operations one number to call. A sound foundation is also what every later AI, cloud and security investment depends on.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Converged networking and IT", "body": "Campus, branch and data-centre networks designed together with compute, storage and security."},
+    {"title": "Data centre installation and management", "body": "Design, fit-out, structured cabling, power and cooling coordination, and ongoing management."},
+    {"title": "Unified communications and low-current systems", "body": "Voice, video, contact-centre, CCTV, access control and building systems on one integrated design."},
+    {"title": "Audio-visual solutions", "body": "Boardrooms, command centres, auditoriums and hybrid meeting spaces."},
+    {"title": "Digital infrastructure", "body": "Wireless, edge and connectivity built for IoT and AI workloads from day one."},
+    {"title": "Operations and network support systems", "body": "Monitoring, service desk and support contracts that keep the estate healthy after handover."}
+  ],
+  "applications": [
+    {"title": "New ministry or authority headquarters", "body": "Network, data room, low-current and meeting spaces delivered as one programme."},
+    {"title": "Regional headquarters fit-out", "body": "A ready-to-run IT and AV estate for organizations relocating to Riyadh."},
+    {"title": "Command and control centres", "body": "Video walls, operator consoles and resilient networks for 24/7 operations."},
+    {"title": "Campus and hospital modernization", "body": "Upgrading legacy networks and building systems without disrupting services."},
+    {"title": "Giga-project site infrastructure", "body": "Temporary and permanent connectivity for sites that grow month by month."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "giga-projects-construction", "healthcare", "education", "bfsi"],
+  "vision2030": {
+    "body": "Resilient digital infrastructure underpins the government's digital transformation and the growth of new cities, campuses and regional headquarters.",
+    "programs": ["National Transformation Program", "Housing Program"]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Delivered on your premises and sites in the Kingdom, with managed-service options after handover."
+  },
+  "seo": {
+    "title": "Integrated Infrastructure Solutions in Saudi Arabia",
+    "description": "Networking, data centres, unified communications, low-current and AV systems in Saudi Arabia, designed, built and supported by one ADP Solutions team."
+  }
+}

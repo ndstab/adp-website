@@ -1,0 +1,368 @@
+{
+  "hero": {
+    "chip": "Saudi-based · AI & digital transformation",
+    "title1": "Intelligent Technology.",
+    "title2": "Built for the Kingdom.",
+    "sub": "AI agents, cybersecurity, cloud and smart infrastructure from one accountable Saudi team, in Arabic and English, deployed in-Kingdom when you need it.",
+    "cta": "Talk to us",
+    "agentLabel": "Live agent",
+    "agent": {
+      "eyebrow": "AI agent",
+      "title": "Customer Service",
+      "body": "Answers, routes and resolves requests around the clock.",
+      "chips": [
+        "Arabic",
+        "WhatsApp",
+        "24/7"
+      ],
+      "status": "Online"
+    },
+    "ghosts": [
+      "NCA-aligned",
+      "In-Kingdom",
+      "Vision 2030"
+    ],
+    "orbit": {
+      "label": "Our five solution pillars",
+      "pause": "Pause animation",
+      "play": "Play animation",
+      "view": "View solutions"
+    },
+    "stats": [
+      {
+        "value": "2026",
+        "label": "Saudi Year of AI",
+        "source": "year-of-ai"
+      },
+      {
+        "value": "26.6%",
+        "label": "AI market CAGR to 2031",
+        "source": "ai-market"
+      },
+      {
+        "value": "SAR 75B",
+        "label": "National data & AI investment target",
+        "source": "nsdai"
+      }
+    ]
+  },
+  "capabilities": {
+    "chip": "Why ADP",
+    "title1": "Key Capabilities That Power",
+    "title2": "Saudi Transformation",
+    "intro": "AI, security, cloud and smart infrastructure under one Saudi contract, run by a team that works in Arabic and English.",
+    "layers": {
+      "label": "Five pillars",
+      "title": "One partner, every layer",
+      "body": "From the network and the data centre to AI agents and drones, one accountable team owns the outcome."
+    },
+    "sovereign": {
+      "title": "Sovereign by design",
+      "body": "In-Kingdom and on-premise deployment options keep sensitive data under Saudi jurisdiction.",
+      "alt": "Long data-centre aisle lined with server and network racks"
+    },
+    "bilingual": {
+      "label": "Channels",
+      "items": [
+        "Arabic",
+        "English",
+        "Voice",
+        "Chat",
+        "E-mail"
+      ],
+      "title": "Bilingual by default",
+      "body": "Every agent, interface and support line works in Arabic and English, so customers and teams are served in their own language."
+    },
+    "vision": {
+      "title": "Aligned with Vision 2030",
+      "body": "Built around national priorities: the Year of AI, local content, and Saudi talent with real knowledge transfer.",
+      "alt": "Kingdom Centre tower in Riyadh silhouetted against a warm sunset sky"
+    }
+  },
+  "impact": {
+    "chip": "Business impact",
+    "title1": "Transformation",
+    "title2": "Without the Overhead",
+    "sub": "Savings and speed you can measure, from solutions already running in production.",
+    "stats": [
+      {
+        "value": "20%+",
+        "unit": "",
+        "label": "Software cost reduction",
+        "icon": "trending-down"
+      },
+      {
+        "value": "90%+",
+        "unit": "",
+        "label": "Alarm noise suppressed",
+        "icon": "bell-off"
+      },
+      {
+        "value": "<90",
+        "unit": "sec",
+        "label": "Network fault remediation",
+        "icon": "timer"
+      },
+      {
+        "value": "~6",
+        "unit": "months",
+        "label": "Typical payback",
+        "icon": "wallet"
+      }
+    ],
+    "caption": "Typical outcomes from production deployments of our solutions."
+  },
+  "agents": {
+    "chip": "How it works",
+    "title1": "From request to resolution.",
+    "title2": "How our AI agents work.",
+    "intro": "Each agent follows the same governed loop, so you always know what it did, why, and who approved it.",
+    "steps": [
+      {
+        "title": "Listens",
+        "body": "Monitors WhatsApp, e-mail, web chat and voice for new requests, around the clock."
+      },
+      {
+        "title": "Understands",
+        "body": "Reads intent, language and sentiment, then pulls the context it needs from your systems."
+      },
+      {
+        "title": "Acts",
+        "body": "Drafts the reply, fills the form or updates the record, within the guardrails you set."
+      },
+      {
+        "title": "Human-in-the-loop",
+        "body": "Sends sensitive or high-value steps to your staff for approval before anything goes out."
+      },
+      {
+        "title": "Learns",
+        "body": "Every outcome feeds back, so answers get faster and more accurate over time."
+      }
+    ],
+    "canvas": {
+      "workflow": "Citizen service request",
+      "save": "Save",
+      "activate": "Activate",
+      "live": "Live",
+      "nodes": [
+        {
+          "tag": "Trigger",
+          "title": "Request listener",
+          "body": "Watches WhatsApp and the web portal for new service requests."
+        },
+        {
+          "tag": "Processing",
+          "title": "AI worker",
+          "body": "Classifies the request, checks eligibility and drafts a response."
+        },
+        {
+          "tag": "Processing",
+          "title": "Human approval",
+          "body": "An officer reviews exceptions before the reply is sent."
+        },
+        {
+          "tag": "Communication",
+          "title": "Response agent",
+          "body": "Replies in the citizen's language and updates the case record."
+        }
+      ],
+      "summary": {
+        "title": "Request summary",
+        "rows": [
+          "Permit renewal · Riyadh",
+          "Arabic · WhatsApp",
+          "Priority: standard",
+          "Target response: 2 hours"
+        ]
+      }
+    }
+  },
+  "features": {
+    "rows": [
+      {
+        "id": "builder",
+        "chip": "Easy setup",
+        "title1": "Deploy in weeks,",
+        "title2": "not years.",
+        "body": "Configure task-specific AI agents in a no-code builder with guardrails, observability and test automation included. Start with a fixed-scope proof of value, then scale what works.",
+        "points": [
+          "No-code agent builder with guardrails",
+          "Arabic-first models, deployable in-Kingdom",
+          "Fixed-scope pilot before you scale"
+        ]
+      },
+      {
+        "id": "watermark",
+        "chip": "Data-leak protection",
+        "title1": "Every copy accountable.",
+        "title2": "Every leak traceable.",
+        "body": "Most leaks start inside: a phone photo of a screen, a printout, a shared meeting screen. We watermark every screen, file and printout with who, where and when, and block unauthorized capture of critical applications.",
+        "points": [
+          "Screen, file and print watermarks",
+          "Screen-share and screenshot control, every attempt logged",
+          "Audit-ready evidence for legal and HR action"
+        ]
+      },
+      {
+        "id": "iot",
+        "chip": "Smart infrastructure",
+        "title1": "See every asset,",
+        "title2": "live.",
+        "body": "Rugged sensors and gateways stream pressure, flow and output data to one dashboard, with anomaly alerts and automated compliance reports for water networks and solar plants.",
+        "points": [
+          "Edge buffering when connectivity drops",
+          "Anomaly detection and remote control",
+          "Automated compliance reporting"
+        ]
+      }
+    ],
+    "builder": {
+      "title": "Create AI agent",
+      "name": "Name",
+      "nameValue": "Citizen Services Agent",
+      "description": "Description",
+      "descriptionValue": "Answers permit and licensing questions in Arabic and English.",
+      "language": "Language",
+      "languageValue": "Arabic + English",
+      "hosting": "Hosting",
+      "hostingValue": "In-Kingdom",
+      "channels": "Channels",
+      "channelValues": [
+        "WhatsApp",
+        "Web chat",
+        "Voice"
+      ],
+      "guardrails": "Guardrails",
+      "guardrailValues": [
+        "Escalate on negative sentiment",
+        "Human approval for exceptions"
+      ],
+      "active": "Active",
+      "create": "Create agent"
+    },
+    "watermark": {
+      "file": "Tender evaluation · Confidential.pdf",
+      "heading": "Evaluation summary",
+      "mark": "f.alqahtani · FIN-PC-0142 · 10.20.4.17 · 22 Oct 2026 14:32",
+      "blocked": "Screen capture blocked",
+      "logged": "Attempt logged for review"
+    },
+    "iot": {
+      "title": "Water & solar operations",
+      "live": "Live",
+      "kpis": [
+        {
+          "label": "Network pressure",
+          "value": "3.2",
+          "unit": "bar"
+        },
+        {
+          "label": "Non-revenue water",
+          "value": "18.4",
+          "unit": "%"
+        },
+        {
+          "label": "Solar output",
+          "value": "4.8",
+          "unit": "MW"
+        }
+      ],
+      "chart": "Flow vs. demand, last 24 h",
+      "alerts": [
+        {
+          "text": "Pressure drop · Zone 7",
+          "time": "2 min"
+        },
+        {
+          "text": "Inverter 12 back online",
+          "time": "14 min"
+        }
+      ]
+    }
+  },
+  "solutions": {
+    "chip": "Solutions",
+    "title1": "Five pillars.",
+    "title2": "Thirteen solutions.",
+    "sub": "Curated solutions proven in production, localized for the Kingdom and delivered by one accountable Saudi team.",
+    "all": "All",
+    "filterLabel": "Filter solutions by pillar",
+    "explore": "Explore",
+    "count": "{count, plural, one {# solution} other {# solutions}}",
+    "viewAll": "View all {count} solutions"
+  },
+  "industries": {
+    "chip": "Industries",
+    "title1": "Built for the sectors",
+    "title2": "shaping the Kingdom.",
+    "sub": "Priority sectors where our solutions are delivering today.",
+    "prev": "Previous industries",
+    "next": "Next industries",
+    "explore": "Explore sector"
+  },
+  "contact": {
+    "why": {
+      "chip": "Why ADP",
+      "title": "Why organizations choose ADP Solutions",
+      "points": [
+        "Local, experienced industry professionals",
+        "Scalable, future-proof solutions",
+        "A strong network of strategic partners",
+        "End-to-end service delivery",
+        "Bilingual support in Arabic and English",
+        "Commitment to Vision 2030 objectives"
+      ],
+      "alt": "Saudi business leaders shaking hands across a meeting table after reviewing documents"
+    },
+    "chip": "Book a consultation",
+    "title1": "Tell us what",
+    "title2": "you are building.",
+    "body": "Share a few details and a specialist will get back to you, Sunday to Thursday.",
+    "fields": {
+      "name": "Full name",
+      "email": "Work e-mail",
+      "company": "Company",
+      "phone": "Phone",
+      "phonePlaceholder": "+966 5X XXX XXXX",
+      "interest": "Area of interest",
+      "interestPlaceholder": "Select an area",
+      "interestOther": "Not sure yet",
+      "message": "Message",
+      "messagePlaceholder": "What would you like to achieve?",
+      "consent": "I agree that ADP Solutions may process my details to respond to this enquiry, in line with the Personal Data Protection Law (PDPL) and the",
+      "privacy": "Privacy Policy",
+      "submit": "Submit"
+    },
+    "success": "Thank you. We have received your message and will be in touch shortly.",
+    "whatsapp": "Prefer WhatsApp?"
+  },
+  "faq": {
+    "chip": "FAQ",
+    "title": "Everything About ADP, Explained",
+    "sub": "How we work, where your data lives and how engagements begin.",
+    "tabsLabel": "FAQ topics",
+    "more": "Didn't find your answer?",
+    "contact": "Contact us"
+  },
+  "cta": {
+    "title1": "Let's Build Saudi Arabia's",
+    "title2": "Digital Future, Together.",
+    "sub": "Tell us where you want to be. We will help you get there with secure, intelligent and scalable technology.",
+    "button": "Book a consultation",
+    "domainsTitle": "Technology domains",
+    "domainsSub": "Delivered with our global technology alliance.",
+    "domains": [
+      "Agentic AI",
+      "Cloud",
+      "Cybersecurity",
+      "IoT",
+      "Blockchain",
+      "Geospatial",
+      "Networks"
+    ]
+  },
+  "sources": {
+    "title": "Sources",
+    "note": "Market figures are third-party estimates. Outcome figures are typical results and vary by environment."
+  }
+}

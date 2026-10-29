@@ -1,0 +1,133 @@
+{
+  "slug": "agentic-ai-customer-engagement",
+  "hero": {
+    "eyebrow": "Intelligence",
+    "title1": "Agentic AI.",
+    "title2": "Customer engagement that never sleeps.",
+    "subtitle": "Autonomous Arabic and English AI agents that acquire, convert, retain and support customers 24/7 across voice, WhatsApp, e-mail, SMS and social."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Customers expect instant answers in Arabic on WhatsApp and voice, at any hour. Contact centres are expensive to scale, hard to staff with bilingual specialists, and most chatbots only answer FAQs instead of finishing the job.",
+    "points": [
+      "Demand peaks that contact centres cannot absorb",
+      "Chatbots that deflect instead of resolving",
+      "Leads and renewals lost outside working hours",
+      "Personal data handled outside approved systems"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "With 2026 declared the Year of AI, agentic AI is moving from pilot to production. Agents that act inside your systems, under guardrails and human approval, can take on routine journeys end to end while your people handle the cases that need judgement.",
+    "sources": [
+      "year-of-ai",
+      "ai-market"
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "Customer intelligence agents",
+      "body": "Build a live view of each customer from your CRM, transactions and conversations."
+    },
+    {
+      "title": "Sales agents",
+      "body": "Qualify leads, answer product questions and book meetings or appointments."
+    },
+    {
+      "title": "Segmentation and campaign agents",
+      "body": "Build audiences and run campaigns across channels, measured against outcomes."
+    },
+    {
+      "title": "1:1 personalization agents",
+      "body": "Tailor offers and messages to each customer's context and language."
+    },
+    {
+      "title": "Journey automation agents",
+      "body": "Run onboarding, renewals and collections journeys from start to finish."
+    },
+    {
+      "title": "Support agents with sentiment-based escalation",
+      "body": "Resolve requests and hand frustrated or high-value customers to a person, with full context."
+    },
+    {
+      "title": "No-code agent builder",
+      "body": "Configure agents with guardrails, observability and automated testing, without writing code."
+    }
+  ],
+  "applications": [
+    {
+      "title": "Bank onboarding over WhatsApp",
+      "body": "Collect documents, answer questions and complete onboarding steps in Arabic."
+    },
+    {
+      "title": "Insurance renewals",
+      "body": "Remind, quote and renew policies before they lapse."
+    },
+    {
+      "title": "Hospital appointments",
+      "body": "Book, confirm, reschedule and remind patients by voice and WhatsApp."
+    },
+    {
+      "title": "Retail drop-off recovery",
+      "body": "Follow up abandoned baskets and enquiries with personalized offers."
+    },
+    {
+      "title": "Government citizen services",
+      "body": "Answer eligibility questions, track requests and update case records."
+    }
+  ],
+  "outcomes": [
+    {
+      "value": "24/7",
+      "label": "Coverage in Arabic and English"
+    },
+    {
+      "value": "Lower",
+      "label": "Cost per resolved request"
+    },
+    {
+      "value": "Higher",
+      "label": "Lead-to-customer conversion"
+    },
+    {
+      "value": "~6 months",
+      "label": "Typical payback"
+    }
+  ],
+  "sectors": [
+    "bfsi",
+    "healthcare",
+    "government",
+    "retail-hospitality",
+    "telecom"
+  ],
+  "vision2030": {
+    "body": "Bilingual AI agents raise the quality of citizen and customer services and free skilled staff for higher-value work, in line with national data and AI ambitions.",
+    "programs": [
+      "National Transformation Program",
+      "Financial Sector Development Program",
+      "Health Sector Transformation Program"
+    ]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Agents can run in in-Kingdom cloud regions or on-premise, with Arabic-first language models and data kept under your control."
+  },
+  "extras": [
+    {
+      "title": "Guardrails built in",
+      "items": [
+        "Human approval for sensitive or high-value actions",
+        "Full conversation and action logs for audit",
+        "Role-based permissions on every system an agent touches",
+        "Automated test suites before every change goes live"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Agentic AI & Customer Engagement in Arabic | Saudi Arabia",
+    "description": "Arabic and English AI agents that sell, serve and retain customers 24/7 on WhatsApp, voice, e-mail and SMS, with guardrails and in-Kingdom deployment."
+  }
+}

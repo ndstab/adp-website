@@ -1,0 +1,34 @@
+{
+  "slug": "bfsi",
+  "hero": {
+    "eyebrow": "Industries · BFSI",
+    "title1": "Banking, Financial Services & Insurance.",
+    "title2": "Faster journeys, tighter control.",
+    "subtitle": "Digital onboarding, AI agents, digital-experience monitoring and security aligned to the SAMA framework, for banks, fintechs and insurers."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Saudi banks, insurers and fintechs compete on digital experience while meeting strict regulatory expectations. Customers want to open accounts, renew policies and resolve issues on their phone, in Arabic, at any hour."
+  },
+  "challenges": [
+    {"title": "Digital-first customers", "body": "Slow or failed mobile journeys cost customers immediately."},
+    {"title": "Regulatory expectations", "body": "Cybersecurity, data protection and outsourcing rules apply to every new service."},
+    {"title": "Cost of service", "body": "Contact-centre volumes grow faster than budgets."}
+  ],
+  "useCases": [
+    {"title": "WhatsApp onboarding", "body": "AI agents that collect documents and guide customers through onboarding in Arabic."},
+    {"title": "Insurance renewals", "body": "Proactive reminders, quotes and renewals before policies lapse."},
+    {"title": "Mobile banking monitoring", "body": "Spot slow log-ins and failed payments as they start."},
+    {"title": "Customer data protection", "body": "Watermarking and screen control in branches and back offices."}
+  ],
+  "solutions": ["agentic-ai-customer-engagement", "it-service-operations", "cybersecurity-governance-compliance", "data-leak-protection", "ai-data-analytics", "blockchain-trusted-records"],
+  "regulation": ["SAMA Cyber Security Framework", "NCA Essential Cybersecurity Controls", "Personal Data Protection Law (PDPL)"],
+  "vision2030": {
+    "body": "A diversified, digital financial sector supports private-sector growth and financial inclusion.",
+    "programs": ["Financial Sector Development Program"]
+  },
+  "seo": {
+    "title": "Technology for Banking, Financial Services & Insurance | KSA",
+    "description": "AI onboarding agents, digital-experience monitoring, data-leak protection and SAMA-aligned cybersecurity for Saudi banks, insurers and fintechs."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "industrial-iot-smart-infrastructure",
+  "hero": {
+    "eyebrow": "Smart infrastructure & physical world",
+    "title1": "Industrial IoT.",
+    "title2": "Every asset, live.",
+    "subtitle": "Rugged gateways, sensors and edge devices with a cloud platform for dashboards, alerts, anomaly detection, remote control and automated compliance reports."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Water networks, solar plants and construction sites are spread across vast areas, often with patchy connectivity. Many are still checked by site visits, so leaks, faults and quality problems are found late and at high cost.",
+    "points": [
+      "Remote assets with limited connectivity",
+      "Water lost before it reaches the customer",
+      "Manual readings and compliance reports",
+      "Quality issues found after concrete has cured"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "With most urban water expected to come from desalination by 2030 and renewables growing fast, every litre and kilowatt matters. Live data turns scattered assets into a network you can see and control.",
+    "sources": ["desalination"]
+  },
+  "capabilities": [
+    {"title": "Rugged gateways and sensors", "body": "Modbus and serial interfaces; 4G, WiFi, LAN and LoRa connectivity."},
+    {"title": "Offline buffering", "body": "Edge devices store readings when the link drops and forward them later."},
+    {"title": "Secure transport", "body": "TLS-encrypted MQTT from device to platform."},
+    {"title": "Live dashboards and alerts", "body": "Bilingual dashboards, thresholds and notifications."},
+    {"title": "Anomaly detection and remote control", "body": "Spot unusual behaviour and act on assets remotely."},
+    {"title": "Automated compliance reports", "body": "Scheduled reports for regulators and management."}
+  ],
+  "applications": [
+    {"title": "Smart water and non-revenue water", "body": "Pressure, flow and leak detection across distribution networks."},
+    {"title": "Solar PV monitoring and control", "body": "String-level performance, inverter health and remote control."},
+    {"title": "Smart concrete", "body": "Temperature and strength monitoring during curing on construction and giga-project sites."},
+    {"title": "Air quality and environmental monitoring", "body": "Dust, emissions and noise data for sites and cities."}
+  ],
+  "outcomes": [],
+  "sectors": ["energy-utilities", "giga-projects-construction", "government"],
+  "vision2030": {
+    "body": "Live monitoring supports the National Water Strategy, the Saudi Green Initiative and the growth of renewable energy.",
+    "programs": ["National Industrial Development and Logistics Program", "Quality of Life Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Platform in in-Kingdom cloud or on-premise; edge devices keep working through connectivity loss."
+  },
+  "seo": {
+    "title": "Industrial IoT & Smart Infrastructure | Saudi Arabia",
+    "description": "Rugged sensors, gateways and a live platform for smart water, solar PV, smart concrete and environmental monitoring across Saudi Arabia."
+  }
+}

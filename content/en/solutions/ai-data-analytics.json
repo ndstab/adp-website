@@ -1,0 +1,55 @@
+{
+  "slug": "ai-data-analytics",
+  "hero": {
+    "eyebrow": "Intelligence",
+    "title1": "AI & Data Analytics.",
+    "title2": "Enterprise AI on your own data.",
+    "subtitle": "Predictive analytics, computer vision, BI and enterprise AI platforms built on your data, deployable in-Kingdom with Arabic-first models."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Most organizations have more data than ever but struggle to turn it into decisions. Data sits in silos, AI pilots never reach production, and sensitive data cannot leave the Kingdom for public AI services.",
+    "points": [
+      "Data spread across systems that do not talk to each other",
+      "AI proofs of concept that stall before production",
+      "Residency rules that rule out many public AI services",
+      "Few in-house data and machine-learning specialists"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "The National Strategy for Data & AI targets major investment and thousands of new specialists by 2030. Organizations that build governed data foundations and production AI now will lead their sectors.",
+    "sources": ["nsdai", "ai-market"]
+  },
+  "capabilities": [
+    {"title": "Predictive analytics and machine learning", "body": "Forecast demand, risk and failures from historical and live data."},
+    {"title": "Computer vision and smart surveillance", "body": "Detect events, count, inspect and monitor from camera feeds."},
+    {"title": "AI decision tools", "body": "Recommendations and scoring embedded in the workflows people already use."},
+    {"title": "BI dashboards and data visualization", "body": "Bilingual dashboards that put the right numbers in front of each team."},
+    {"title": "Prescriptive analytics", "body": "Optimize schedules, routes, inventory and resource allocation."},
+    {"title": "Enterprise AI platforms", "body": "Data pipelines, model tuning, agent orchestration and LLM operations on your own data, in-Kingdom."}
+  ],
+  "applications": [
+    {"title": "Demand and capacity forecasting", "body": "Plan staffing, inventory and capacity weeks ahead."},
+    {"title": "Fraud and anomaly detection", "body": "Flag unusual transactions, claims or usage for review."},
+    {"title": "Smart site monitoring", "body": "Computer vision for safety compliance, occupancy and perimeter events."},
+    {"title": "Executive performance dashboards", "body": "One trusted view of KPIs across the organization, in Arabic and English."},
+    {"title": "Internal knowledge assistants", "body": "Secure AI that answers staff questions from your own policies and documents."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "bfsi", "energy-utilities", "telecom", "healthcare", "retail-hospitality"],
+  "vision2030": {
+    "body": "Production AI and data analytics contribute directly to the national data and AI targets, from investment and adoption to building Saudi specialist talent.",
+    "programs": ["National Transformation Program", "Human Capability Development Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Platforms and models can run entirely in-Kingdom or on your premises, so sensitive data never leaves your control."
+  },
+  "seo": {
+    "title": "AI, Data Analytics & Enterprise AI Platforms | Saudi Arabia",
+    "description": "Predictive analytics, computer vision, BI and enterprise AI built on your own data and deployable in-Kingdom with Arabic-first models, by ADP Solutions."
+  }
+}

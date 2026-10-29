@@ -1,0 +1,52 @@
+{
+  "slug": "software-development",
+  "hero": {
+    "eyebrow": "Core infrastructure & engineering",
+    "title1": "Software Development.",
+    "title2": "Built for Arabic-first users.",
+    "subtitle": "Web and mobile apps, cloud-native SaaS platforms, API integration and legacy modernization, from discovery to long-term support."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Citizens and customers in the Kingdom expect fast, bilingual digital services. Many organizations still run critical processes on legacy systems that are hard to change, poorly integrated and dependent on scarce specialists.",
+    "points": [
+      "Legacy applications that block new digital services",
+      "Arabic and right-to-left treated as an afterthought",
+      "Integrations held together by manual workarounds"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "Modern, API-first applications designed in Arabic and English from the start shorten time to market, make AI and automation possible and reduce the cost of every future change.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Web and mobile applications", "body": "Bilingual, accessible apps for iOS, Android and the web, designed right-to-left first."},
+    {"title": "Cloud-native development and SaaS platforms", "body": "Scalable services, multi-tenant platforms and DevOps pipelines."},
+    {"title": "API integration", "body": "Connecting core systems, government platforms and third-party services through secure APIs."},
+    {"title": "Legacy modernization", "body": "Re-platforming and re-architecting old systems in stages, without a risky big-bang cut-over."},
+    {"title": "End-to-end product lifecycle", "body": "Discovery, UX, build, testing, release, support and continuous improvement."}
+  ],
+  "applications": [
+    {"title": "Citizen and customer portals", "body": "Self-service journeys for permits, applications and account management."},
+    {"title": "Field and workforce apps", "body": "Mobile tools for inspectors, technicians and site teams, including offline use."},
+    {"title": "Internal workflow platforms", "body": "Replacing spreadsheets and e-mail chains with tracked, auditable workflows."},
+    {"title": "Core-system modernization", "body": "Wrapping legacy systems in APIs, then replacing them module by module."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "bfsi", "healthcare", "retail-hospitality", "education"],
+  "vision2030": {
+    "body": "Bilingual, user-centred digital services support the move to digital government and a more productive private sector, while local development teams build Saudi software talent.",
+    "programs": ["National Transformation Program", "Human Capability Development Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Hosted in in-Kingdom cloud regions, your own data centre, or a hybrid of both."
+  },
+  "seo": {
+    "title": "Software Development in Saudi Arabia",
+    "description": "Bilingual web and mobile apps, cloud-native SaaS, API integration and legacy modernization in Saudi Arabia, delivered by ADP Solutions."
+  }
+}

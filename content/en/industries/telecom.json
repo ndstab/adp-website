@@ -1,0 +1,34 @@
+{
+  "slug": "telecom",
+  "hero": {
+    "eyebrow": "Industries · Telecom",
+    "title1": "Telecom.",
+    "title2": "Autonomous networks, sovereign data.",
+    "subtitle": "Agentic AIOps, private 5G, digital-experience monitoring and AI customer engagement for operators and network owners."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Saudi operators run some of the region's largest and most advanced networks. Complexity keeps rising with 5G, private networks and enterprise services, while customers expect instant, bilingual digital support."
+  },
+  "challenges": [
+    {"title": "Alarm overload", "body": "Network operations centres receive far more alarms than engineers can act on."},
+    {"title": "Multi-vendor complexity", "body": "Diagnosing faults across vendors is slow and manual."},
+    {"title": "Customer service at scale", "body": "Millions of subscribers expect fast answers on every channel."}
+  ],
+  "useCases": [
+    {"title": "Closed-loop fault remediation", "body": "AI that detects, diagnoses and fixes network faults with engineer approval."},
+    {"title": "Private 5G for enterprises", "body": "Sovereign private networks for ports, plants and campuses."},
+    {"title": "Subscriber service agents", "body": "Arabic AI agents for billing, plans and troubleshooting."},
+    {"title": "Digital-experience monitoring", "body": "Track app and portal journeys end to end."}
+  ],
+  "solutions": ["smart-network-management", "agentic-ai-customer-engagement", "it-service-operations", "ai-data-analytics", "it-cost-optimization"],
+  "regulation": ["NCA Essential Cybersecurity Controls", "Sector regulator requirements", "Personal Data Protection Law (PDPL)"],
+  "vision2030": {
+    "body": "Advanced, resilient networks are the backbone of the digital economy and smart cities.",
+    "programs": ["National Transformation Program"]
+  },
+  "seo": {
+    "title": "Technology for Telecom Operators | Saudi Arabia",
+    "description": "On-premise agentic AIOps, private 5G, digital-experience monitoring and AI customer engagement for Saudi telecom operators and network owners."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "data-leak-protection",
+  "hero": {
+    "eyebrow": "Trust & security",
+    "title1": "Every copy accountable.",
+    "title2": "Every leak traceable.",
+    "subtitle": "Data-leak protection with screen, file and print watermarks, plus screen and application control, so sensitive information always carries its owner."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Most leaks happen inside: a phone photo of a screen, a printout left on a desk, a screen shared in the wrong meeting, a file forwarded to the wrong person or a screen left unlocked. Legacy DLP, classification and rights-management tools leave gaps at the application and screen level.",
+    "points": [
+      "Phone cameras bypass every network control",
+      "Printouts and PDF exports leave no trace",
+      "Screen sharing exposes data in virtual meetings",
+      "Investigations stall without proof of who leaked what"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "When every screen, file and printout visibly carries who, where and when, people think twice before leaking, and investigators can trace a copy back to its source in minutes.",
+    "sources": ["nca-controls", "pdpl"]
+  },
+  "capabilities": [
+    {"title": "Screen watermark", "body": "A visible watermark over the whole screen or only over chosen applications."},
+    {"title": "Automatic file watermarks", "body": "Word, Excel, PowerPoint and PDF files watermarked automatically, with integrity monitoring."},
+    {"title": "Print watermarks", "body": "Every printout and PDF export carries the user and device."},
+    {"title": "Screen control", "body": "Blocks unauthorized screen sharing and screenshots of critical applications; every attempt is logged."},
+    {"title": "Application control", "body": "Blocks unauthorized apps, snipping tools and PrintScreen, with user warnings and timestamped logs."},
+    {"title": "Governed exceptions", "body": "Users request exceptions through an approval workflow with a full audit trail."}
+  ],
+  "applications": [
+    {"title": "Board papers and M&A data rooms", "body": "Protect the most sensitive strategy and deal documents."},
+    {"title": "Tender documents and engineering designs", "body": "Trace any copy of commercial or technical IP."},
+    {"title": "Patient records", "body": "Deter screen photos and printouts of clinical data."},
+    {"title": "Classified government files", "body": "Make every on-screen and printed copy traceable to a user and device."},
+    {"title": "Bank customer data", "body": "Protect customer information in branches and back offices."},
+    {"title": "HR files", "body": "Keep salary, performance and personal records accountable."}
+  ],
+  "outcomes": [
+    {"value": "Every copy", "label": "Traceable to a user and device"},
+    {"value": "Every attempt", "label": "Of blocked capture logged"}
+  ],
+  "sectors": ["government", "bfsi", "healthcare", "energy-utilities", "giga-projects-construction"],
+  "vision2030": {
+    "body": "Protecting government and enterprise data builds the trust that digital government, investment and data-driven services depend on.",
+    "programs": ["National Transformation Program"]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Management console and logs run on your premises or in-Kingdom; agents run on your endpoints."
+  },
+  "extras": [
+    {
+      "title": "What every watermark can carry",
+      "items": [
+        "User name and domain",
+        "Computer name, MAC and IP address",
+        "Date and time",
+        "Custom text, logo or QR code",
+        "Configurable position, font, size, colour, opacity and rotation"
+      ]
+    },
+    {
+      "title": "Value for your organization",
+      "items": [
+        "Traceability of every copy",
+        "Visible data ownership",
+        "Deterrence before a leak happens",
+        "Audit-ready evidence",
+        "Faster forensics to support legal and HR action"
+      ]
+    },
+    {
+      "title": "Supports compliance with",
+      "items": [
+        "NCA Data Cybersecurity Controls: secure handling of data in virtual and in-person meetings",
+        "NCA Data Cybersecurity Controls: disabling screen capture on document-processing devices",
+        "NCA Data Cybersecurity Controls: watermarking at creation, storage, printing and on screen to trace the user or device",
+        "NCA Essential Cybersecurity Controls: automated data labelling by classification",
+        "PDPL, and the data-protection laws of the UAE, Bahrain, Oman and Kuwait",
+        "GDPR, HIPAA, ISO/IEC 27002, PCI DSS and NIST"
+      ],
+      "verify": true
+    }
+  ],
+  "seo": {
+    "title": "Data-Leak Protection: Watermarking & Screen Control | KSA",
+    "description": "Screen, file and print watermarks with screen and application control. Every copy accountable, every leak traceable, supporting NCA data controls."
+  }
+}

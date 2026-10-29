@@ -1,0 +1,307 @@
+/*
+ * Pillar badges orbiting a soft "sunrise" arc.
+ * The circle is a square box of side 2R centred on (--cx, --cy). Each arm sits at the
+ * box centre, rotates from 150° to 330° (left → apex → right) and pushes its badge out
+ * by R. The badge counter-rotates so icons stay upright. All motion is CSS, so it runs
+ * on the compositor, works before hydration and pauses with animation-play-state.
+ */
+
+.stage {
+  --r: min(41vw, 200px);
+  --badge: 46px;
+  --dur: 40s;
+  --cx: 50%;
+  --cy: calc(100% - 8px);
+  position: relative;
+  height: calc(var(--r) + 100px);
+  pointer-events: none;
+  /* In the stacked layout only the upper half of the circle belongs to this block. */
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .stage {
+    --r: 250px;
+    --badge: 54px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stage {
+    --r: clamp(400px, 37vw, 590px);
+    --badge: 64px;
+    --cx: 79%;
+    --cy: calc(100% - 36px);
+    position: absolute;
+    inset: 0;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+.box {
+  position: absolute;
+  width: calc(var(--r) * 2);
+  height: calc(var(--r) * 2);
+  left: calc(var(--cx) - var(--r));
+  top: calc(var(--cy) - var(--r));
+}
+
+/* RTL: the circle moves to the left side and the whole drawing is mirrored. */
+:global([dir='rtl']) .box {
+  left: auto;
+  right: calc(var(--cx) - var(--r));
+  transform: scaleX(-1);
+}
+:global([dir='rtl']) .unmirror {
+  transform: scaleX(-1);
+}
+
+.band {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.arm {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  rotate: 150deg;
+  opacity: 0;
+  animation: arm var(--dur) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.offset {
+  position: absolute;
+  translate: var(--r) 0;
+}
+
+/* Motion blur behind the badge: in the arm's frame the direction of travel is +y. */
+.trail {
+  position: absolute;
+  left: calc(var(--badge) * -0.36);
+  top: calc(var(--badge) * -1.75);
+  width: calc(var(--badge) * 0.72);
+  height: calc(var(--badge) * 1.8);
+  border-radius: 999px;
+  background: linear-gradient(to top, rgb(248 220 133 / 0.6), rgb(255 255 255 / 0.22) 50%, transparent);
+  filter: blur(calc(var(--badge) * 0.16));
+}
+
+.upright {
+  position: absolute;
+  rotate: -150deg;
+  animation: upright var(--dur) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.badge {
+  pointer-events: auto;
+  position: absolute;
+  left: calc(var(--badge) / -2);
+  top: calc(var(--badge) / -2);
+  width: var(--badge);
+  height: var(--badge);
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #fff;
+  background: radial-gradient(120% 120% at 30% 25%, #2a4a80 0%, var(--color-navy-700) 45%, var(--color-navy-900) 100%);
+  box-shadow:
+    0 0 0 1.5px var(--color-gold-500),
+    0 0 0 5px rgb(242 194 49 / 0.12),
+    0 14px 30px -10px rgb(14 35 71 / 0.6);
+  cursor: pointer;
+  transition: scale 0.25s var(--ease-soft), box-shadow 0.25s var(--ease-soft);
+}
+.badge:hover,
+.badge:focus-visible {
+  scale: 1.08;
+  box-shadow:
+    0 0 0 1.5px var(--color-gold-300),
+    0 0 0 7px rgb(242 194 49 / 0.22),
+    0 18px 36px -10px rgb(14 35 71 / 0.65);
+}
+.badge:focus-visible {
+  outline: 2px solid var(--color-blue-600);
+  outline-offset: 6px;
+}
+.badge svg {
+  width: 42%;
+  height: 42%;
+}
+
+/* Name + outcome pill, shown as the badge crosses the apex of the arc. */
+.pill {
+  --ux: 0;
+  --uy: 1;
+  /* Clear the band (its half-width is about 0.104 R) before placing the pill. */
+  --gap: max(calc(var(--badge) / 2 + 12px), calc(var(--r) * 0.104 + 12px));
+  position: absolute;
+  left: calc(var(--ux) * var(--gap));
+  top: calc(var(--uy) * var(--gap));
+  translate: calc(-50% + var(--ux) * 50%) calc(-50% + var(--uy) * 50%);
+  opacity: 0;
+  animation: label var(--dur) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.tooltip {
+  position: absolute;
+  left: 0;
+  top: max(calc(var(--badge) / 2 + 12px), calc(var(--r) * 0.104 + 12px));
+  translate: -50% 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.2s,
+    translate 0.2s var(--ease-soft),
+    visibility 0.2s;
+}
+.upright:has(.badge:hover) .tooltip,
+.upright:has(.badge:focus-visible) .tooltip,
+.tooltip:hover {
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+  translate: -50% 0;
+  z-index: 5;
+}
+.upright:has(.badge:hover) .pill,
+.upright:has(.badge:focus-visible) .pill {
+  visibility: hidden;
+}
+.arm:has(.badge:hover),
+.arm:has(.badge:focus-visible) {
+  z-index: 10;
+}
+
+/* Pause: hover or focus on any badge, the pause button, or the hero leaving the viewport. */
+.stage:has(.badge:hover) :is(.arm, .upright, .pill),
+.stage:has(.badge:focus-visible) :is(.arm, .upright, .pill),
+.stage:has(.tooltip:hover) :is(.arm, .upright, .pill),
+.stage[data-paused='true'] :is(.arm, .upright, .pill) {
+  animation-play-state: paused;
+}
+
+/* z-index lifts the arm whose pill is showing above its neighbours' badges. */
+@keyframes arm {
+  0% {
+    rotate: 150deg;
+    opacity: 0;
+    z-index: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  55% {
+    z-index: 1;
+  }
+  56% {
+    z-index: 4;
+  }
+  78% {
+    z-index: 4;
+  }
+  79% {
+    z-index: 1;
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    rotate: 330deg;
+    opacity: 0;
+    z-index: 1;
+  }
+}
+@keyframes upright {
+  from {
+    rotate: -150deg;
+  }
+  to {
+    rotate: -330deg;
+  }
+}
+/* The apex (270°) is 66.7% of the way from 150° to 330°. */
+@keyframes label {
+  0%,
+  56% {
+    opacity: 0;
+    translate: calc(-50% + var(--ux) * 50%) calc(-50% + var(--uy) * 50% + 6px);
+  }
+  60%,
+  73% {
+    opacity: 1;
+    translate: calc(-50% + var(--ux) * 50%) calc(-50% + var(--uy) * 50%);
+  }
+  77%,
+  100% {
+    opacity: 0;
+    translate: calc(-50% + var(--ux) * 50%) calc(-50% + var(--uy) * 50% - 4px);
+  }
+}
+
+/* Reduced motion: badges rest along the visible arc with every label shown,
+   placed on the inner side of the curve. */
+@media (prefers-reduced-motion: reduce) {
+  .arm,
+  .upright,
+  .pill {
+    animation: none;
+  }
+  .arm {
+    rotate: var(--rest);
+    opacity: 1;
+  }
+  .upright {
+    rotate: calc(var(--rest) * -1);
+  }
+  .trail {
+    display: none;
+  }
+  .pill {
+    /* The pill sits in screen space, so in RTL (mirrored arc) its x direction flips. */
+    --ux: calc(var(--rest-ux) * var(--sign, 1));
+    --uy: var(--rest-uy);
+    opacity: 1;
+  }
+  .stage [data-pause-control] {
+    display: none;
+  }
+}
+:global([dir='rtl']) .stage {
+  --sign: -1;
+}
+
+.legend,
+.compact {
+  display: none;
+}
+
+/* With every label on screen at once, pills shrink to the short pillar name;
+   the full name and outcome stay in the hover/focus tooltip. */
+@media (prefers-reduced-motion: reduce) {
+  .full {
+    display: none;
+  }
+  .compact {
+    display: inline;
+  }
+}
+
+/* Small screens show the reduced-motion labels as a list instead (no room on the arc). */
+@media (prefers-reduced-motion: reduce) and (max-width: 1023px) {
+  .pill {
+    display: none;
+  }
+  .legend {
+    display: grid;
+  }
+}

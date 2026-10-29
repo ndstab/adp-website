@@ -1,0 +1,34 @@
+{
+  "slug": "healthcare",
+  "hero": {
+    "eyebrow": "Industries · Healthcare",
+    "title1": "Healthcare.",
+    "title2": "More time for patients.",
+    "subtitle": "Appointment agents, protected patient records, analytics and dependable infrastructure for hospitals, clinics and health clusters."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Healthcare in the Kingdom is being reorganized around health clusters, digital services and prevention. Providers need to serve more patients with the same staff while protecting highly sensitive data."
+  },
+  "challenges": [
+    {"title": "Appointment and call volumes", "body": "Booking lines are busy and no-shows waste clinic time."},
+    {"title": "Sensitive patient data", "body": "Clinical records must be protected on screen, in print and in transit."},
+    {"title": "Always-on infrastructure", "body": "Clinical systems and networks cannot afford downtime."}
+  ],
+  "useCases": [
+    {"title": "Appointment agents", "body": "Book, confirm, reschedule and remind patients by voice and WhatsApp."},
+    {"title": "Patient-record protection", "body": "Watermarks and screen control on clinical applications."},
+    {"title": "Capacity forecasting", "body": "Predict demand for beds, clinics and staff."},
+    {"title": "Hospital network modernization", "body": "Upgrade networks and low-current systems without disrupting care."}
+  ],
+  "solutions": ["agentic-ai-customer-engagement", "data-leak-protection", "ai-data-analytics", "integrated-infrastructure", "cybersecurity-governance-compliance"],
+  "regulation": ["Personal Data Protection Law (PDPL)", "NCA Essential Cybersecurity Controls", "Sector regulator requirements"],
+  "vision2030": {
+    "body": "Digital, accessible and efficient healthcare is a core goal of the health sector transformation.",
+    "programs": ["Health Sector Transformation Program"]
+  },
+  "seo": {
+    "title": "Technology Solutions for Healthcare | Saudi Arabia",
+    "description": "Appointment AI agents, patient-record protection, analytics and dependable infrastructure for Saudi hospitals, clinics and health clusters."
+  }
+}

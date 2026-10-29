@@ -1,0 +1,66 @@
+[
+  {
+    "id": "general",
+    "label": "General",
+    "items": [
+      {
+        "q": "What does ADP Solutions do?",
+        "a": "ADP Solutions (Advanced Digital Pathway Solutions) is a Saudi technology company headquartered in Riyadh. We deliver end-to-end solutions across ICT infrastructure, artificial intelligence, data analytics, software development, cloud and cybersecurity for government entities, public-sector organizations and enterprises."
+      },
+      {
+        "q": "Where do you operate?",
+        "a": "We are Saudi-headquartered and serve the GCC. We start in Riyadh, then the Eastern Province and Jeddah, and then the wider GCC."
+      },
+      {
+        "q": "Do you work in Arabic?",
+        "a": "Yes. Our consultants, our support desk and our AI agents all work in Arabic and English. Our AI solutions can run on Arabic-first language models."
+      }
+    ]
+  },
+  {
+    "id": "solutions",
+    "label": "Solutions",
+    "items": [
+      {
+        "q": "Who builds the technology you deliver?",
+        "a": "We combine our own engineering with curated solutions from our global technology alliance that are already proven in production. We localize them for the Kingdom, deliver them under one Saudi contract and stay accountable for the outcome."
+      },
+      {
+        "q": "Can AI agents work with our existing systems?",
+        "a": "Yes. Agents connect to your CRM, ticketing and core systems, and to channels such as WhatsApp, e-mail and voice, through APIs. They act only within the permissions and guardrails you define, and sensitive steps can require human approval."
+      },
+      {
+        "q": "How can IT cost optimization help fund AI?",
+        "a": "Discovering every asset, reclaiming unused licences and right-sizing contracts usually frees budget inside the software estate. Many organizations use those savings to fund their first production AI projects."
+      }
+    ]
+  },
+  {
+    "id": "compliance",
+    "label": "Compliance",
+    "items": [
+      {
+        "q": "Can our data stay in the Kingdom?",
+        "a": "Yes. Our solutions offer in-Kingdom cloud and on-premise deployment options to support data-residency requirements under the PDPL and sector regulations."
+      },
+      {
+        "q": "Are your solutions aligned with NCA controls?",
+        "a": "Our delivery is aligned to the National Cybersecurity Authority's controls, including the Essential Cybersecurity Controls, and supports compliance with the PDPL and the SAMA cybersecurity framework. We assess compliance for your specific environment; we do not hold or claim regulatory licences on your behalf."
+      }
+    ]
+  },
+  {
+    "id": "engagement",
+    "label": "Engagement",
+    "items": [
+      {
+        "q": "How does an engagement start?",
+        "a": "With a short discovery session, followed by a fixed-scope proof-of-value pilot with agreed success measures. We scale only what proves its value."
+      },
+      {
+        "q": "Do you transfer knowledge to our team?",
+        "a": "Yes. Every engagement includes knowledge transfer, and we prioritize Saudi talent in our delivery teams so capability stays in the Kingdom after go-live."
+      }
+    ]
+  }
+]

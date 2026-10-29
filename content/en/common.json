@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "siteName": "ADP Solutions",
+    "title": "ADP Solutions | Intelligent technology, built for the Kingdom",
+    "description": "Saudi-headquartered AI and technology company in Riyadh. Agentic AI, cybersecurity, cloud, IT cost optimization, smart networks and IoT, delivered with our global technology alliance."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "ADP Solutions, home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main",
+    "newTab": "opens in a new tab",
+    "source": "Source {n}"
+  },
+  "nav": {
+    "about": "About",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "insights": "Insights",
+    "contact": "Contact",
+    "home": "Home",
+    "newsBadge": "New",
+    "news": "Saudi Year of AI 2026",
+    "cta": "Book a consultation",
+    "model": "Our model",
+    "vision": "Vision 2030 & AI",
+    "compliance": "Compliance & trust",
+    "careers": "Careers",
+    "alliance": "Join our alliance"
+  },
+  "language": {
+    "label": "عربي",
+    "switch": "Switch to Arabic"
+  },
+  "review": {
+    "verify": "Verify",
+    "verifyTitle": "Pending verification against a current source before launch",
+    "add": "Add",
+    "addTitle": "Information to be supplied by ADP Solutions"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Sign up to our newsletter",
+      "body": "AI, security and digital-transformation notes for Saudi leaders. Monthly, no spam.",
+      "email": "Work e-mail",
+      "placeholder": "you@company.com",
+      "consent": "I agree to receive updates from ADP Solutions and can unsubscribe at any time.",
+      "submit": "Subscribe",
+      "success": "Thank you. You are subscribed."
+    },
+    "menu": "Menu",
+    "connect": "Connect",
+    "social": {
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "instagram": "Instagram"
+    },
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "hours": "Hours",
+    "insight": {
+      "label": "Latest insight",
+      "title": "From AI pilot to production in KSA",
+      "excerpt": "Why most AI pilots stall, and the five decisions that get them into production.",
+      "alt": "Riyadh skyline at night with illuminated towers and city lights"
+    },
+    "rights": "All rights reserved.",
+    "cr": "CR",
+    "vat": "VAT",
+    "address": "National Address",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms"
+  },
+  "form": {
+    "required": "required",
+    "sending": "Sending…",
+    "errorGeneric": "Something went wrong. Please try again, or e-mail us at info@adpway.com.",
+    "errorRate": "Too many attempts. Please wait a few minutes and try again.",
+    "errorEmail": "Please enter a valid e-mail address.",
+    "errorRequired": "This field is required.",
+    "errorConsent": "Please confirm your consent so we can respond.",
+    "errorPhone": "Please enter a valid phone number."
+  },
+  "notFound": {
+    "chip": "404",
+    "title1": "This page has not",
+    "title2": "been built yet.",
+    "body": "The page you are looking for does not exist, or it is part of a later build phase.",
+    "cta": "Back to home"
+  }
+}

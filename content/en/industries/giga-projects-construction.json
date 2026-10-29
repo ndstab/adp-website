@@ -1,0 +1,34 @@
+{
+  "slug": "giga-projects-construction",
+  "hero": {
+    "eyebrow": "Industries · Giga-projects & construction",
+    "title1": "Giga-projects & Construction.",
+    "title2": "See progress, quality and risk, live.",
+    "subtitle": "Drone surveys, smart concrete, site security and site infrastructure for the largest construction programmes in the region."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "The Kingdom's giga-projects are building new cities, resorts and industrial zones at a scale few places have attempted. Sites change every week, span huge areas and involve hundreds of contractors."
+  },
+  "challenges": [
+    {"title": "Progress visibility", "body": "Reports lag behind what is actually built on site."},
+    {"title": "Quality assurance", "body": "Concrete and structural issues found late are costly to fix."},
+    {"title": "Site security", "body": "Large, open perimeters with valuable equipment and materials."}
+  ],
+  "useCases": [
+    {"title": "Drone progress tracking", "body": "Regular aerial surveys compared against plan and BIM models."},
+    {"title": "Smart concrete monitoring", "body": "Temperature and strength sensors during curing."},
+    {"title": "Autonomous perimeter patrols", "body": "Drone docking stations for continuous site surveillance."},
+    {"title": "Site connectivity", "body": "Network and communications that grow with the site."}
+  ],
+  "solutions": ["drone-geospatial-site-security", "industrial-iot-smart-infrastructure", "integrated-infrastructure", "data-leak-protection", "smart-network-management"],
+  "regulation": ["GACA drone regulations", "NCA Essential Cybersecurity Controls", "Personal Data Protection Law (PDPL)"],
+  "vision2030": {
+    "body": "Giga-projects are flagship Vision 2030 initiatives for tourism, quality of life and economic diversification.",
+    "programs": ["Quality of Life Program", "Housing Program"]
+  },
+  "seo": {
+    "title": "Technology for Giga-projects & Construction | Saudi Arabia",
+    "description": "Drone surveys, smart concrete, autonomous site security and site infrastructure for Saudi giga-projects and large construction programmes."
+  }
+}

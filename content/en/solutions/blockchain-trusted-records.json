@@ -1,0 +1,53 @@
+{
+  "slug": "blockchain-trusted-records",
+  "hero": {
+    "eyebrow": "Trust & security",
+    "title1": "Blockchain & Trusted Records.",
+    "title2": "Proof that cannot be quietly changed.",
+    "subtitle": "Permissioned blockchain, smart contracts, dApps, tokenization and Layer-2 solutions for records that many parties need to trust."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Supply chains, property transactions, certificates and energy markets involve many organizations that each keep their own records. Reconciling them is slow, and forged or altered documents are hard to detect.",
+    "points": [
+      "Manual reconciliation between organizations",
+      "Forged certificates and documents",
+      "Slow settlement in multi-party processes"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "A shared, permissioned ledger gives every authorized party the same tamper-evident record, and smart contracts automate the steps between them.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Permissioned blockchain", "body": "Enterprise networks built on Hyperledger Fabric, with governance for each participant."},
+    {"title": "Smart contracts and audits", "body": "Development and independent review of contract logic."},
+    {"title": "Decentralized applications", "body": "User-facing apps that read from and write to the ledger."},
+    {"title": "Tokenization", "body": "Digital representation of assets, rights and entitlements."},
+    {"title": "Layer-2 solutions", "body": "Higher throughput and lower cost for high-volume use cases."}
+  ],
+  "applications": [
+    {"title": "Supply-chain finance", "body": "Shared visibility of invoices and shipments to speed up financing."},
+    {"title": "Real-estate records", "body": "Tamper-evident ownership and transaction history."},
+    {"title": "Certificates and credentials", "body": "Instantly verifiable academic and professional certificates."},
+    {"title": "Energy trading", "body": "Transparent settlement for energy generation and consumption."},
+    {"title": "Health records", "body": "Consent-based sharing of records between providers."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "bfsi", "energy-utilities", "healthcare", "education"],
+  "vision2030": {
+    "body": "Trusted digital records reduce friction in government services, finance and real estate, and support new digital business models.",
+    "programs": ["Financial Sector Development Program", "Housing Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Nodes hosted in-Kingdom, on participants' premises, or a mix of both."
+  },
+  "seo": {
+    "title": "Blockchain & Trusted Digital Records | Saudi Arabia",
+    "description": "Permissioned blockchain, smart contracts and tokenization for supply-chain finance, real-estate records, certificates and energy trading in Saudi Arabia."
+  }
+}

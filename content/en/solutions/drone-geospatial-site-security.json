@@ -1,0 +1,63 @@
+{
+  "slug": "drone-geospatial-site-security",
+  "hero": {
+    "eyebrow": "Smart infrastructure & physical world",
+    "title1": "Drones & Geospatial Intelligence.",
+    "title2": "Eyes on every site.",
+    "subtitle": "Drone mission planning, autonomous docking stations, RTK survey, GIS and digital twins for inspection, mapping and site security."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Industrial plants, pipelines, energy assets and giga-project sites cover huge areas. Ground patrols and manual inspections are slow, costly and sometimes unsafe, and progress reports rarely reflect what is really on the ground.",
+    "points": [
+      "Large perimeters that patrols cannot cover continuously",
+      "Inspections at height or in harsh conditions",
+      "Progress reporting that lags reality"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "Autonomous drones and accurate geospatial data give continuous, repeatable coverage of sites and assets, with every flight captured as data you can compare over time.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Mission planning and libraries", "body": "Reusable RGB and thermal missions that fly the same route every time."},
+    {"title": "Autonomous docking stations", "body": "Ground, rooftop or vehicle-mounted docks for continuous site surveillance."},
+    {"title": "RTK/GNSS survey", "body": "Centimetre-level positioning for survey and mapping."},
+    {"title": "GIS and digital twins", "body": "Maps and 3D models that combine drone, survey and asset data."},
+    {"title": "Robotics", "body": "Air, land, surface and underwater robots for specialist inspection."}
+  ],
+  "applications": [
+    {"title": "Perimeter patrols", "body": "Scheduled and on-demand patrols of industrial, energy and giga-project sites."},
+    {"title": "Asset and pipeline inspection", "body": "Thermal and visual inspection without scaffolding or shutdowns."},
+    {"title": "Construction progress", "body": "Regular aerial surveys compared against plan."},
+    {"title": "Corridor mapping", "body": "Roads, rail, power lines and pipelines mapped end to end."},
+    {"title": "Event-area awareness", "body": "Situational overview for large events and venues."}
+  ],
+  "outcomes": [],
+  "sectors": ["energy-utilities", "giga-projects-construction", "government", "telecom"],
+  "vision2030": {
+    "body": "Geospatial intelligence supports the delivery of giga-projects and the safe operation of national infrastructure.",
+    "programs": ["National Industrial Development and Logistics Program", "Housing Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Flight data and models stored in-Kingdom or on-premise. Operations follow GACA regulations."
+  },
+  "extras": [
+    {
+      "title": "Operations and permits",
+      "items": [
+        "Flights planned and operated in line with GACA regulations",
+        "Surveillance, survey and site-security use only"
+      ],
+      "verify": true
+    }
+  ],
+  "seo": {
+    "title": "Drone Operations, Geospatial Intelligence & Site Security | KSA",
+    "description": "Drone missions, autonomous docking stations, RTK survey, GIS and digital twins for inspection, mapping and site security across Saudi Arabia."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "energy-utilities",
+  "hero": {
+    "eyebrow": "Industries · Energy & utilities",
+    "title1": "Energy & Utilities.",
+    "title2": "Every litre and kilowatt, visible.",
+    "subtitle": "Industrial IoT for water and solar, drone inspection, OT security and analytics for utilities and energy producers."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Desalination is set to supply most urban water and renewable capacity is growing fast. Utilities manage vast, remote networks where leaks, faults and security incidents are expensive and hard to see."
+  },
+  "challenges": [
+    {"title": "Non-revenue water", "body": "Water lost through leaks and inaccurate metering before it reaches customers."},
+    {"title": "Remote, distributed assets", "body": "Plants, pipelines and substations spread across large areas."},
+    {"title": "Operational technology security", "body": "Control systems that were never designed for today's threats."}
+  ],
+  "useCases": [
+    {"title": "Smart water networks", "body": "Live pressure, flow and leak detection across distribution zones."},
+    {"title": "Solar plant monitoring", "body": "String-level performance and inverter health with remote control."},
+    {"title": "Pipeline and asset inspection", "body": "Thermal and visual drone inspection without shutdowns."},
+    {"title": "OT security assessment", "body": "Testing and protection for SCADA and industrial control systems."}
+  ],
+  "solutions": ["industrial-iot-smart-infrastructure", "drone-geospatial-site-security", "cybersecurity-governance-compliance", "ai-data-analytics", "smart-network-management"],
+  "regulation": ["NCA Operational Technology Cybersecurity Controls", "NCA Essential Cybersecurity Controls", "Personal Data Protection Law (PDPL)"],
+  "vision2030": {
+    "body": "Efficient water and energy systems support the National Water Strategy, the Saudi Green Initiative and renewable-energy targets.",
+    "programs": ["National Industrial Development and Logistics Program"]
+  },
+  "seo": {
+    "title": "Technology for Energy & Utilities | Saudi Arabia",
+    "description": "Industrial IoT for smart water and solar, drone inspection, OT security and analytics for Saudi utilities and energy producers, by ADP Solutions."
+  }
+}

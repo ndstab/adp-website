@@ -1,0 +1,31 @@
+{
+  "brand": "ADP Solutions",
+  "legalName": {
+    "en": "Advanced Digital Pathway Solutions",
+    "ar": "حلول المسار الرقمي المتقدم"
+  },
+  "domain": "adpway.com",
+  "url": "https://adpway.com",
+  "phone": {
+    "display": "+966 55 358 4835",
+    "e164": "+966553584835",
+    "whatsapp": "966553584835"
+  },
+  "email": "info@adpway.com",
+  "city": {
+    "en": "Riyadh, Kingdom of Saudi Arabia",
+    "ar": "الرياض، المملكة العربية السعودية"
+  },
+  "hours": {
+    "en": "Sunday–Thursday · 09:00–18:00 AST (UTC+3)",
+    "ar": "الأحد–الخميس · 09:00–18:00 بتوقيت السعودية (UTC+3)"
+  },
+  "cr": "[ADD]",
+  "vat": "[ADD]",
+  "nationalAddress": "[ADD]",
+  "socials": {
+    "linkedin": "[ADD]",
+    "x": "[ADD]",
+    "instagram": "[ADD]"
+  }
+}

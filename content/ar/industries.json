@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "government",
+    "order": 1,
+    "name": "الجهات الحكومية",
+    "summary": "خدمات المستفيدين بالعربية، وسجلات محمية، واستضافة داخل المملكة.",
+    "image": "/images/industries/government-riyadh.jpg",
+    "imageAlt": "وسط مدينة الرياض مع برج الفيصلية ومبانٍ حكومية حديثة تحت سماء زرقاء"
+  },
+  {
+    "slug": "bfsi",
+    "order": 2,
+    "name": "البنوك والخدمات المالية والتأمين",
+    "summary": "تهيئة رقمية للعملاء، وقنوات رقمية موثوقة، وأمن يتوافق مع متطلبات البنك المركزي السعودي.",
+    "image": "/images/industries/professional-mobile-banking.jpg",
+    "imageAlt": "موظف سعودي يرتدي شماغًا أحمر يستعرض تطبيقًا مصرفيًا على هاتفه بجوار حاسوب محمول"
+  },
+  {
+    "slug": "energy-utilities",
+    "order": 3,
+    "name": "الطاقة والمرافق",
+    "summary": "رؤية لحظية لشبكات المياه وأصول الطاقة الشمسية والمواقع الميدانية البعيدة.",
+    "image": "/images/industries/solar-farm-desert.jpg",
+    "imageAlt": "صفوف من الألواح الشمسية تمتد عبر سهل صحراوي نحو جبال بعيدة"
+  },
+  {
+    "slug": "telecom",
+    "order": 4,
+    "name": "الاتصالات",
+    "summary": "عمليات شبكية مستقلة بحجم المشغّلين، مع إبقاء البيانات كاملة داخل المملكة.",
+    "image": "/images/industries/telecom-tower.jpg",
+    "imageAlt": "برج اتصالات مزود بهوائيات جوال وأطباق ميكروويف أمام سماء زرقاء صافية"
+  },
+  {
+    "slug": "healthcare",
+    "order": 5,
+    "name": "الرعاية الصحية",
+    "summary": "وكلاء لإدارة المواعيد، وسجلات مرضى محمية، وبنية تحتية يُعتمد عليها.",
+    "image": "/images/industries/healthcare-corridor.jpg",
+    "imageAlt": "ممر مستشفى منحنٍ ومضيء بنوافذ ممتدة من الأرض إلى السقف ومقاعد انتظار"
+  },
+  {
+    "slug": "giga-projects-construction",
+    "order": 6,
+    "name": "المشاريع الكبرى والإنشاءات",
+    "summary": "تتبّع تقدّم الأعمال بالطائرات المسيّرة، والخرسانة الذكية، وأمن المواقع للمشاريع العملاقة.",
+    "image": "/images/industries/construction-tower-cranes.jpg",
+    "imageAlt": "رافعات برجية تظهر كظلال أمام سماء الغروب الوردية فوق موقع إنشاء"
+  },
+  {
+    "slug": "retail-hospitality",
+    "order": 7,
+    "name": "التجزئة والضيافة",
+    "summary": "رحلات تسوّق وضيافة تحقق التحويل، بالعربية والإنجليزية.",
+    "image": "/images/industries/hotel-lobby.jpg",
+    "imageAlt": "ردهة فندق عصرية بأرضيات رخامية ومقاعد استراحة وتركيب ثريا ذهبي"
+  },
+  {
+    "slug": "education",
+    "order": 8,
+    "name": "التعليم",
+    "summary": "خدمات الطلاب، وشبكات الحرم الجامعي، وتحليلات لتحسين مخرجات التعلّم.",
+    "image": "/images/industries/university-lecture.jpg",
+    "imageAlt": "طلاب جامعيون منتبهون في قاعة محاضرات مشمسة"
+  }
+]

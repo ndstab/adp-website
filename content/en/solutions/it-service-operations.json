@@ -1,0 +1,51 @@
+{
+  "slug": "it-service-operations",
+  "hero": {
+    "eyebrow": "Efficiency & operations",
+    "title1": "IT Service & Operations.",
+    "title2": "See issues before users do.",
+    "subtitle": "Intent-driven IT operations across network, security, applications and IT, with digital-experience monitoring for banking and digital services."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Digital channels are now the main front door for banks, telecoms and government services. When an app slows down, customers notice first, and operations teams spend hours finding which tool, team or system is responsible.",
+    "points": [
+      "Separate tools and teams for network, security and applications",
+      "Problems reported by customers before monitoring sees them",
+      "Little visibility of assets and their owners"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "Bringing service management, monitoring and asset governance together gives one view of service health, faster root-cause analysis and better digital experience for every customer and citizen.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Intent-driven IT operations", "body": "Define the service levels you need; automation keeps network, security and applications aligned to them."},
+    {"title": "Digital experience monitoring", "body": "Measure real user journeys in apps and portals, not just server health."},
+    {"title": "Unified service management", "body": "Incidents, changes and requests across IT, network and security in one workflow."},
+    {"title": "Asset visibility and governance", "body": "Know what you run, where it runs and who owns it."}
+  ],
+  "applications": [
+    {"title": "Mobile banking experience", "body": "Spot slow log-ins and failed payments as they start, and trace the cause."},
+    {"title": "Government portal uptime", "body": "Track availability and journey completion for high-traffic e-services."},
+    {"title": "Branch and site operations", "body": "Monitor connectivity and devices across hundreds of locations."},
+    {"title": "Change risk control", "body": "Link changes to incidents so risky releases are caught early."}
+  ],
+  "outcomes": [],
+  "sectors": ["bfsi", "telecom", "government", "retail-hospitality"],
+  "vision2030": {
+    "body": "Reliable, measurable digital services build citizen and customer trust in a fast-growing digital economy.",
+    "programs": ["National Transformation Program", "Financial Sector Development Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Available on-premise for regulated environments or from in-Kingdom cloud."
+  },
+  "seo": {
+    "title": "IT Service & Operations Management | Saudi Arabia",
+    "description": "Unified IT operations, digital-experience monitoring and asset governance for banks, telecoms and digital government services in Saudi Arabia."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "smart-network-management",
+  "hero": {
+    "eyebrow": "Efficiency & operations",
+    "title1": "Smart Network Management.",
+    "title2": "Autonomous operations, on your premises.",
+    "subtitle": "Agentic AIOps that detects, diagnoses, plans and remediates multi-vendor network faults in a closed loop, with human approval gates and full data residency."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Networks are growing in size and complexity, with 5G, private networks and multi-vendor estates. Operations centres drown in alarms, skilled engineers are scarce, and network data is too sensitive to send to external clouds.",
+    "points": [
+      "Thousands of alarms, few of them actionable",
+      "Slow, manual fault diagnosis across vendors",
+      "Scarce senior network engineers",
+      "Strict data-residency expectations for network data"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "Agentic AI can work through the routine of network operations: correlating alarms, finding the root cause and proposing or applying a fix, while engineers approve actions and focus on design and growth.",
+    "sources": []
+  },
+  "capabilities": [
+    {
+      "title": "Watch",
+      "body": "Collect and correlate alarms, telemetry and logs across vendors."
+    },
+    {
+      "title": "Diagnose",
+      "body": "Identify the root cause and the services affected."
+    },
+    {
+      "title": "Plan",
+      "body": "Propose a remediation plan with the expected impact."
+    },
+    {
+      "title": "Act",
+      "body": "Apply approved fixes automatically and confirm the result."
+    },
+    {
+      "title": "Human approval gates",
+      "body": "Engineers approve actions by risk level; everything is logged."
+    },
+    {
+      "title": "Fully on-premise",
+      "body": "Runs inside your network with complete data residency."
+    }
+  ],
+  "applications": [
+    {
+      "title": "Telecom network operations centres",
+      "body": "Cut alarm noise and fix fault storms at carrier scale."
+    },
+    {
+      "title": "Sovereign private 5G",
+      "body": "Operate private 5G for ports, industrial sites and campuses."
+    },
+    {
+      "title": "Enterprise and public WiFi",
+      "body": "Keep large venue and campus WiFi healthy automatically."
+    },
+    {
+      "title": "SASE and security operations",
+      "body": "Coordinate network and security policy with continuous compliance checks."
+    }
+  ],
+  "outcomes": [
+    {
+      "value": "90%+",
+      "label": "Alarm noise suppression"
+    },
+    {
+      "value": "<90 sec",
+      "label": "To fix a fault storm"
+    },
+    {
+      "value": "Tier-1",
+      "label": "Proven at telecom-operator scale"
+    }
+  ],
+  "sectors": [
+    "telecom",
+    "energy-utilities",
+    "government",
+    "giga-projects-construction"
+  ],
+  "vision2030": {
+    "body": "Autonomous, resilient networks support the national digital infrastructure and the connectivity needs of new cities and industrial zones.",
+    "programs": [
+      "National Transformation Program",
+      "National Industrial Development and Logistics Program"
+    ]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Deployed fully on-premise inside your network; no network data leaves your environment."
+  },
+  "extras": [
+    {
+      "title": "Extensions",
+      "items": [
+        "Sovereign private 5G",
+        "Enterprise and public WiFi",
+        "SASE",
+        "Security operations",
+        "Continuous compliance"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Smart Network Management & Autonomous AIOps | Saudi Arabia",
+    "description": "On-premise agentic AIOps that detects, diagnoses and fixes multi-vendor network faults in a closed loop, with human approval and full data residency."
+  }
+}

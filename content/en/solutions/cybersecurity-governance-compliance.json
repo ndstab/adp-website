@@ -1,0 +1,70 @@
+{
+  "slug": "cybersecurity-governance-compliance",
+  "hero": {
+    "eyebrow": "Trust & security",
+    "title1": "Cybersecurity, Governance & Compliance.",
+    "title2": "Secure by design, ready for audit.",
+    "subtitle": "Zero Trust architecture, identity, testing, SOC and incident response, aligned to NCA controls, the PDPL and the SAMA framework."
+  },
+  "challenge": {
+    "title": "The challenge in KSA",
+    "body": "Threats against Saudi organizations are rising alongside digital adoption. National Cybersecurity Authority controls, the PDPL and sector regulators set clear expectations, while specialist security talent remains scarce and expensive.",
+    "points": [
+      "A growing set of NCA controls to implement and evidence",
+      "Personal-data obligations under the PDPL",
+      "Third parties and suppliers as an expanding attack surface",
+      "Shortage of experienced security specialists"
+    ]
+  },
+  "opportunity": {
+    "title": "The opportunity",
+    "body": "Treating security as architecture rather than a checklist reduces risk and audit effort at the same time. The Saudi cybersecurity market is expanding fast, with a strong preference for on-premise and in-Kingdom solutions.",
+    "sources": ["cyber-market", "nca-controls", "pdpl"]
+  },
+  "capabilities": [
+    {"title": "Network security architecture", "body": "Zero Trust design, segmentation and secure access."},
+    {"title": "Endpoint protection and intrusion detection", "body": "Detect and contain threats on devices and networks."},
+    {"title": "Identity and access management", "body": "SSO, privileged access management and segregation of duties."},
+    {"title": "VAPT and red teaming", "body": "Testing across web, mobile, API, network, cloud, SCADA/ICS and IoT."},
+    {"title": "SOC, incident response and forensics", "body": "24/7 monitoring, response playbooks and investigation."},
+    {"title": "DevSecOps and third-party risk", "body": "Security in the delivery pipeline and across your supply chain."},
+    {"title": "Certification readiness", "body": "Preparation for ISO 27001/27701, SOC 2 and PCI DSS."}
+  ],
+  "applications": [
+    {"title": "NCA controls gap assessment", "body": "Find where you stand and build a prioritized remediation plan."},
+    {"title": "Zero Trust roadmap", "body": "Move from perimeter security to identity-centred access in stages."},
+    {"title": "OT and SCADA security", "body": "Assess and protect industrial and utility control systems."},
+    {"title": "Red-team exercise", "body": "Test detection and response against realistic attack scenarios."},
+    {"title": "Managed SOC", "body": "Round-the-clock monitoring with in-Kingdom log retention."}
+  ],
+  "outcomes": [],
+  "sectors": ["government", "bfsi", "energy-utilities", "telecom", "healthcare"],
+  "vision2030": {
+    "body": "A secure and trusted cyberspace is a foundation for the digital economy, digital government and foreign investment.",
+    "programs": ["National Transformation Program", "Financial Sector Development Program"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Security tooling and log retention on-premise or in-Kingdom, to meet residency and regulator expectations."
+  },
+  "extras": [
+    {
+      "title": "Frameworks we align to",
+      "items": [
+        "NCA Essential Cybersecurity Controls (ECC) and related NCA control sets",
+        "Personal Data Protection Law (PDPL)",
+        "SAMA Cyber Security Framework",
+        "ISO/IEC 27001 and 27701",
+        "SOC 2",
+        "PCI DSS"
+      ],
+      "verify": true
+    }
+  ],
+  "seo": {
+    "title": "Cybersecurity, Governance & Compliance | Saudi Arabia",
+    "description": "Zero Trust, IAM, VAPT, red teaming, SOC and incident response in Saudi Arabia, aligned to NCA ECC, the PDPL and the SAMA cybersecurity framework."
+  }
+}

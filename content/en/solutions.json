@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "integrated-infrastructure",
+    "pillar": "core-infrastructure",
+    "order": 1,
+    "code": "1.1",
+    "title": "Integrated Infrastructure Solutions",
+    "summary": "Converged networking and IT, data centres, unified communications, low-current and audio-visual systems, designed, built and supported by one team."
+  },
+  {
+    "slug": "software-development",
+    "pillar": "core-infrastructure",
+    "order": 2,
+    "code": "1.2",
+    "title": "Software Development",
+    "summary": "Web and mobile apps, cloud-native SaaS platforms, API integration and legacy modernization across the full product lifecycle."
+  },
+  {
+    "slug": "agentic-ai-customer-engagement",
+    "pillar": "intelligence",
+    "order": 3,
+    "code": "2.1",
+    "title": "Agentic AI & Autonomous Customer Engagement",
+    "summary": "Arabic and English AI agents that acquire, convert, retain and support customers 24/7 across voice, WhatsApp, e-mail, SMS and social."
+  },
+  {
+    "slug": "ai-data-analytics",
+    "pillar": "intelligence",
+    "order": 4,
+    "code": "2.2",
+    "title": "AI, Data Analytics & Enterprise AI Platforms",
+    "summary": "Predictive analytics, computer vision, BI and enterprise AI built on your own data, deployable in-Kingdom with Arabic-first models."
+  },
+  {
+    "slug": "it-cost-optimization",
+    "pillar": "efficiency-operations",
+    "order": 5,
+    "code": "3.1",
+    "title": "IT Cost Optimization & Software Asset Management",
+    "summary": "Discover every asset, map entitlements and reclaim unused licences. Fund your AI journey from the savings in your IT estate."
+  },
+  {
+    "slug": "it-service-operations",
+    "pillar": "efficiency-operations",
+    "order": 6,
+    "code": "3.2",
+    "title": "IT Service & Operations Management",
+    "summary": "Intent-driven operations across network, security, applications and IT, with digital-experience monitoring for banking and digital services."
+  },
+  {
+    "slug": "smart-network-management",
+    "pillar": "efficiency-operations",
+    "order": 7,
+    "code": "3.3",
+    "title": "Smart Network Management",
+    "summary": "Agentic AIOps that detects, diagnoses, plans and remediates multi-vendor network faults in a closed loop, fully on-premise."
+  },
+  {
+    "slug": "cloud-modernization",
+    "pillar": "efficiency-operations",
+    "order": 8,
+    "code": "3.4",
+    "title": "Cloud & Multi-Cloud Modernization",
+    "summary": "Migration, cloud-native hosting, backup and DR, DevOps and multi-cloud governance, aligned with Cloud First and in-Kingdom residency."
+  },
+  {
+    "slug": "cybersecurity-governance-compliance",
+    "pillar": "trust-security",
+    "order": 9,
+    "code": "4.1",
+    "title": "Cybersecurity, Governance & Compliance",
+    "summary": "Zero Trust architecture, IAM, VAPT, SOC and incident response, aligned to NCA ECC, the PDPL and the SAMA framework."
+  },
+  {
+    "slug": "data-leak-protection",
+    "pillar": "trust-security",
+    "order": 10,
+    "code": "4.2",
+    "title": "Data-Leak Protection",
+    "summary": "Every copy accountable. Every leak traceable. Screen, file and print watermarks, with screen and application control."
+  },
+  {
+    "slug": "blockchain-trusted-records",
+    "pillar": "trust-security",
+    "order": 11,
+    "code": "4.3",
+    "title": "Blockchain & Trusted Digital Records",
+    "summary": "Permissioned blockchain, smart contracts and tokenization for supply-chain finance, real-estate records and certificates."
+  },
+  {
+    "slug": "industrial-iot-smart-infrastructure",
+    "pillar": "smart-infrastructure",
+    "order": 12,
+    "code": "5.1",
+    "title": "Industrial IoT & Smart Infrastructure",
+    "summary": "Rugged sensors, gateways and a live platform for smart water, solar, smart concrete and environmental monitoring."
+  },
+  {
+    "slug": "drone-geospatial-site-security",
+    "pillar": "smart-infrastructure",
+    "order": 13,
+    "code": "5.2",
+    "title": "Drone Operations, Geospatial Intelligence & Site Security",
+    "summary": "Drone missions, autonomous docking stations, RTK survey, GIS and digital twins for inspection, mapping and site surveillance."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "slug": "retail-hospitality",
+  "hero": {
+    "eyebrow": "Industries · Retail & hospitality",
+    "title1": "Retail & Hospitality.",
+    "title2": "Journeys that convert, in two languages.",
+    "subtitle": "AI agents for guests and shoppers, personalization, analytics and cloud platforms for retailers, malls, hotels and venues."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Tourism, entertainment and retail are expanding quickly across the Kingdom. Brands serve residents and visitors in Arabic and English, across apps, WhatsApp and in person, and every lost enquiry is lost revenue."
+  },
+  "challenges": [
+    {"title": "Abandoned journeys", "body": "Baskets, bookings and enquiries dropped before completion."},
+    {"title": "Seasonal peaks", "body": "Demand spikes around holidays, events and the tourism season."},
+    {"title": "Fragmented customer data", "body": "Loyalty, booking and sales data in separate systems."}
+  ],
+  "useCases": [
+    {"title": "Drop-off recovery", "body": "Agents that follow up abandoned baskets and bookings with tailored offers."},
+    {"title": "Guest concierge", "body": "Bilingual answers and bookings for guests on WhatsApp."},
+    {"title": "Demand forecasting", "body": "Plan staffing and inventory for peaks."},
+    {"title": "Customer 360", "body": "One view of each customer across channels."}
+  ],
+  "solutions": ["agentic-ai-customer-engagement", "ai-data-analytics", "cloud-modernization", "software-development", "it-service-operations"],
+  "regulation": ["Personal Data Protection Law (PDPL)", "NCA Essential Cybersecurity Controls"],
+  "vision2030": {
+    "body": "A thriving tourism, entertainment and retail economy is a pillar of diversification and quality of life.",
+    "programs": ["Quality of Life Program"]
+  },
+  "seo": {
+    "title": "Technology for Retail & Hospitality | Saudi Arabia",
+    "description": "Bilingual AI agents, personalization, analytics and cloud platforms for Saudi retailers, malls, hotels and venues that turn enquiries into revenue."
+  }
+}

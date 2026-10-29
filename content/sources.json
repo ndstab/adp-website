@@ -1,0 +1,134 @@
+[
+  {
+    "id": "year-of-ai",
+    "publisher": "Saudi Data & AI Authority (SDAIA)",
+    "title": "2026 declared Saudi Arabia's Year of Artificial Intelligence (#SaudiAIYear)",
+    "year": 2026,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "2026 declared Saudi Arabia's Year of Artificial Intelligence.",
+      "ar": "إعلان عام 2026 عامًا للذكاء الاصطناعي في المملكة العربية السعودية."
+    }
+  },
+  {
+    "id": "ai-market",
+    "publisher": "MarketsandMarkets",
+    "title": "Saudi Arabia artificial intelligence market forecast, 2026–2031",
+    "year": 2026,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Saudi AI market approx. USD 976M (2026) to approx. USD 5.1B (2031), a 26.6% CAGR.",
+      "ar": "سوق الذكاء الاصطناعي في المملكة: نحو 976 مليون دولار (2026) إلى نحو 5.1 مليار دولار (2031)، بمعدل نمو سنوي مركب 26.6%."
+    }
+  },
+  {
+    "id": "nsdai",
+    "publisher": "Saudi Data & AI Authority (SDAIA)",
+    "title": "National Strategy for Data & AI (NSDAI), 2030 targets",
+    "year": 2020,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "NSDAI 2030 targets: SAR 75B investment, 40% of the workforce trained in basic data and AI skills, 20,000 specialists, 300+ startups, top 15 globally in AI.",
+      "ar": "مستهدفات الاستراتيجية الوطنية للبيانات والذكاء الاصطناعي لعام 2030: استثمارات بقيمة 75 مليار ريال، وتدريب 40% من القوى العاملة على المهارات الأساسية، و20,000 متخصص، وأكثر من 300 شركة ناشئة، والمرتبة ضمن أفضل 15 دولة عالميًا."
+    }
+  },
+  {
+    "id": "digital-economy",
+    "publisher": "[VERIFY] General Authority for Statistics / MCIT",
+    "title": "Saudi digital economy size, 2024",
+    "year": 2024,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Digital economy approx. SAR 495B in 2024, about 15% of GDP.",
+      "ar": "الاقتصاد الرقمي نحو 495 مليار ريال في 2024، أي قرابة 15% من الناتج المحلي الإجمالي."
+    }
+  },
+  {
+    "id": "cyber-market",
+    "publisher": "[VERIFY] Market research publisher",
+    "title": "Saudi Arabia cybersecurity market forecast, 2026–2031",
+    "year": 2026,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Cybersecurity market approx. USD 2.4B (2026) to approx. USD 4.0B (2031), with a strong on-premise preference driven by data sovereignty.",
+      "ar": "سوق الأمن السيبراني نحو 2.4 مليار دولار (2026) إلى نحو 4.0 مليار دولار (2031)، مع تفضيل واضح للنشر داخل المقر بدافع سيادة البيانات."
+    }
+  },
+  {
+    "id": "pdpl",
+    "publisher": "Saudi Data & AI Authority (SDAIA)",
+    "title": "Personal Data Protection Law (PDPL), enforcement from 14 September 2024",
+    "year": 2024,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Personal Data Protection Law enforced from 14 September 2024.",
+      "ar": "بدء تطبيق نظام حماية البيانات الشخصية اعتبارًا من 14 سبتمبر 2024."
+    }
+  },
+  {
+    "id": "nca-controls",
+    "publisher": "National Cybersecurity Authority (NCA)",
+    "title": "NCA control frameworks: ECC, CSCC, CCC, OTCC, DCC, TCC and controls for private entities",
+    "year": 2026,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "NCA control frameworks including ECC, CSCC, CCC, OTCC, DCC and TCC, plus controls for non-critical-infrastructure private entities.",
+      "ar": "أطر ضوابط الهيئة الوطنية للأمن السيبراني، ومنها ECC وCSCC وCCC وOTCC وDCC وTCC، إضافة إلى ضوابط الجهات الخاصة غير المصنفة ضمن البنى التحتية الحساسة."
+    }
+  },
+  {
+    "id": "cloud-first",
+    "publisher": "[VERIFY] Ministry of Communications and Information Technology (MCIT)",
+    "title": "Cloud First Policy",
+    "year": null,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Government Cloud First policy.",
+      "ar": "سياسة الحوسبة السحابية أولًا للجهات الحكومية."
+    }
+  },
+  {
+    "id": "lcgpa",
+    "publisher": "Local Content & Government Procurement Authority (LCGPA)",
+    "title": "Local content requirements in government procurement",
+    "year": null,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Local-content certificate for qualifying tenders; 30% minimum announced for certain government IT and consulting tenders.",
+      "ar": "شهادة المحتوى المحلي للمنافسات المؤهلة، وحد أدنى معلن بنسبة 30% لبعض منافسات تقنية المعلومات والاستشارات الحكومية."
+    }
+  },
+  {
+    "id": "rhq",
+    "publisher": "[VERIFY] Ministry of Investment (MISA)",
+    "title": "Regional Headquarters (RHQ) programme",
+    "year": null,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "RHQ programme: 750+ regional headquarters licensed.",
+      "ar": "برنامج المقرات الإقليمية: أكثر من 750 مقرًا إقليميًا."
+    }
+  },
+  {
+    "id": "desalination",
+    "publisher": "[VERIFY] National Water Strategy",
+    "title": "Share of urban water supply from desalination by 2030",
+    "year": null,
+    "url": null,
+    "verify": true,
+    "label": {
+      "en": "Target of approx. 90% of urban water supply from desalination by 2030.",
+      "ar": "مستهدف بأن تأتي نحو 90% من إمدادات المياه الحضرية من التحلية بحلول 2030."
+    }
+  }
+]

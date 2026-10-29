@@ -1,0 +1,67 @@
+[
+  {
+    "id": "core-infrastructure",
+    "order": 1,
+    "orbitOrder": 4,
+    "icon": "server",
+    "name": "Core Infrastructure & Engineering",
+    "label": "Infrastructure",
+    "short": "Integrated ICT infrastructure, data centres and software engineering, built and supported by our own team.",
+    "outcome": {
+      "label": "Networks · <90s fault fix",
+      "verify": true
+    }
+  },
+  {
+    "id": "intelligence",
+    "order": 2,
+    "orbitOrder": 1,
+    "icon": "cpu",
+    "name": "Intelligence",
+    "label": "Intelligence",
+    "short": "Agentic AI, analytics and enterprise AI platforms built on your own data.",
+    "outcome": {
+      "label": "Agentic AI · 24/7 in Arabic",
+      "verify": true
+    }
+  },
+  {
+    "id": "efficiency-operations",
+    "order": 3,
+    "orbitOrder": 3,
+    "icon": "cloud",
+    "name": "Efficiency & Operations",
+    "label": "Operations",
+    "short": "IT cost optimization, service management, autonomous networks and cloud modernization.",
+    "outcome": {
+      "label": "IT cost · 20%+ savings",
+      "verify": true
+    }
+  },
+  {
+    "id": "trust-security",
+    "order": 4,
+    "orbitOrder": 2,
+    "icon": "shield",
+    "name": "Trust & Security",
+    "label": "Security",
+    "short": "Cybersecurity, governance, data-leak protection and trusted digital records.",
+    "outcome": {
+      "label": "Data-leak protection · every copy traceable",
+      "verify": true
+    }
+  },
+  {
+    "id": "smart-infrastructure",
+    "order": 5,
+    "orbitOrder": 5,
+    "icon": "drone",
+    "name": "Smart Infrastructure & Physical World",
+    "label": "Physical world",
+    "short": "Industrial IoT, drone operations, geospatial intelligence and site security.",
+    "outcome": {
+      "label": "IoT · live water & energy",
+      "verify": true
+    }
+  }
+]

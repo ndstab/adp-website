@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "government",
+    "order": 1,
+    "name": "Government",
+    "summary": "Citizen services in Arabic, protected records and in-Kingdom hosting.",
+    "image": "/images/industries/government-riyadh.jpg",
+    "imageAlt": "Riyadh city centre with the Al Faisaliah Tower and modern government buildings under a blue sky"
+  },
+  {
+    "slug": "bfsi",
+    "order": 2,
+    "name": "Banking, Financial Services & Insurance",
+    "summary": "Digital onboarding, resilient digital channels and SAMA-aligned security.",
+    "image": "/images/industries/professional-mobile-banking.jpg",
+    "imageAlt": "Saudi professional in a red shemagh reviewing a mobile banking app beside a laptop"
+  },
+  {
+    "slug": "energy-utilities",
+    "order": 3,
+    "name": "Energy & Utilities",
+    "summary": "Live visibility of water networks, solar assets and remote field sites.",
+    "image": "/images/industries/solar-farm-desert.jpg",
+    "imageAlt": "Rows of solar panels stretching across a desert plain towards distant mountains"
+  },
+  {
+    "slug": "telecom",
+    "order": 4,
+    "name": "Telecom",
+    "summary": "Autonomous network operations at carrier scale, with full data residency.",
+    "image": "/images/industries/telecom-tower.jpg",
+    "imageAlt": "Telecommunications tower with mobile antennas and microwave dishes against a clear blue sky"
+  },
+  {
+    "slug": "healthcare",
+    "order": 5,
+    "name": "Healthcare",
+    "summary": "Appointment agents, protected patient records and dependable infrastructure.",
+    "image": "/images/industries/healthcare-corridor.jpg",
+    "imageAlt": "Bright, curved hospital corridor with floor-to-ceiling windows and waiting chairs"
+  },
+  {
+    "slug": "giga-projects-construction",
+    "order": 6,
+    "name": "Giga-projects & Construction",
+    "summary": "Drone progress tracking, smart concrete and site security for giga-scale builds.",
+    "image": "/images/industries/construction-tower-cranes.jpg",
+    "imageAlt": "Tower cranes silhouetted against a pink and violet dusk sky over a construction site"
+  },
+  {
+    "slug": "retail-hospitality",
+    "order": 7,
+    "name": "Retail & Hospitality",
+    "summary": "Guest and shopper journeys that convert, in Arabic and English.",
+    "image": "/images/industries/hotel-lobby.jpg",
+    "imageAlt": "Contemporary hotel lobby with marble floors, lounge seating and a gold chandelier installation"
+  },
+  {
+    "slug": "education",
+    "order": 8,
+    "name": "Education",
+    "summary": "Student services, campus networks and analytics for learning outcomes.",
+    "image": "/images/industries/university-lecture.jpg",
+    "imageAlt": "University students attentive in a sunlit lecture hall"
+  }
+]

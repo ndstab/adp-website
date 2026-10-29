@@ -1,0 +1,34 @@
+{
+  "slug": "education",
+  "hero": {
+    "eyebrow": "Industries · Education",
+    "title1": "Education.",
+    "title2": "Connected campuses, better outcomes.",
+    "subtitle": "Student service agents, campus networks, analytics and trusted credentials for universities, schools and training providers."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Universities and training providers are central to building Saudi data and AI skills. They serve large student populations who expect digital services, while managing growing campuses and research data."
+  },
+  "challenges": [
+    {"title": "Student service demand", "body": "Admissions, registration and support peak at the same times every year."},
+    {"title": "Campus infrastructure", "body": "Networks and teaching spaces must keep up with hybrid learning."},
+    {"title": "Credential fraud", "body": "Forged certificates undermine trust in qualifications."}
+  ],
+  "useCases": [
+    {"title": "Student service agents", "body": "Bilingual answers on admissions, fees and registration around the clock."},
+    {"title": "Learning analytics", "body": "Identify students who need support early."},
+    {"title": "Verifiable certificates", "body": "Credentials anyone can verify instantly on a trusted ledger."},
+    {"title": "Smart campus networks", "body": "WiFi, AV and teaching spaces built and supported by one team."}
+  ],
+  "solutions": ["agentic-ai-customer-engagement", "ai-data-analytics", "blockchain-trusted-records", "integrated-infrastructure", "cloud-modernization"],
+  "regulation": ["Personal Data Protection Law (PDPL)", "NCA Essential Cybersecurity Controls"],
+  "vision2030": {
+    "body": "Education and training underpin the national goal of building data and AI skills across the workforce.",
+    "programs": ["Human Capability Development Program"]
+  },
+  "seo": {
+    "title": "Technology Solutions for Education | Saudi Arabia",
+    "description": "Student service AI agents, learning analytics, verifiable certificates and smart campus networks for Saudi universities, schools and trainers."
+  }
+}

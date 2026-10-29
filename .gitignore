@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+npm-debug.log*
+.vercel
+tsconfig.tsbuildinfo
+.claude/
+
+# Internal build notes and design references: kept locally, out of the public repo.
+docs/REVIEW-ITEMS.md
+docs/PLAN.md
+reference/

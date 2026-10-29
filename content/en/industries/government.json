@@ -1,0 +1,35 @@
+{
+  "slug": "government",
+  "hero": {
+    "eyebrow": "Industries · Government",
+    "title1": "Government.",
+    "title2": "Digital services citizens trust.",
+    "subtitle": "AI agents for citizen services, sovereign data platforms and security aligned to national controls, delivered by one Saudi team."
+  },
+  "context": {
+    "title": "The sector today",
+    "body": "Government entities are moving services online, adopting AI and meeting Cloud First and data-protection expectations at the same time. Citizens expect fast, bilingual service on every channel, and data must stay under Saudi jurisdiction."
+  },
+  "challenges": [
+    {"title": "Service demand outpacing staff", "body": "Call centres and service counters struggle with peaks in demand."},
+    {"title": "Legacy systems and silos", "body": "Data spread across departments slows decisions and services."},
+    {"title": "Security and classification", "body": "Sensitive and classified data must be protected and traceable."},
+    {"title": "Local content and talent", "body": "Tenders increasingly reward local content and Saudi capability building."}
+  ],
+  "useCases": [
+    {"title": "Citizen service agents", "body": "Arabic AI agents that answer, track and complete service requests on WhatsApp and the web."},
+    {"title": "Classified document protection", "body": "Screen, file and print watermarks that make every copy traceable."},
+    {"title": "Executive dashboards", "body": "One trusted view of programme KPIs for leadership."},
+    {"title": "New headquarters infrastructure", "body": "Network, data room and meeting spaces delivered as one programme."}
+  ],
+  "solutions": ["agentic-ai-customer-engagement", "data-leak-protection", "cybersecurity-governance-compliance", "cloud-modernization", "ai-data-analytics", "integrated-infrastructure"],
+  "regulation": ["NCA Essential Cybersecurity Controls", "NCA Data Cybersecurity Controls", "Personal Data Protection Law (PDPL)", "Cloud First policy"],
+  "vision2030": {
+    "body": "Digital government is central to an effective, transparent and responsive public sector.",
+    "programs": ["National Transformation Program"]
+  },
+  "seo": {
+    "title": "Technology Solutions for Government | Saudi Arabia",
+    "description": "AI citizen services, sovereign cloud, data-leak protection and cybersecurity for Saudi government entities, delivered in-Kingdom by ADP Solutions."
+  }
+}

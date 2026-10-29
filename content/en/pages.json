@@ -1,0 +1,101 @@
+{
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home",
+    "solutions": "Solutions",
+    "industries": "Industries"
+  },
+  "solutionsHub": {
+    "meta": {
+      "title": "Solutions",
+      "description": "Thirteen solutions in five pillars: infrastructure, intelligence, efficiency, trust and the physical world. Curated, localized and delivered in Saudi Arabia."
+    },
+    "chip": "Solutions",
+    "title1": "Five pillars.",
+    "title2": "Thirteen solutions, one accountable team.",
+    "sub": "Our own engineering combined with solutions already proven in production, delivered with our global technology alliance and localized for the Kingdom.",
+    "jump": "Jump to a pillar",
+    "count": "{count, plural, one {# solution} other {# solutions}}",
+    "explore": "Explore"
+  },
+  "solutionPage": {
+    "whatItDoes": "What it does",
+    "whatItDoesSub": "Capabilities delivered and supported by ADP Solutions, with our global technology alliance.",
+    "applications": "Applications",
+    "outcomes": "Typical outcomes",
+    "outcomesNote": "Typical results from production deployments. Actual results depend on your environment and are confirmed during the proof of value.",
+    "outcomesEmpty": "We agree measurable success criteria with you before the proof of value starts, and report against them.",
+    "sectors": "Sectors",
+    "vision": "Vision 2030 alignment",
+    "programs": "Related Vision Realization Programs",
+    "deployment": "Deployment options",
+    "cloud": "Cloud",
+    "inKingdom": "In-Kingdom",
+    "onPrem": "On-premise",
+    "available": "Available",
+    "notOffered": "Not offered",
+    "engage": "How we engage",
+    "engageSteps": [
+      {
+        "title": "Discover",
+        "body": "A short workshop to define the outcome, the data and the constraints."
+      },
+      {
+        "title": "Prove",
+        "body": "A fixed-scope proof of value with agreed success measures."
+      },
+      {
+        "title": "Deliver",
+        "body": "Deploy, integrate and localize, in-Kingdom or on your premises."
+      },
+      {
+        "title": "Operate & transfer",
+        "body": "Managed operations and hands-on knowledge transfer to your team."
+      }
+    ],
+    "related": "More in this pillar",
+    "sources": "Sources",
+    "ctaTitle1": "Talk to a specialist",
+    "ctaTitle2": "about {solution}.",
+    "ctaSub": "Tell us about your environment and goals. We will propose a fixed-scope proof of value.",
+    "ctaButton": "Book a consultation",
+    "applicationsTitle": "Where it makes a difference",
+    "outcomesTitle": "What good looks like",
+    "deploymentTitle": "Runs where your data must live",
+    "engageTitle": "From first workshop to handover",
+    "sectorsTitle": "Built for these sectors",
+    "visionTitle": "Aligned with national priorities",
+    "challengeChip": "Context",
+    "extrasChip": "Details"
+  },
+  "industriesHub": {
+    "meta": {
+      "title": "Industries",
+      "description": "Technology solutions for Saudi government, banking, energy and utilities, telecom, healthcare, giga-projects, retail and hospitality, and education."
+    },
+    "chip": "Industries",
+    "title1": "Built for the sectors",
+    "title2": "shaping the Kingdom.",
+    "sub": "Our priority sectors, each with the solutions, regulation and Vision 2030 context that matter most to it.",
+    "explore": "Explore sector",
+    "solutionsCount": "{count, plural, one {# recommended solution} other {# recommended solutions}}"
+  },
+  "industryPage": {
+    "challenges": "Challenges we hear",
+    "useCases": "Where we help",
+    "solutions": "Recommended solutions",
+    "regulation": "Frameworks we align to",
+    "regulationNote": "We describe alignment and support your compliance. We do not hold or claim regulatory licences on your behalf.",
+    "vision": "Vision 2030 alignment",
+    "programs": "Related Vision Realization Programs",
+    "ctaTitle1": "Let's talk about",
+    "ctaTitle2": "your {industry} priorities.",
+    "ctaButton": "Book a consultation",
+    "challengesTitle": "What leaders in this sector tell us",
+    "useCasesTitle": "Where we help first",
+    "solutionsTitle": "Solutions that fit",
+    "visionTitle": "Aligned with national priorities",
+    "regulationTitle": "Compliance-aware delivery",
+    "contextChip": "Context"
+  }
+}
