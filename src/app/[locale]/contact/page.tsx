@@ -7,7 +7,7 @@ import type {Locale} from '@/i18n/routing';
 import {getPillars, site} from '@/content';
 import {PageHero} from '@/components/page/PageHero';
 import {Breadcrumbs} from '@/components/page/Breadcrumbs';
-import {AddValue} from '@/components/ui/ReviewFlag';
+import {isPlaceholder} from '@/lib/review';
 import {ContactForm} from '@/components/home/ContactForm';
 
 type Params = {params: Promise<{locale: string}>};
@@ -71,17 +71,17 @@ function Contact({locale}: {locale: Locale}) {
                   </div>
                 </li>
               ))}
-              <li className="flex items-start gap-4">
-                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-sand-100 text-navy-900">
-                  <MapPin aria-hidden strokeWidth={1.5} className="size-4" />
-                </span>
-                <div>
-                  <p className="text-[12.5px] text-ink-500">{t('details.address')}</p>
-                  <p className="mt-0.5 text-[15px] font-medium">
-                    <AddValue value={site.nationalAddress} tone="light" />
-                  </p>
-                </div>
-              </li>
+              {!isPlaceholder(site.nationalAddress) && (
+                <li className="flex items-start gap-4">
+                  <span className="grid size-10 shrink-0 place-items-center rounded-full bg-sand-100 text-navy-900">
+                    <MapPin aria-hidden strokeWidth={1.5} className="size-4" />
+                  </span>
+                  <div>
+                    <p className="text-[12.5px] text-ink-500">{t('details.address')}</p>
+                    <p className="mt-0.5 text-[15px] font-medium">{site.nationalAddress}</p>
+                  </div>
+                </li>
+              )}
             </ul>
           </div>
           <div className="on-dark rounded-[var(--radius-card)] bg-[linear-gradient(160deg,var(--color-navy-700),var(--color-navy-500))] p-5 text-white sm:p-8 lg:p-10">

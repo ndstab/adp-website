@@ -1,11 +1,11 @@
 import {useTranslations} from 'next-intl';
-import {isPlaceholder, reviewMode} from '@/lib/review';
+import {showReviewMarkers} from '@/lib/review';
 import {cn} from '@/lib/cn';
 
 /** Dashed marker shown next to any claim that still needs verification. */
 export function VerifyFlag({className, tone = 'light'}: {className?: string; tone?: 'light' | 'dark'}) {
   const t = useTranslations('common.review');
-  if (!reviewMode) return null;
+  if (!showReviewMarkers) return null;
   return (
     <span
       title={t('verifyTitle')}
@@ -16,17 +16,6 @@ export function VerifyFlag({className, tone = 'light'}: {className?: string; ton
       )}
     >
       {t('verify')}
-    </span>
-  );
-}
-
-/** Renders a value, or a visible [ADD] marker when the value is still a placeholder. */
-export function AddValue({value, className, tone = 'dark'}: {value: string; className?: string; tone?: 'light' | 'dark'}) {
-  const t = useTranslations('common.review');
-  if (!isPlaceholder(value)) return <span className={className}>{value}</span>;
-  return (
-    <span title={t('addTitle')} className={cn('font-semibold', tone === 'dark' ? 'text-gold-300' : 'text-blue-600', className)}>
-      [ADD]
     </span>
   );
 }

@@ -77,7 +77,7 @@ Decisions taken while applying the decks, to confirm:
 
 ## 5. Technical go-live
 
-- [ ] Set `NEXT_PUBLIC_SITE_URL=https://adpway.com` and **`NEXT_PUBLIC_REVIEW_MODE=false`** (this hides VERIFY markers and allows indexing). Rebuild.
+- [ ] Set `NEXT_PUBLIC_SITE_URL=https://adpway.com` and **`NEXT_PUBLIC_REVIEW_MODE=false`** (this allows indexing), and leave `NEXT_PUBLIC_REVIEW_MARKERS` unset so VERIFY markers stay hidden. Rebuild.
 - [ ] Configure Resend or SMTP; submit each form (contact, newsletter, alliance) once and confirm delivery
 - [ ] Build the Docker image once in CI or on the target host (not built locally; Docker is not installed on the development Mac)
 - [ ] DNS and TLS for adpway.com (and redirect www → apex or the reverse)

@@ -2,7 +2,7 @@ import {useTranslations} from 'next-intl';
 import {AlertTriangle} from 'lucide-react';
 import {Breadcrumbs} from './Breadcrumbs';
 import {TagChip} from '@/components/ui/TagChip';
-import {AddValue} from '@/components/ui/ReviewFlag';
+import {isPlaceholder, showReviewMarkers} from '@/lib/review';
 import {CookieSettingsButton} from '@/components/layout/CookieConsent';
 
 type Section = {h: string; p?: string[]; list?: string[]};
@@ -26,13 +26,17 @@ export function LegalPage({doc}: {doc: Doc}) {
       <div className="mt-8 max-w-3xl">
         <TagChip>{t(`${doc}.chip`)}</TagChip>
         <h1 className="display mt-5 font-semibold text-navy-900">{t(`${doc}.title`)}</h1>
-        <p className="mt-4 text-[13.5px] text-ink-500">
-          {t('updated')}: <AddValue value={t('updatedValue')} tone="light" />
-        </p>
-        <p role="note" className="mt-6 flex items-start gap-2.5 rounded-2xl bg-gold-300/35 px-4 py-3 text-[13.5px] text-navy-900 ring-1 ring-gold-500/30">
-          <AlertTriangle aria-hidden strokeWidth={1.5} className="mt-0.5 size-4 shrink-0" />
-          {t('draft')}
-        </p>
+        {!isPlaceholder(t('updatedValue')) && (
+          <p className="mt-4 text-[13.5px] text-ink-500">
+            {t('updated')}: {t('updatedValue')}
+          </p>
+        )}
+        {showReviewMarkers && (
+          <p role="note" className="mt-6 flex items-start gap-2.5 rounded-2xl bg-gold-300/35 px-4 py-3 text-[13.5px] text-navy-900 ring-1 ring-gold-500/30">
+            <AlertTriangle aria-hidden strokeWidth={1.5} className="mt-0.5 size-4 shrink-0" />
+            {t('draft')}
+          </p>
+        )}
         <p className="mt-8 text-[17px] leading-relaxed text-ink-700">{t(`${doc}.intro`)}</p>
       </div>
 
@@ -87,13 +91,11 @@ export function LegalPage({doc}: {doc: Doc}) {
                   {table.rows.map((row, i) => (
                     <tr key={i} className="border-t border-navy-900/[0.06]">
                       <td className="px-4 py-3 font-mono text-[13px] text-navy-900" dir="ltr">
-                        <AddValue value={row.name} tone="light" />
+                        {row.name}
                       </td>
                       <td className="px-4 py-3 text-ink-700">{row.purpose}</td>
                       <td className="px-4 py-3 text-ink-700">{row.type}</td>
-                      <td className="px-4 py-3 text-ink-700">
-                        <AddValue value={row.duration} tone="light" />
-                      </td>
+                      <td className="px-4 py-3 text-ink-700">{row.duration}</td>
                     </tr>
                   ))}
                 </tbody>

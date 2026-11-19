@@ -1,7 +1,7 @@
 {
   "draft": "Draft for legal review. This text must be reviewed by qualified Saudi counsel before publication.",
   "updated": "Last updated",
-  "updatedValue": "[ADD]",
+  "updatedValue": "",
   "contents": "On this page",
   "privacy": {
     "meta": {"title": "Privacy Policy", "description": "How ADP Solutions collects, uses, stores and protects personal data in line with Saudi Arabia's Personal Data Protection Law (PDPL)."},
@@ -9,16 +9,16 @@
     "title": "Privacy Policy",
     "intro": "This policy explains how Advanced Digital Pathway Solutions (\"ADP Solutions\", \"we\") processes personal data when you visit adpway.com, contact us or work with us, in line with the Personal Data Protection Law (PDPL) and its implementing regulations.",
     "sections": [
-      {"h": "Who we are", "p": ["Advanced Digital Pathway Solutions is a company registered in the Kingdom of Saudi Arabia, headquartered in Riyadh. Commercial Registration: [ADD]. National Address: [ADD]. We are the controller of the personal data described in this policy."]},
+      {"h": "Who we are", "p": ["Advanced Digital Pathway Solutions is a company registered in the Kingdom of Saudi Arabia, headquartered in Riyadh. We are the controller of the personal data described in this policy."]},
       {"h": "Data we collect", "p": ["Data you give us: your name, work e-mail, company, phone number, area of interest and message when you submit a form; your e-mail when you subscribe to updates; CV and contact details when you apply for a role.", "Data collected automatically: technical data needed to run the site securely, such as IP address, browser type and pages visited. Analytics data is collected only if you accept analytics cookies."]},
       {"h": "Why we use it", "list": ["To respond to your enquiry and provide the services you request", "To send updates you have subscribed to", "To evaluate job applications and partnership enquiries", "To keep the site secure and prevent abuse", "To meet our legal and regulatory obligations"]},
       {"h": "Legal basis", "p": ["We process personal data on the basis of your consent, which you can withdraw at any time; where needed to take steps at your request before entering a contract; and where required by law. Withdrawing consent does not affect processing carried out before withdrawal."]},
-      {"h": "Where your data is stored", "p": ["We aim to store and process personal data inside the Kingdom. Where a transfer outside the Kingdom is necessary, we carry it out only as permitted by the PDPL and its regulations, with appropriate safeguards. [CONFIRM hosting and e-mail providers and their locations]"]},
+      {"h": "Where your data is stored", "p": ["We aim to store and process personal data inside the Kingdom. Where a transfer outside the Kingdom is necessary, we carry it out only as permitted by the PDPL and its regulations, with appropriate safeguards."]},
       {"h": "Who we share it with", "p": ["We share personal data only with service providers that help us operate the site and our business (such as hosting and e-mail delivery), under contracts that require them to protect it, and with authorities where the law requires. We do not sell personal data."]},
-      {"h": "How long we keep it", "p": ["We keep enquiries for up to [ADD] months after our last contact, newsletter data until you unsubscribe, and applicant data for up to [ADD] months unless you agree to a longer period. We then delete or anonymize it."]},
+      {"h": "How long we keep it", "p": ["We keep personal data only for as long as the purpose it was collected for requires: enquiries while we are in contact with you, newsletter data until you unsubscribe, and applicant data for the duration of the recruitment process unless you agree to a longer period. We then delete or anonymize it."]},
       {"h": "Your rights", "list": ["To be informed about how your data is processed", "To access a copy of your personal data", "To request correction of inaccurate or incomplete data", "To request destruction of data that is no longer needed", "To withdraw consent at any time", "To lodge a complaint with the competent authority (SDAIA)"]},
       {"h": "Security", "p": ["We use technical and organizational measures to protect personal data against unauthorized access, loss or misuse, including encryption in transit, access controls and logging."]},
-      {"h": "Contact us", "p": ["To exercise your rights or ask about this policy, e-mail info@adpway.com or call +966 55 358 4835. [CONFIRM data protection contact]"]},
+      {"h": "Contact us", "p": ["To exercise your rights or ask about this policy, e-mail info@adpway.com or call +966 55 358 4835."]},
       {"h": "Changes to this policy", "p": ["We may update this policy. The date at the top shows when it was last changed."]}
     ]
   },
@@ -45,7 +45,7 @@
     "intro": "Cookies are small files stored by your browser. We use only the cookies needed to run this site, plus analytics cookies if, and only if, you accept them.",
     "sections": [
       {"h": "Necessary cookies", "p": ["These are required for the site to work and cannot be switched off. They remember your language and your cookie choice."]},
-      {"h": "Analytics cookies", "p": ["If you accept them, these help us understand which pages are useful so we can improve the site. They are not set unless you choose \"Accept analytics\". [CONFIRM analytics provider]"]},
+      {"h": "Analytics cookies", "p": ["If you accept them, these help us understand which pages are useful so we can improve the site. They are not set unless you choose \"Accept analytics\"."]},
       {"h": "Changing your choice", "p": ["You can change your choice at any time with the \"Cookie settings\" link in the footer, or by clearing cookies in your browser."]}
     ],
     "table": {
@@ -55,8 +55,7 @@
       "duration": "Duration",
       "rows": [
         {"name": "NEXT_LOCALE", "purpose": "Remembers your language", "type": "Necessary", "duration": "Up to 1 year"},
-        {"name": "adp_consent", "purpose": "Remembers your cookie choice", "type": "Necessary", "duration": "6 months"},
-        {"name": "[ADD]", "purpose": "Site analytics (only after consent)", "type": "Analytics", "duration": "[ADD]"}
+        {"name": "adp_consent", "purpose": "Remembers your cookie choice", "type": "Necessary", "duration": "6 months"}
       ]
     }
   },

@@ -1,3 +1,4 @@
+import {Fragment} from 'react';
 import Image from 'next/image';
 import {useLocale, useTranslations} from 'next-intl';
 import {ArrowUpRight} from 'lucide-react';
@@ -5,7 +6,7 @@ import {Link} from '@/i18n/navigation';
 import type {Locale} from '@/i18n/routing';
 import {site} from '@/content';
 import {isPlaceholder} from '@/lib/review';
-import {AddValue} from '@/components/ui/ReviewFlag';
+import {cn} from '@/lib/cn';
 import {NewsletterForm} from './NewsletterForm';
 import {FooterWordmark} from './FooterWordmark';
 import {CookieSettingsButton} from './CookieConsent';
@@ -30,6 +31,15 @@ export function Footer() {
   const t = useTranslations('common');
   const locale = useLocale() as Locale;
   const year = new Date().getFullYear();
+  // Social links and registration details appear only once they are filled in content/site.json.
+  const socials = (['linkedin', 'x', 'instagram'] as const).filter((key) => !isPlaceholder(site.socials[key]));
+  const registration = (
+    [
+      {key: 'cr', value: site.cr},
+      {key: 'vat', value: site.vat},
+      {key: 'address', value: site.nationalAddress}
+    ] as const
+  ).filter(({value}) => !isPlaceholder(value));
 
   return (
     <footer className="on-dark relative overflow-hidden bg-[linear-gradient(180deg,var(--color-navy-500)_0%,var(--color-navy-700)_55%,var(--color-navy-900)_100%)] text-white">
@@ -66,24 +76,20 @@ export function Footer() {
             <h2 id="footer-connect" className="text-[15px] font-semibold">
               {t('footer.connect')}
             </h2>
-            <ul className="mt-4 grid gap-2.5 text-sm text-white/75">
-              {(['linkedin', 'x', 'instagram'] as const).map((key) => (
-                <li key={key} className="flex items-center gap-2">
-                  <span aria-hidden className="size-1 rounded-full bg-gold-500" />
-                  {isPlaceholder(site.socials[key]) ? (
-                    <span>
-                      {t(`footer.social.${key}`)} <AddValue value={site.socials[key]} className="text-xs" />
-                    </span>
-                  ) : (
+            {socials.length > 0 && (
+              <ul className="mt-4 grid gap-2.5 text-sm text-white/75">
+                {socials.map((key) => (
+                  <li key={key} className="flex items-center gap-2">
+                    <span aria-hidden className="size-1 rounded-full bg-gold-500" />
                     <a href={site.socials[key]} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                       {t(`footer.social.${key}`)}
                       <span className="sr-only"> ({t('a11y.newTab')})</span>
                     </a>
-                  )}
-                </li>
-              ))}
-            </ul>
-            <dl className="mt-5 grid gap-2 border-t border-white/10 pt-4 text-[13px]">
+                  </li>
+                ))}
+              </ul>
+            )}
+            <dl className={cn('grid gap-2 text-[13px]', socials.length > 0 ? 'mt-5 border-t border-white/10 pt-4' : 'mt-4')}>
               <div className="flex flex-wrap justify-between gap-x-3">
                 <dt className="text-white/80">{t('footer.phone')}</dt>
                 <dd>
@@ -144,18 +150,14 @@ export function Footer() {
             </span>
             <span aria-hidden className="text-white/30">|</span>
             <span>{site.legalName[locale]}</span>
-            <span aria-hidden className="text-white/30">|</span>
-            <span>
-              {t('footer.cr')}: <AddValue value={site.cr} />
-            </span>
-            <span aria-hidden className="text-white/30">·</span>
-            <span>
-              {t('footer.vat')}: <AddValue value={site.vat} />
-            </span>
-            <span aria-hidden className="text-white/30">·</span>
-            <span>
-              {t('footer.address')}: <AddValue value={site.nationalAddress} />
-            </span>
+            {registration.map(({key, value}, i) => (
+              <Fragment key={key}>
+                <span aria-hidden className="text-white/30">{i === 0 ? '|' : '·'}</span>
+                <span>
+                  {t(`footer.${key}`)}: {value}
+                </span>
+              </Fragment>
+            ))}
           </p>
           <ul className="flex gap-4">
             {(['privacy', 'cookies', 'terms'] as const).map((key) => (

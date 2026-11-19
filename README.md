@@ -43,7 +43,8 @@ Copy `.env.example` to `.env.local` (development) or set them on your host.
 | Variable | Purpose |
 |---|---|
 | `NEXT_PUBLIC_SITE_URL` | Public URL, e.g. `https://adpway.com`. Used for canonical links, hreflang, sitemap and structured data. |
-| `NEXT_PUBLIC_REVIEW_MODE` | `true` (default) shows dashed **VERIFY** markers **and keeps the whole site out of search engines** (`robots.txt` disallows all, pages are `noindex`). Set to `false` for launch. |
+| `NEXT_PUBLIC_REVIEW_MODE` | `true` (default) **keeps the whole site out of search engines** (`robots.txt` disallows all, pages are `noindex`). Set to `false` for launch. |
+| `NEXT_PUBLIC_REVIEW_MARKERS` | `false` (default) hides review markers so the site reads as finished. Set to `true` during internal review to show dashed **VERIFY** markers and the draft notice on the legal pages. |
 | `CONTACT_TO_EMAIL` / `CONTACT_FROM_EMAIL` | Where form submissions go, and the sender address |
 | `RESEND_API_KEY` | Send forms through Resend, **or** |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | send them through any SMTP server |
@@ -72,7 +73,7 @@ All text lives in [`/content`](content); components contain no copy. Every file 
 
 **Always edit both languages.** Arabic and English files have the same structure; keep them in step.
 
-**Review markers.** Write `[ADD]` for information still to be supplied (it renders as a visible `[ADD]`). Set `"verify": true` on an outcome or statistic, or put `<Verify />` in an article, to show a dashed VERIFY marker while review mode is on. Run `npm run review` to see what is still open.
+**Review markers.** Leave a value empty, or write `[ADD]`, for information still to be supplied; the page leaves that item out (social links, registration details, the address row, the leadership section) until a real value replaces it. Set `"verify": true` on an outcome or statistic, or put `<Verify />` in an article, to show a dashed VERIFY marker when `NEXT_PUBLIC_REVIEW_MARKERS=true`. Run `npm run review` to see what is still open.
 
 **Rules that apply to all copy:** no partner company or product names anywhere (copy, alt text, file names, code comments); no invented clients, testimonials, certifications or headcounts; "aligned to" / "supports compliance with" rather than any claim of NCA, SAMA, CST or SDAIA licensing; every market figure footnoted; every outcome described as typical.
 

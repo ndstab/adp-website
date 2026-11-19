@@ -12,7 +12,6 @@ import {PhotoHero} from '@/components/page/PageHero';
 import {Breadcrumbs} from '@/components/page/Breadcrumbs';
 import {SectionHeading} from '@/components/ui/SectionHeading';
 import {TagChip} from '@/components/ui/TagChip';
-import {AddValue} from '@/components/ui/ReviewFlag';
 import {ButtonLink} from '@/components/ui/Button';
 import {Reveal} from '@/components/ui/Reveal';
 import {CtaBand} from '@/components/home/CtaBand';
@@ -41,7 +40,8 @@ function About({locale}: {locale: Locale}) {
   const phases = t.raw('focus.phases') as Array<{title: string; body: string}>;
   const offerSlugs = t.raw('focus.offerSlugs') as string[];
   const categories = t.raw('partners.categories') as string[];
-  const members = t.raw('leadership.members') as Array<{name: string; role: string}>;
+  // Leadership profiles appear once names and roles are filled in company.json.
+  const members = (t.raw('leadership.members') as Array<{name: string; role: string}>).filter((m) => !isPlaceholder(m.name) && !isPlaceholder(m.role));
   const solutions = getSolutions(locale);
   const sectors = getIndustries(locale).slice(0, 6);
 
@@ -63,7 +63,7 @@ function About({locale}: {locale: Locale}) {
             <div key={s.label} className="flex flex-col-reverse gap-2">
               <dt className="text-[14px] text-ink-500">{s.label}</dt>
               <dd className="text-[34px] leading-none font-medium tracking-tight text-navy-900 sm:text-[44px] rtl:tracking-normal">
-                {isPlaceholder(s.value) ? <AddValue value={s.value} tone="light" /> : s.value}
+                {s.value}
               </dd>
             </div>
           ))}
@@ -231,26 +231,24 @@ function About({locale}: {locale: Locale}) {
       </section>
 
       {/* Leadership */}
-      <section aria-labelledby="leadership-title" className="container-site pb-20 sm:pb-28">
-        <SectionHeading id="leadership-title" chip={t('leadership.chip')} title1={t('leadership.title')} sub={t('leadership.note')} />
-        <ul className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4">
-          {members.map((m, i) => (
-            <li key={i} className="overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-navy-900/[0.06]">
-              <div className="grid aspect-[4/5] place-items-center bg-sand-100">
-                <UserRound aria-hidden strokeWidth={1} className="size-16 text-ink-500/40" />
-              </div>
-              <div className="p-4">
-                <p className="text-[15px] font-semibold">
-                  <AddValue value={m.name} tone="light" />
-                </p>
-                <p className="mt-0.5 text-[12.5px]">
-                  <AddValue value={m.role} tone="light" />
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {members.length > 0 && (
+        <section aria-labelledby="leadership-title" className="container-site pb-20 sm:pb-28">
+          <SectionHeading id="leadership-title" chip={t('leadership.chip')} title1={t('leadership.title')} />
+          <ul className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4">
+            {members.map((m, i) => (
+              <li key={i} className="overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-navy-900/[0.06]">
+                <div className="grid aspect-[4/5] place-items-center bg-sand-100">
+                  <UserRound aria-hidden strokeWidth={1} className="size-16 text-ink-500/40" />
+                </div>
+                <div className="p-4">
+                  <p className="text-[15px] font-semibold">{m.name}</p>
+                  <p className="mt-0.5 text-[12.5px]">{m.role}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <CtaBand />
     </>

@@ -151,24 +151,7 @@
       "chip": "القيادة",
       "title": "الفريق خلف ADP",
       "note": "ستُنشر هنا الملفات التعريفية لفريق القيادة.",
-      "members": [
-        {
-          "name": "[ADD]",
-          "role": "[ADD]"
-        },
-        {
-          "name": "[ADD]",
-          "role": "[ADD]"
-        },
-        {
-          "name": "[ADD]",
-          "role": "[ADD]"
-        },
-        {
-          "name": "[ADD]",
-          "role": "[ADD]"
-        }
-      ]
+      "members": []
     }
   },
   "model": {
