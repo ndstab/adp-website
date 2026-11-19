@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "ADP Solutions",
-    "title": "ADP Solutions | Intelligent technology, built for the Kingdom",
-    "description": "Saudi-headquartered AI and technology company in Riyadh. Agentic AI, cybersecurity, cloud, IT cost optimization, smart networks and IoT, delivered with our global technology alliance."
+    "title": "ADP Solutions | A Saudi delivery partner for the Kingdom's digital agenda",
+    "description": "Riyadh-headquartered technology company designing, delivering and operating Sovereign AI, Cybersecurity, IoT & Edge, Intelligent Operations and Blockchain solutions."
   },
   "a11y": {
     "skip": "Skip to content",
@@ -16,18 +16,18 @@
   "nav": {
     "about": "About",
     "solutions": "Solutions",
-    "industries": "Industries",
+    "industries": "Sectors",
     "insights": "Insights",
     "contact": "Contact",
     "home": "Home",
     "newsBadge": "New",
-    "news": "Saudi Year of AI 2026",
-    "cta": "Book a consultation",
-    "model": "Our model",
-    "vision": "Vision 2030 & AI",
+    "news": "Nine solutions, five areas",
+    "cta": "Book a demo",
+    "model": "How we engage",
+    "vision": "Vision 2030 alignment",
     "compliance": "Compliance & trust",
     "careers": "Careers",
-    "alliance": "Join our alliance"
+    "alliance": "Partner with us"
   },
   "language": {
     "label": "عربي",
@@ -42,7 +42,7 @@
   "footer": {
     "newsletter": {
       "title": "Sign up to our newsletter",
-      "body": "AI, security and digital-transformation notes for Saudi leaders. Monthly, no spam.",
+      "body": "Sovereign AI, cybersecurity and digital-trust notes for Saudi leaders. Monthly, no spam.",
       "email": "Work e-mail",
       "placeholder": "you@company.com",
       "consent": "I agree to receive updates from ADP Solutions and can unsubscribe at any time.",
@@ -77,7 +77,7 @@
   "form": {
     "required": "required",
     "sending": "Sending…",
-    "errorGeneric": "Something went wrong. Please try again, or e-mail us at info@adpway.com.",
+    "errorGeneric": "Something went wrong. Please try again, or e-mail us at sales@adpway.com.",
     "errorRate": "Too many attempts. Please wait a few minutes and try again.",
     "errorEmail": "Please enter a valid e-mail address.",
     "errorRequired": "This field is required.",

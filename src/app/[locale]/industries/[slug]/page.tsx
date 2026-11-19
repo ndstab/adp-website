@@ -135,6 +135,27 @@ function IndustryView({locale, detail}: {locale: Locale; detail: IndustryDetail}
         </ol>
       </section>
 
+      {/* Typical first engagement */}
+      <section aria-labelledby="first-title" className="container-site pb-20 sm:pb-24">
+        <div className="on-dark grid grid-cols-1 gap-6 rounded-[1.75rem] bg-[linear-gradient(160deg,var(--color-navy-700),var(--color-navy-500))] p-6 text-white sm:p-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1fr)] lg:items-center lg:gap-12">
+          <div>
+            <TagChip tone="dark">{t('industryPage.first')}</TagChip>
+            <h2 id="first-title" className="title mt-5 font-semibold text-white">
+              {t('industryPage.firstTitle')}
+            </h2>
+            <p className="mt-4 text-[14.5px] leading-relaxed text-white/80">{t('industryPage.firstNote')}</p>
+          </div>
+          <ul className="grid gap-2">
+            {industry.firstEngagement.map((item) => (
+              <li key={item} className="flex items-start gap-3 rounded-xl bg-white/[0.07] px-4 py-3.5 text-[15px] font-medium ring-1 ring-white/10">
+                <span aria-hidden className="mt-2 size-1.5 shrink-0 rounded-full bg-gold-500" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Recommended solutions */}
       <section aria-labelledby="recommended-title" className="bg-white/50 py-20 sm:py-24">
         <div className="container-site">

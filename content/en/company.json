@@ -2,26 +2,26 @@
   "about": {
     "meta": {
       "title": "About us",
-      "description": "ADP Solutions is a Saudi technology company headquartered in Riyadh, delivering ICT infrastructure, AI, data, software, cloud and cybersecurity in line with Vision 2030."
+      "description": "ADP is a Riyadh-headquartered technology company that designs, delivers and operates solutions across five areas, from sovereign AI to blockchain-based trust."
     },
     "hero": {
-      "chip": "Who we are",
-      "title1": "About ADP Solutions",
-      "sub": "A Saudi technology company headquartered in Riyadh, delivering secure, intelligent and scalable digital transformation for government and enterprise.",
+      "chip": "About ADP",
+      "title1": "A Saudi delivery partner for the Kingdom's digital agenda",
+      "sub": "A Riyadh-headquartered technology company that designs, delivers and operates solutions for government, public-sector and enterprise clients across the Kingdom.",
       "alt": "Modern towers and the elevated metro line in Riyadh's King Abdullah Financial District"
     },
     "stats": [
       {
-        "label": "Founded",
-        "value": "[ADD]"
+        "label": "Solution areas",
+        "value": "5"
       },
       {
-        "label": "Team members",
-        "value": "[ADD]"
+        "label": "Solutions",
+        "value": "9"
       },
       {
-        "label": "Projects delivered",
-        "value": "[ADD]"
+        "label": "Service lines",
+        "value": "6"
       },
       {
         "label": "Headquarters",
@@ -29,12 +29,12 @@
       }
     ],
     "story": {
-      "chip": "Our story",
-      "title1": "Saudi ambition needs",
-      "title2": "execution partners.",
+      "chip": "Who we are",
+      "title1": "Prime contractor.",
+      "title2": "Single accountable partner.",
       "paragraphs": [
-        "Advanced Digital Pathway Solutions is a Saudi technology company headquartered in Riyadh, delivering ICT infrastructure, AI, data analytics, software development, cloud and cybersecurity to government and enterprise clients in alignment with Vision 2030.",
-        "The Kingdom has the ambition, the capital and a national mandate for AI. The gap is execution: moving AI from pilot to production, meeting NCA controls and the PDPL, finding specialist talent, controlling IT cost and meeting local-content rules. ADP closes that gap."
+        "Advanced Digital Pathway Solutions (ADP) is a Riyadh-headquartered technology company. We design, deliver and operate solutions across five areas, from sovereign AI platforms to blockchain-based trust, for government, public-sector and enterprise clients across the Kingdom, as prime contractor and single accountable partner.",
+        "Each of our five solution areas sits in a growing Saudi market: cybersecurity and IoT at double-digit rates, AI and conversational AI at around thirty percent a year, and blockchain fastest of all from a small base. What we bring is local presence, bilingual delivery, end-to-end accountability, and solutions that keep data and AI in the Kingdom."
       ]
     },
     "mission": {
@@ -42,48 +42,48 @@
       "title": "To deliver high-impact, integrated technology solutions that empower public and private sector organizations to modernize, scale and lead in the digital economy.",
       "cards": [
         {
-          "title": "Integrated, not fragmented",
-          "body": "One partner across infrastructure, AI, cloud and security, so nothing falls between contracts."
+          "title": "Local presence",
+          "body": "Riyadh-based, close to government and enterprise decision-makers."
         },
         {
-          "title": "Production, not pilots",
-          "body": "Solutions already proven elsewhere, scaled only after they prove value here."
+          "title": "Bilingual delivery",
+          "body": "Arabic and English pre-sales, delivery and support."
         },
         {
-          "title": "Secure and sovereign",
-          "body": "In-Kingdom and on-premise options, with delivery aligned to Saudi regulation."
+          "title": "End-to-end accountability",
+          "body": "One partner from design to 24x7 operations."
         },
         {
-          "title": "Saudi capability",
-          "body": "Local talent and real knowledge transfer in every engagement."
+          "title": "Sovereign by design",
+          "body": "Data and AI stay in-Kingdom, aligned with NCA, SDAIA and PDPL."
         }
       ]
     },
     "values": {
-      "chip": "Our values",
-      "title1": "Built on trust.",
-      "title2": "Measured by outcomes.",
-      "intro": "Five principles guide what we take on, how we deliver and how we behave when things get difficult.",
+      "chip": "How we deliver",
+      "title1": "Nine solutions.",
+      "title2": "One accountable partner.",
+      "intro": "ADP-delivered, partner-enabled, hosted in-Kingdom. Every solution in the portfolio comes with the same four things, and shares one trust layer.",
       "items": [
         {
-          "title": "Sovereignty first",
-          "body": "Your data, your jurisdiction. We design for in-Kingdom control from the start."
+          "title": "A live demo",
+          "body": "We demonstrate the relevant solutions on real workflows, in Arabic and English."
         },
         {
-          "title": "Outcomes over hype",
-          "body": "We commit to measurable results, not demos and buzzwords."
+          "title": "A fixed-scope first step",
+          "body": "An assessment or pilot with agreed success measures that proves value fast."
         },
         {
-          "title": "Saudi talent & knowledge transfer",
-          "body": "We build capability that stays in the Kingdom after go-live."
+          "title": "Project delivery",
+          "body": "Design, build, integration and onboarding, with ADP as prime contractor."
         },
         {
-          "title": "One accountable partner",
-          "body": "One contract, one team, one number to call."
+          "title": "A managed-service path",
+          "body": "Subscription and SLA-backed operations, 24x7."
         },
         {
-          "title": "Integrity",
-          "body": "We say what we can deliver, and we deliver what we say."
+          "title": "One trust layer",
+          "body": "The same ledger anchors AI decisions, compliance audit trails, IoT readings and work orders from every solution."
         }
       ],
       "alt1": "Professional woman in a white hijab smiling while holding a tablet in a modern office",
@@ -92,52 +92,60 @@
     "vision": {
       "chip": "Our vision",
       "title": "To be a leading technology partner driving secure, intelligent and scalable digital transformation across the Kingdom and beyond.",
-      "body": "We start in Riyadh, grow across the Kingdom and serve the GCC from a Saudi headquarters.",
+      "body": "We are Riyadh-first, extending across the Kingdom's government, GIGA-project and enterprise accounts.",
       "alt": "Two Saudi professionals reviewing documents together at a meeting table"
     },
     "why": {
-      "chip": "Why ADP",
-      "title": "Why organizations choose ADP Solutions"
+      "chip": "Our foundation",
+      "title": "Built on ADP's six service lines",
+      "points": [
+        "Integrated Infrastructure",
+        "Software Development",
+        "Artificial Intelligence",
+        "Data Analytics",
+        "Cloud Solutions",
+        "Cybersecurity Services"
+      ]
     },
     "focus": {
-      "chip": "Where we focus",
+      "chip": "Where we play",
       "title1": "Riyadh first.",
-      "title2": "Then the Kingdom and the GCC.",
+      "title2": "Then across the Kingdom.",
       "phases": [
         {
-          "title": "Riyadh",
-          "body": "Our headquarters and first focus, close to government and enterprise decision makers."
+          "title": "Government & public sector",
+          "body": "One of our two strongest fits, across almost the whole portfolio."
         },
         {
-          "title": "Eastern Province & Jeddah",
-          "body": "Expanding to the Kingdom's industrial and commercial centres."
+          "title": "GIGA projects",
+          "body": "Extending across the Kingdom's GIGA-project accounts, with IoT and edge intelligence for utilities and infrastructure."
         },
         {
-          "title": "GCC",
-          "body": "Serving regional clients from a Saudi headquarters."
+          "title": "Enterprise accounts",
+          "body": "Banking, telecom and data center operators, energy, healthcare, education and retail."
         }
       ],
-      "sectors": "Priority sectors",
+      "sectors": "Target sectors",
       "offers": "Lead offers",
       "offerSlugs": [
-        "agentic-ai-customer-engagement",
-        "it-cost-optimization",
-        "data-leak-protection",
-        "industrial-iot-smart-infrastructure"
+        "sovereign-ai-platform",
+        "agentic-ai-platform",
+        "iot-edge-intelligence",
+        "cybersecurity-consultation-compliance"
       ]
     },
     "partners": {
-      "chip": "Strategic partnerships",
-      "title": "A strong network of global and regional technology partners",
-      "body": "We work with global and regional technology partners across:",
+      "chip": "Partner ecosystem",
+      "title": "An assessed partner ecosystem, with specialist platforms behind every pillar",
+      "body": "Our partners bring proven platforms and specialist depth across:",
       "categories": [
-        "Network infrastructure and cybersecurity",
-        "Cloud service providers",
-        "AI and data analytics platforms",
-        "Enterprise software vendors"
+        "Sovereign AI and GPU platforms",
+        "Data protection and AI workload security",
+        "AIoT edge hardware and cloud software",
+        "Agentic AI, predictive operations and IT asset intelligence"
       ],
-      "note": "Every solution is an ADP Solutions offering, delivered with our global technology alliance and backed by one accountable Saudi contract.",
-      "cta": "Join our alliance"
+      "note": "We own the client relationship and delivery in the Kingdom. Every solution is ADP-delivered, partner-enabled and hosted in-Kingdom.",
+      "cta": "Partner with us"
     },
     "leadership": {
       "chip": "Leadership",
@@ -165,207 +173,213 @@
   },
   "model": {
     "meta": {
-      "title": "Our model",
-      "description": "Curate, localize, deliver, operate and transfer: how ADP Solutions turns proven technology into measurable outcomes in Saudi Arabia."
+      "title": "How we engage",
+      "description": "From first conversation to a running service: discovery workshop, live demo, fixed-scope assessment or POC, then delivery and SLA-backed operations."
     },
     "hero": {
-      "chip": "Our model",
-      "title1": "Curate. Localize.",
-      "title2": "Deliver. Operate & transfer.",
-      "sub": "How we turn proven technology into outcomes in the Kingdom, with one accountable Saudi team from the first workshop to handover."
+      "chip": "How we engage",
+      "title1": "From first conversation",
+      "title2": "to a running service.",
+      "sub": "Engaging with us is simple: a discovery workshop, a live demo, a fixed-scope assessment or POC, and then delivery and operation as a managed service."
     },
     "steps": [
       {
-        "title": "Curate",
-        "body": "We select solutions already proven in production by our global technology alliance and combine them with our own engineering. We only bring what we can stand behind.",
+        "title": "Discovery Workshop",
+        "body": "We map your priorities, regulatory obligations and current estate against the portfolio.",
         "points": [
-          "Production references before we propose",
-          "Fit with your architecture and regulation",
-          "Our own engineering where nothing fits"
+          "Your priorities",
+          "Your regulatory obligations",
+          "Your current estate"
         ]
       },
       {
-        "title": "Localize",
-        "body": "We adapt each solution for the Kingdom: Arabic-first interfaces and language models, in-Kingdom or on-premise hosting, and alignment with NCA controls, the PDPL and sector regulators.",
+        "title": "Live Demo",
+        "body": "We demonstrate the relevant solutions on real workflows, in Arabic and English.",
         "points": [
-          "Arabic and right-to-left by default",
-          "In-Kingdom and on-premise options",
-          "Regulation mapped before build"
+          "A demo for every solution",
+          "Real workflows",
+          "Arabic and English"
         ]
       },
       {
-        "title": "Deliver",
-        "body": "One Saudi contract and one accountable team deliver, integrate and test. Every engagement starts with a fixed-scope proof of value and agreed success measures.",
+        "title": "Assessment or POC",
+        "body": "A fixed-scope assessment or POC with agreed success measures, usually on your own data.",
         "points": [
-          "Fixed-scope proof of value",
-          "Integration with your systems",
-          "One accountable team"
+          "Fixed scope",
+          "Agreed success measures",
+          "Proves value fast"
         ]
       },
       {
-        "title": "Operate & transfer",
-        "body": "We run what we build, measure it against the agreed outcomes and transfer knowledge to your team, so the capability stays in the Kingdom.",
+        "title": "Deploy & Operate",
+        "body": "We deliver the project and run it as an SLA-backed managed service.",
         "points": [
-          "Managed operations and support",
-          "Reporting against outcomes",
-          "Hands-on knowledge transfer"
+          "Design, build and integration",
+          "Onboarding",
+          "SLA-backed 24x7 operations"
         ]
       }
     ],
     "commitments": {
-      "chip": "What makes it work",
-      "title": "Six commitments in every engagement",
+      "chip": "Why ADP",
+      "title": "Six reasons clients and partners choose ADP",
       "items": [
-        "One Saudi contract and accountable team, with Arabic and English support",
-        "Curated solutions proven in production, then localized",
-        "Sovereign deployment options: in-Kingdom and on-premise",
-        "Compliance-aware delivery aligned to NCA controls, the PDPL and sector regulators",
-        "Local content and Saudi talent, with knowledge transfer",
-        "Fixed-scope proof-of-value pilots before scaling"
+        "Local Saudi presence: Riyadh-headquartered, close to government and enterprise clients",
+        "Bilingual delivery: Arabic and English delivery and support",
+        "End-to-end accountability: one partner from design to 24x7 operations",
+        "Vision 2030 alignment: solutions mapped to NCA, SDAIA and sector mandates",
+        "Assessed partner ecosystem: specialist platforms behind every pillar",
+        "Sovereign by design: data, AI and ledgers stay in-Kingdom, in every model"
       ]
     },
     "pilot": {
-      "chip": "Proof of value",
-      "title1": "Start small. Prove it.",
-      "title2": "Then scale.",
+      "chip": "One commercial pattern",
+      "title1": "First step. Project.",
+      "title2": "Managed service.",
       "steps": [
         {
-          "title": "Agree the outcome",
-          "body": "Define the business result, the data and how success will be measured."
+          "title": "First step",
+          "body": "A fixed-scope assessment or pilot that proves value fast."
         },
         {
-          "title": "Run the pilot on real data",
-          "body": "A fixed scope, a fixed timeline and your own environment."
+          "title": "Project",
+          "body": "Design, build, integration and onboarding."
         },
         {
-          "title": "Decide with evidence",
-          "body": "Scale what worked, with a clear business case, or stop with no lock-in."
+          "title": "Managed service",
+          "body": "Subscription and SLA-backed operations."
         }
       ]
     }
   },
   "vision": {
     "meta": {
-      "title": "Vision 2030 & AI",
-      "description": "2026 is Saudi Arabia's Year of AI. How ADP Solutions helps organizations close the execution gap and contribute to Vision 2030 and national data and AI targets."
+      "title": "Vision 2030 alignment",
+      "description": "Five solution areas in five growing Saudi markets, with solutions mapped to NCA, SDAIA and sector mandates from water to digital government."
     },
     "hero": {
-      "chip": "Saudi Year of AI 2026",
-      "title1": "2026 is the Year of AI.",
-      "title2": "We help the Kingdom deliver it.",
-      "sub": "Vision 2030 and the National Strategy for Data & AI set the direction. Our work is turning that direction into systems that run in production."
+      "chip": "Vision 2030 alignment",
+      "title1": "Five solution areas.",
+      "title2": "Each mapped to a Saudi priority.",
+      "sub": "Each of our five solution areas sits in a growing Saudi market, and our solutions are mapped to NCA, SDAIA and sector mandates."
     },
     "facts": {
-      "chip": "The national context",
-      "title1": "Ambition, capital",
-      "title2": "and a clear mandate.",
+      "chip": "The market we serve",
+      "title1": "Five solution areas,",
+      "title2": "five growing Saudi markets.",
       "items": [
         {
-          "value": "2026",
-          "label": "Declared Saudi Arabia's Year of Artificial Intelligence",
-          "source": "year-of-ai"
-        },
-        {
-          "value": "SAR 75B",
-          "label": "National data and AI investment target by 2030",
-          "source": "nsdai"
-        },
-        {
-          "value": "20,000",
-          "label": "Data and AI specialists targeted by 2030",
-          "source": "nsdai"
-        },
-        {
-          "value": "40%",
-          "label": "Of the workforce to gain basic data and AI skills",
-          "source": "nsdai"
-        },
-        {
-          "value": "26.6%",
-          "label": "Expected AI market CAGR to 2031",
+          "value": "$16.9B",
+          "label": "Saudi AI market by 2032, up from $2.1B in 2025",
           "source": "ai-market"
         },
         {
-          "value": "~15%",
-          "label": "Of GDP from the digital economy in 2024",
-          "source": "digital-economy"
+          "value": "34.3%",
+          "label": "AI market CAGR, 2025 to 2032",
+          "source": "ai-market"
+        },
+        {
+          "value": "$7.5B",
+          "label": "Cybersecurity market by 2034, up from $2.9B in 2025 (11.3% CAGR)",
+          "source": "cyber-market"
+        },
+        {
+          "value": "$30.3B",
+          "label": "Internet of Things market by 2034, up from $10.7B in 2025 (12.3% CAGR)",
+          "source": "iot-market"
+        },
+        {
+          "value": "29.8%",
+          "label": "Conversational AI CAGR to 2034, from $159M in 2025",
+          "source": "conversational-ai-market"
+        },
+        {
+          "value": "$38.1B",
+          "label": "Blockchain market by 2034, up from $381M in 2025 (64.8% CAGR)",
+          "source": "blockchain-market"
         }
       ]
     },
     "gap": {
-      "chip": "The execution gap",
-      "title1": "The ambition is set.",
-      "title2": "Execution is the gap.",
+      "chip": "National priorities",
+      "title1": "The mandate is set.",
+      "title2": "We turn it into a running service.",
       "items": [
         {
-          "title": "From pilot to production",
-          "body": "Too many AI pilots never reach real users.",
-          "help": "Fixed-scope proofs of value designed to scale."
+          "title": "In-Kingdom AI for regulated workloads",
+          "body": "Government, banking, defence, energy and health need GPU and AI platforms that stay in the Kingdom.",
+          "help": "A dedicated Sovereign AI Factory, or GPUaaS / AIaaS with an operator."
         },
         {
-          "title": "NCA controls and the PDPL",
-          "body": "Every new system must meet cybersecurity and data-protection rules.",
-          "help": "Compliance-aware delivery and in-Kingdom deployment."
+          "title": "Regulation into a working security program",
+          "body": "NCA, PDPL, ISO/IEC 27001 and SAMA frameworks each apply to different entities.",
+          "help": "One lifecycle, from first assessment to continuous compliance."
         },
         {
-          "title": "Specialist talent",
-          "body": "Data, AI and security specialists are scarce.",
-          "help": "An experienced team plus knowledge transfer to yours."
+          "title": "National water targets",
+          "body": "MEWA, NWC and SWA mandates cover metering, monitoring, reuse and reporting.",
+          "help": "Six smart-water solutions on one platform, with KPIs vs 2030 targets."
         },
         {
-          "title": "IT cost",
-          "body": "Budgets for new AI compete with existing spend.",
-          "help": "IT cost optimization that funds the AI journey."
+          "title": "Asset inventory and spending efficiency",
+          "body": "NCA ECC and SAMA require an accurate, current inventory of technology assets, and EXPRO is driving spending efficiency across government.",
+          "help": "IT Asset Intelligence: audit-ready asset records and measurable IT savings."
         },
         {
-          "title": "Local content",
-          "body": "Government tenders reward local content and Saudi capability.",
-          "help": "Saudi-headquartered delivery that builds local talent."
+          "title": "Verifiable records as national infrastructure",
+          "body": "Saudi regulators are already putting property titles, trade and food supply chains on shared ledgers.",
+          "help": "Permissioned ledgers hosted in-Kingdom, secured from contract to consensus."
         }
       ]
     },
     "themes": {
-      "chip": "Vision 2030 themes",
-      "title": "Where our five pillars contribute",
-      "note": "Mapping to Vision Realization Programs is indicative and pending verification.",
+      "chip": "Mandates we map to",
+      "title": "Where our five solution areas align",
+      "note": "Mapping to mandates and frameworks is indicative and pending verification.",
       "items": [
         {
-          "title": "A Vibrant Society",
-          "body": "Better citizen and patient services, healthier cities and smarter use of water.",
+          "title": "Security, data and AI governance",
+          "body": "Security and governance run across every layer of our platforms, with continuous compliance evidence.",
           "pillars": [
-            "intelligence",
-            "smart-infrastructure"
+            "sovereign-ai",
+            "cybersecurity",
+            "intelligent-operations"
           ],
           "programs": [
-            "Quality of Life Program",
-            "Health Sector Transformation Program"
+            "NCA ECC · CCC · DCC · OTCC · CSCC",
+            "PDPL (SDAIA)",
+            "SDAIA AI Ethics",
+            "SAMA CSF",
+            "ISO/IEC 27001",
+            "NIST",
+            "EXPRO spending efficiency"
           ]
         },
         {
-          "title": "A Thriving Economy",
-          "body": "Productive enterprises, modern financial services and efficient industry and logistics.",
+          "title": "Water, energy and infrastructure",
+          "body": "Six water solutions mapped to Saudi regulators, on a platform that extends to energy, industry and smart cities.",
           "pillars": [
-            "efficiency-operations",
-            "core-infrastructure",
-            "smart-infrastructure"
+            "iot-edge"
           ],
           "programs": [
-            "Financial Sector Development Program",
-            "National Industrial Development and Logistics Program",
-            "Human Capability Development Program"
+            "MEWA electronic-metering mandate",
+            "National Water Strategy 2030",
+            "Treated Wastewater Reuse Policy",
+            "NWC smart-meter program",
+            "SWA · WERA reporting standards"
           ]
         },
         {
-          "title": "An Ambitious Nation",
-          "body": "Effective, transparent and secure government with sound use of public funds.",
+          "title": "Digital trust, trade and finance",
+          "body": "Six blockchain solutions, each anchored to a Saudi priority.",
           "pillars": [
-            "trust-security",
-            "intelligence",
-            "efficiency-operations"
+            "blockchain-trust"
           ],
           "programs": [
-            "National Transformation Program",
-            "Fiscal Sustainability Program"
+            "REGA tokenization sandbox · RER",
+            "Vision 2030 digital government",
+            "SFDA traceability · ZATCA FASAH",
+            "SAMA regulatory sandbox"
           ]
         }
       ]
@@ -374,170 +388,185 @@
   "compliance": {
     "meta": {
       "title": "Compliance & trust",
-      "description": "How ADP Solutions aligns delivery with the PDPL, NCA cybersecurity controls, Cloud First, data residency, local content and GCC data-protection laws."
+      "description": "The frameworks ADP works against, who they apply to and what we deliver: NCA ECC, CCC, DCC, OTCC and CSCC, PDPL, ISO/IEC 27001 and SAMA CSF."
     },
     "hero": {
       "chip": "Compliance & trust",
-      "title1": "Compliance-aware",
-      "title2": "by design.",
-      "sub": "How our delivery aligns with Saudi regulation. We support your compliance; we do not hold or claim regulatory licences on your behalf."
+      "title1": "We turn regulation into",
+      "title2": "a working security program.",
+      "sub": "One lifecycle, from first assessment to continuous compliance. We support your compliance; we do not hold or claim regulatory licences on your behalf."
     },
     "areas": {
-      "chip": "Regulation we align to",
-      "title": "The frameworks that shape every engagement",
+      "chip": "Regulatory alignment",
+      "title": "The frameworks we work against, and what we deliver for each",
       "items": [
         {
-          "title": "Personal Data Protection Law (PDPL)",
-          "body": "We design data flows, consent, retention and residency to support your obligations as a controller.",
-          "source": "pdpl"
-        },
-        {
-          "title": "NCA cybersecurity controls",
-          "body": "Our delivery is aligned to the NCA controls relevant to your environment, from the Essential Cybersecurity Controls to sector-specific sets.",
+          "title": "NCA ECC",
+          "body": "Applies to government entities and critical national infrastructure. We deliver gap assessment, a remediation roadmap, a policy set and self-assessment support.",
           "source": "nca-controls"
         },
         {
-          "title": "Cloud First and data residency",
-          "body": "In-Kingdom cloud regions and on-premise options keep data under Saudi jurisdiction.",
-          "source": "cloud-first"
-        },
-        {
-          "title": "Sector regulators",
-          "body": "We align financial-sector work to the SAMA cybersecurity framework and follow health and telecom regulator requirements.",
+          "title": "NCA CCC",
+          "body": "Applies to cloud service providers and cloud consumers. We deliver a cloud security posture review, control mapping and provider due diligence.",
           "source": null
         },
         {
-          "title": "Local content",
-          "body": "Saudi-headquartered delivery and knowledge transfer support local-content commitments in qualifying tenders.",
-          "source": "lcgpa"
+          "title": "NCA DCC",
+          "body": "Applies to entities handling classified and sensitive data. We deliver data classification, protection controls and watermarking.",
+          "source": null
         },
         {
-          "title": "GCC data-protection laws",
-          "body": "For regional deployments we take UAE, Bahrain, Oman and Kuwait data-protection laws into account.",
+          "title": "NCA OTCC",
+          "body": "Applies to operators of OT/ICS environments. We deliver an OT asset inventory, segmentation design and OT monitoring.",
+          "source": null
+        },
+        {
+          "title": "NCA CSCC",
+          "body": "Applies to owners of critical systems. We deliver critical-system identification, hardening and testing.",
+          "source": null
+        },
+        {
+          "title": "PDPL (SDAIA)",
+          "body": "Applies to all entities processing personal data in the Kingdom. We deliver data mapping, privacy impact assessments and records of processing.",
+          "source": "pdpl"
+        },
+        {
+          "title": "ISO/IEC 27001",
+          "body": "Applies to organizations seeking a certified ISMS. We deliver ISMS design, internal audit and certification readiness.",
+          "source": null
+        },
+        {
+          "title": "SAMA CSF",
+          "body": "Applies to banks and SAMA-regulated financial institutions. We deliver a maturity assessment and remediation program.",
+          "source": null
+        },
+        {
+          "title": "SDAIA AI Ethics",
+          "body": "Applies to AI platforms and use cases. In our Sovereign AI stack: AI policy, model evaluation and guardrails, and a blockchain-anchored audit trail.",
           "source": null
         }
       ]
     },
     "practices": {
-      "chip": "How we work",
-      "title": "Practices in every engagement",
+      "chip": "Compliance lifecycle",
+      "title": "One lifecycle, from first assessment to continuous compliance",
       "items": [
-        "Data minimization and purpose limitation",
-        "In-Kingdom hosting and log retention where required",
-        "Role-based access and least privilege",
-        "Audit trails and evidence packs for your auditors",
-        "A secure development lifecycle",
-        "Supplier and third-party risk management"
+        "1 · Assess: scope, baseline and gap analysis",
+        "2 · Prioritize: risk-ranked, costed roadmap",
+        "3 · Remediate: policies, controls and technology",
+        "4 · Certify: audit readiness and evidence",
+        "5 · Monitor: continuous compliance and SOC",
+        "Sovereign by design: data, AI and ledgers stay in-Kingdom, in every model"
       ]
     },
     "disclaimer": "This page describes how our delivery aligns with regulation. It is not legal advice, and compliance is always assessed for your specific environment."
   },
   "alliance": {
     "meta": {
-      "title": "Join our alliance",
-      "description": "Technology companies with solutions proven in production: partner with ADP Solutions to localize, deliver and operate them for clients in Saudi Arabia."
+      "title": "Partner with us",
+      "description": "Partner with ADP: referral, resell, co-sell and co-deliver, or embedded. We own the client relationship and delivery in the Kingdom; partners bring platforms."
     },
     "hero": {
-      "chip": "Join our alliance",
-      "title1": "Bring proven technology",
-      "title2": "to the Kingdom, with us.",
-      "sub": "We partner with global and regional technology companies whose solutions already run in production. We localize, deliver and operate them for Saudi clients under one accountable contract."
+      "chip": "Partnership",
+      "title1": "How we can",
+      "title2": "grow together.",
+      "sub": "We own the client relationship and delivery in the Kingdom; our partners bring proven platforms and specialist depth. We are flexible on the model, from simple referral to embedding your platform inside an ADP managed service."
     },
     "offer": {
-      "chip": "What we offer",
-      "title": "A Saudi partner that owns delivery",
+      "chip": "Partnership models",
+      "title": "Four ways to work together",
       "items": [
         {
-          "title": "Market access",
-          "body": "Government and priority sectors across the Kingdom and the GCC."
+          "title": "Referral",
+          "body": "We open the door; the partner sells and delivers."
         },
         {
-          "title": "Localization",
-          "body": "Arabic interfaces, in-Kingdom hosting and regulatory alignment."
+          "title": "Resell",
+          "body": "ADP sells and supports, with partner back-end."
         },
         {
-          "title": "Local delivery and support",
-          "body": "An accountable Saudi team that implements and operates."
+          "title": "Co-sell & co-deliver",
+          "body": "Joint pursuit, shared delivery, ADP as prime."
         },
         {
-          "title": "Local content",
-          "body": "Saudi talent and knowledge transfer that support local-content requirements."
+          "title": "Embedded / white-label",
+          "body": "Partner platform inside an ADP managed service."
         }
       ]
     },
     "criteria": {
-      "chip": "What we look for",
+      "chip": "A 90-day path to the first joint opportunity",
       "items": [
-        "Solutions proven in production, with referenceable outcomes",
-        "A clear fit with one of our five pillars",
-        "Support for in-Kingdom or on-premise deployment",
-        "Commitment to enablement and knowledge transfer"
+        "Weeks 1–2 · Alignment workshop: map your capability to our portfolio and sectors, agree target accounts and use cases, name owners on both sides",
+        "Weeks 3–6 · Partner agreement: NDA, partnership model and commercial terms, roles across sales, delivery and support, joint account plan",
+        "Weeks 6–10 · Enablement: training and certification for the ADP team, demo environment and joint collateral, joint launch at a client event",
+        "Weeks 10–12 · First joint opportunity: select a pilot account and scope a POC, joint go-to-market and pipeline review, quarterly business review"
       ],
-      "note": "We keep alliance relationships confidential and do not publish partner names."
+      "note": "Whatever the model, every deal follows one commercial pattern: a fixed-scope first step, a project, then a managed service, which builds recurring revenue for both sides."
     },
     "form": {
-      "chip": "Partner enquiry",
-      "title": "Tell us about your solution",
+      "chip": "Schedule an alignment workshop",
+      "title": "Tell us about your offering",
       "company": "Company",
       "website": "Company website",
       "name": "Your name",
       "email": "Work e-mail",
       "phone": "Phone",
       "country": "Country",
-      "category": "Closest pillar",
-      "categoryPlaceholder": "Select a pillar",
+      "category": "Closest solution area",
+      "categoryPlaceholder": "Select a solution area",
       "other": "Other",
-      "message": "Your solution",
-      "messagePlaceholder": "What it does and where it is running in production",
+      "message": "Your offering",
+      "messagePlaceholder": "What it does, and which sectors and accounts you would like to pursue together",
       "consent": "I agree that ADP Solutions may process these details to evaluate this partnership enquiry, in line with the PDPL and the",
       "privacy": "Privacy Policy",
       "submit": "Send enquiry",
-      "success": "Thank you. Our alliance team will review your enquiry and contact you."
+      "success": "Thank you. Our team will review your enquiry and contact you to schedule the alignment workshop."
     }
   },
   "careers": {
     "meta": {
       "title": "Careers",
-      "description": "Build the Kingdom's digital future with ADP Solutions. Careers in AI, cybersecurity, cloud, networks and software in Riyadh."
+      "description": "Build the Kingdom's next digital solutions with ADP. Careers in sovereign AI, cybersecurity, IoT, intelligent operations and blockchain in Riyadh."
     },
     "hero": {
       "chip": "Careers",
-      "title1": "Build the Kingdom's",
-      "title2": "digital future with us.",
-      "sub": "Work on national-scale projects in AI, security, cloud and infrastructure, with a team that invests in Saudi talent.",
+      "title1": "Build the Kingdom's next",
+      "title2": "digital solutions with us.",
+      "sub": "Design, deliver and operate sovereign AI, cybersecurity, IoT, intelligent operations and blockchain solutions for government and enterprise clients across the Kingdom.",
       "alt": "Professional woman in a hijab holding a laptop in a bright office"
     },
     "why": {
       "chip": "Why ADP",
       "items": [
         {
-          "title": "National-scale work",
-          "body": "Projects for government entities and leading enterprises."
+          "title": "Work across the Kingdom",
+          "body": "Projects for government, public-sector and enterprise clients."
         },
         {
-          "title": "Proven technology",
-          "body": "Hands-on work with solutions already running in production worldwide."
+          "title": "Specialist platforms",
+          "body": "Training and certification on the specialist platforms behind every pillar."
         },
         {
-          "title": "Saudi talent first",
-          "body": "Structured knowledge transfer and growth for Saudi professionals."
+          "title": "Design to operations",
+          "body": "One team accountable from design to 24x7 operations."
         },
         {
           "title": "Bilingual teams",
-          "body": "Collaborative teams that work in Arabic and English."
+          "body": "Pre-sales, delivery and support in Arabic and English."
         }
       ]
     },
     "areas": {
       "chip": "Where we hire",
       "items": [
-        "AI and data engineering",
-        "Cybersecurity",
-        "Cloud and DevOps",
-        "Network and infrastructure engineering",
-        "Software development",
-        "Project and delivery management",
-        "Pre-sales and solution consulting"
+        "Sovereign AI and GPU platforms",
+        "Cybersecurity consultation and compliance",
+        "IoT and edge engineering",
+        "AI agents and contact center solutions",
+        "Data center and IT operations",
+        "Blockchain and smart contracts",
+        "Pre-sales, project and delivery management"
       ]
     },
     "roles": {
@@ -551,13 +580,13 @@
   "contact": {
     "meta": {
       "title": "Contact",
-      "description": "Contact ADP Solutions in Riyadh by phone, WhatsApp or e-mail, Sunday to Thursday, or book a consultation online."
+      "description": "Contact ADP in Riyadh by phone, WhatsApp or e-mail to schedule a discovery workshop or live demo, or to scope a first assessment or POC."
     },
     "hero": {
       "chip": "Contact",
-      "title1": "Let's talk.",
-      "title2": "In Arabic or English.",
-      "sub": "Book a consultation, ask a question or start a proof of value. A specialist will get back to you, Sunday to Thursday."
+      "title1": "Ready to demo. Ready to pilot.",
+      "title2": "Ready to run it in the Kingdom.",
+      "sub": "We are ready to schedule demos and scope the first assessment or POC with you, in Arabic or English."
     },
     "details": {
       "title": "Reach us directly",
@@ -568,7 +597,7 @@
   "insights": {
     "chip": "Insights",
     "title1": "Notes for Saudi leaders",
-    "title2": "on AI, security and transformation.",
+    "title2": "on sovereign AI, security and digital trust.",
     "sub": "Practical perspectives from our team. Every article is a draft pending review.",
     "read": "Read article",
     "minutes": "{n} min read",
@@ -576,7 +605,7 @@
     "back": "All insights",
     "meta": {
       "title": "Insights",
-      "description": "Practical notes for Saudi leaders on AI, cybersecurity, data protection and digital transformation, from the ADP Solutions team."
+      "description": "Practical notes for Saudi leaders on sovereign AI, cybersecurity, data protection and digital trust, from the ADP team."
     }
   }
 }

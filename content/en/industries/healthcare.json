@@ -1,34 +1,34 @@
 {
   "slug": "healthcare",
   "hero": {
-    "eyebrow": "Industries · Healthcare",
+    "eyebrow": "Sectors · Healthcare",
     "title1": "Healthcare.",
-    "title2": "More time for patients.",
-    "subtitle": "Appointment agents, protected patient records, analytics and dependable infrastructure for hospitals, clinics and health clusters."
+    "title2": "AI call centers and PDPL readiness.",
+    "subtitle": "Voice and chat agents in Arabic and English, 24x7, and a security program that keeps personal data protected and traceable."
   },
   "context": {
-    "title": "The sector today",
-    "body": "Healthcare in the Kingdom is being reorganized around health clusters, digital services and prevention. Providers need to serve more patients with the same staff while protecting highly sensitive data."
+    "title": "Where we play",
+    "body": "In healthcare, Cybersecurity and Intelligent Operations are primary fits; Sovereign AI and Blockchain are relevant; IoT & Edge is a limited fit. The typical first engagement is the AI Call Center or a PDPL readiness assessment."
   },
   "challenges": [
-    {"title": "Appointment and call volumes", "body": "Booking lines are busy and no-shows waste clinic time."},
-    {"title": "Sensitive patient data", "body": "Clinical records must be protected on screen, in print and in transit."},
-    {"title": "Always-on infrastructure", "body": "Clinical systems and networks cannot afford downtime."}
+    {"title": "Personal data under PDPL", "body": "PDPL applies to all entities processing personal data in the Kingdom."},
+    {"title": "Contact volume, in two languages", "body": "Voice and chat agents resolve queries 24x7, in Arabic and English, and hand over to a human when sentiment turns."},
+    {"title": "Data on screens, files and prints", "body": "Legacy DLP leaves the screen, print and file gap open."}
   ],
   "useCases": [
-    {"title": "Appointment agents", "body": "Book, confirm, reschedule and remind patients by voice and WhatsApp."},
-    {"title": "Patient-record protection", "body": "Watermarks and screen control on clinical applications."},
-    {"title": "Capacity forecasting", "body": "Predict demand for beds, clinics and staff."},
-    {"title": "Hospital network modernization", "body": "Upgrade networks and low-current systems without disrupting care."}
+    {"title": "AI Call Center", "body": "An autonomous agent for bookings and FAQs, a co-pilot for the live agent, and a call-out agent that confirms every resolved ticket."},
+    {"title": "PDPL readiness", "body": "Data mapping, privacy impact assessments and records of processing."},
+    {"title": "Data watermarking", "body": "Screen, file and print watermarking, so every copy is traceable to user and device."},
+    {"title": "Healthcare agents", "body": "A healthcare vertical is in build on the agentic AI platform, on the same data and guardrails."}
   ],
-  "solutions": ["agentic-ai-customer-engagement", "data-leak-protection", "ai-data-analytics", "integrated-infrastructure", "cybersecurity-governance-compliance"],
-  "regulation": ["Personal Data Protection Law (PDPL)", "NCA Essential Cybersecurity Controls", "Sector regulator requirements"],
+  "solutions": ["agentic-ai-platform", "cybersecurity-consultation-compliance", "data-watermarking", "it-asset-intelligence", "sovereign-ai-platform", "blockchain-trust-layer"],
+  "regulation": ["PDPL (SDAIA)", "NCA ECC", "ISO/IEC 27001"],
   "vision2030": {
-    "body": "Digital, accessible and efficient healthcare is a core goal of the health sector transformation.",
-    "programs": ["Health Sector Transformation Program"]
+    "body": "Data and AI stay in-Kingdom, aligned with NCA, SDAIA and PDPL. Health is also a destination for the dedicated Sovereign AI Factory.",
+    "programs": ["PDPL", "NCA", "SDAIA"]
   },
   "seo": {
-    "title": "Technology Solutions for Healthcare | Saudi Arabia",
-    "description": "Appointment AI agents, patient-record protection, analytics and dependable infrastructure for Saudi hospitals, clinics and health clusters."
+    "title": "Healthcare Solutions | AI Call Center & PDPL Readiness",
+    "description": "AI call centers in Arabic and English, PDPL readiness, data watermarking and IT asset intelligence for healthcare providers in Saudi Arabia."
   }
 }

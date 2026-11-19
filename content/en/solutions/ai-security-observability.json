@@ -1,0 +1,66 @@
+{
+  "slug": "ai-security-observability",
+  "hero": {
+    "eyebrow": "Cybersecurity · AI workload security",
+    "title1": "Security and observability",
+    "title2": "for AI compute.",
+    "subtitle": "CPUs, networks and storage have monitoring and audit trails. GPUs, where the most sensitive AI compute happens, are a black box. We close that visibility gap."
+  },
+  "challenge": {
+    "title": "The gap",
+    "body": "GPU infrastructure runs the most sensitive AI workloads with the least visibility.",
+    "points": [
+      "Invisible crashes: GPU failures with no root cause",
+      "Opaque utilization: figures with no view of what drives them",
+      "Unverified isolation: tenant separation and VRAM hygiene assumed, not proven",
+      "Undetected attacks at the GPU layer"
+    ]
+  },
+  "opportunity": {
+    "title": "One agent. One plane. One platform.",
+    "body": "One agent on any accelerator, one view down to the individual GPU and tenant, and one platform that both stops runtime threats and produces compliance evidence. It is a natural companion to our Sovereign AI Platform.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "One agent, deploys anywhere", "body": "A single runtime on any GPU, cloud or region, across GPU vendors and emerging accelerators."},
+    {"title": "One plane, sees inside every GPU", "body": "Unified telemetry across workload, model, container, GPU and tenant."},
+    {"title": "Runtime threat detection and response", "body": "Runtime detection and response, with policy enforcement and SOC alerts."},
+    {"title": "Continuous audit evidence", "body": "One platform that stops threats and proves compliance, with audit evidence produced continuously."}
+  ],
+  "applications": [
+    {"title": "With our Sovereign AI Platform", "body": "Proves tenant isolation and produces audit evidence on every GPU we operate."},
+    {"title": "Multi-tenant GPU clouds", "body": "Telemetry down to GPU and tenant, so tenant separation is proven rather than assumed."},
+    {"title": "GPU failures and utilization", "body": "A view of what is running on each GPU, and what drives its utilization."},
+    {"title": "Security operations", "body": "Runtime alerts and policy enforcement delivered to the SOC."}
+  ],
+  "outcomes": [
+    {"value": "13", "label": "Critical attack classes that complete with zero alerts"},
+    {"value": "1", "label": "Agent on any GPU, cloud or region", "verify": false}
+  ],
+  "sectors": ["government", "banking-finance", "telecom-data-centers", "education-research"],
+  "vision2030": {
+    "body": "On our Sovereign AI stack, security and governance are aligned with NCA ECC / CCC, PDPL and SDAIA AI Ethics. This platform supplies the GPU runtime security and the continuous audit evidence.",
+    "programs": ["NCA ECC / CCC", "PDPL", "SDAIA AI Ethics"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "A single runtime agent that deploys on any GPU, cloud or region, including dedicated AI factories and operator GPU clouds in the Kingdom."
+  },
+  "extras": [
+    {
+      "title": "Entry point: the GPU Compute Assessment",
+      "items": [
+        "We deploy the agent",
+        "We baseline the environment",
+        "We show what is running, and what should not be",
+        "The assessment effectively serves as the POC"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "AI Security & Observability for GPU Compute | Saudi Arabia",
+    "description": "Runtime security and observability for AI compute: one agent on any GPU or cloud, telemetry down to GPU and tenant, threat detection and audit evidence."
+  }
+}

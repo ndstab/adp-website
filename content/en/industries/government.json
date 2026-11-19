@@ -1,35 +1,35 @@
 {
   "slug": "government",
   "hero": {
-    "eyebrow": "Industries · Government",
-    "title1": "Government.",
-    "title2": "Digital services citizens trust.",
-    "subtitle": "AI agents for citizen services, sovereign data platforms and security aligned to national controls, delivered by one Saudi team."
+    "eyebrow": "Sectors · Government & Public Sector",
+    "title1": "Government & public sector.",
+    "title2": "Our strongest fit, across the portfolio.",
+    "subtitle": "Sovereign AI, NCA-aligned security, governed AI agents and verifiable records for ministries and public entities, from one accountable Saudi partner."
   },
   "context": {
-    "title": "The sector today",
-    "body": "Government entities are moving services online, adopting AI and meeting Cloud First and data-protection expectations at the same time. Citizens expect fast, bilingual service on every channel, and data must stay under Saudi jurisdiction."
+    "title": "Where we play",
+    "body": "Government is one of our two strongest fits, across almost the whole portfolio. Sovereign AI, Cybersecurity, Intelligent Operations and Blockchain are primary fits, and IoT & Edge is relevant. We have a clear, low-risk first engagement in the sector: an NCA gap assessment or a Sovereign AI readiness assessment."
   },
   "challenges": [
-    {"title": "Service demand outpacing staff", "body": "Call centres and service counters struggle with peaks in demand."},
-    {"title": "Legacy systems and silos", "body": "Data spread across departments slows decisions and services."},
-    {"title": "Security and classification", "body": "Sensitive and classified data must be protected and traceable."},
-    {"title": "Local content and talent", "body": "Tenders increasingly reward local content and Saudi capability building."}
+    {"title": "Sovereign AI for regulated workloads", "body": "Government and ministries are a destination for the dedicated, single-tenant Sovereign AI Factory, air-gapped where required."},
+    {"title": "NCA ECC and DCC", "body": "NCA ECC applies to government entities and critical national infrastructure, and DCC to entities handling classified and sensitive data."},
+    {"title": "Asset inventory and spending efficiency", "body": "NCA ECC requires an accurate, current inventory of technology assets, and EXPRO is driving spending efficiency across government."},
+    {"title": "Verifiable public records", "body": "Saudi regulators are already putting property titles, trade and food supply chains on shared ledgers."}
   ],
   "useCases": [
-    {"title": "Citizen service agents", "body": "Arabic AI agents that answer, track and complete service requests on WhatsApp and the web."},
-    {"title": "Classified document protection", "body": "Screen, file and print watermarks that make every copy traceable."},
-    {"title": "Executive dashboards", "body": "One trusted view of programme KPIs for leadership."},
-    {"title": "New headquarters infrastructure", "body": "Network, data room and meeting spaces delivered as one programme."}
+    {"title": "NCA gap assessment", "body": "Gap assessment, remediation roadmap, policy set and self-assessment support against NCA ECC."},
+    {"title": "Sovereign AI readiness", "body": "A Sovereign AI Readiness Assessment: use-case portfolio and value case, data classification and residency, and regulatory mapping."},
+    {"title": "Traceable sensitive documents", "body": "Screen, file and print watermarking, so every copy is traceable to user and device."},
+    {"title": "Trusted digital records", "body": "Tamper-proof registries, certificates and contracts, verifiable in seconds by any authorized party."}
   ],
-  "solutions": ["agentic-ai-customer-engagement", "data-leak-protection", "cybersecurity-governance-compliance", "cloud-modernization", "ai-data-analytics", "integrated-infrastructure"],
-  "regulation": ["NCA Essential Cybersecurity Controls", "NCA Data Cybersecurity Controls", "Personal Data Protection Law (PDPL)", "Cloud First policy"],
+  "solutions": ["sovereign-ai-platform", "cybersecurity-consultation-compliance", "data-watermarking", "agentic-ai-platform", "it-asset-intelligence", "blockchain-trust-layer"],
+  "regulation": ["NCA ECC", "NCA DCC", "NCA CSCC", "PDPL (SDAIA)", "SDAIA AI Ethics"],
   "vision2030": {
-    "body": "Digital government is central to an effective, transparent and responsive public sector.",
-    "programs": ["National Transformation Program"]
+    "body": "Solutions mapped to NCA, SDAIA and sector mandates, with data, AI and ledgers kept in-Kingdom in every model.",
+    "programs": ["Vision 2030 digital government", "EXPRO spending efficiency", "NCA ECC"]
   },
   "seo": {
-    "title": "Technology Solutions for Government | Saudi Arabia",
-    "description": "AI citizen services, sovereign cloud, data-leak protection and cybersecurity for Saudi government entities, delivered in-Kingdom by ADP Solutions."
+    "title": "Government & Public Sector Solutions | Saudi Arabia",
+    "description": "Sovereign AI, NCA gap assessments, data watermarking, AI agents and blockchain-based trusted records for Saudi government and public-sector entities."
   }
 }

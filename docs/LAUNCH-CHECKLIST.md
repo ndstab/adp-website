@@ -8,7 +8,6 @@ Everything that must be supplied, confirmed or verified before adpway.com goes l
 - [ ] VAT registration number: `content/site.json` → `vat`
 - [ ] National Address: `content/site.json` → `nationalAddress`
 - [ ] Social profile URLs (LinkedIn, X, Instagram): `content/site.json` → `socials` (links appear automatically, and schema.org `sameAs` updates)
-- [ ] About page stats: founded year, team size, projects delivered (`content/{ar,en}/company.json` → `about.stats`)
 - [ ] Leadership names, roles and photos (`about.leadership.members`; add photos to `public/images/about/` and wire them into the About page)
 - [ ] Legal pages: "last updated" date (`legal.updatedValue`), retention periods for enquiries and applicants (Privacy §7), analytics cookie name and duration (Cookie table)
 - [ ] Final photography: every file listed in `public/images/README.md`, with model releases for any people shown
@@ -19,49 +18,55 @@ Everything that must be supplied, confirmed or verified before adpway.com goes l
 
 - [ ] Official Arabic legal name. Draft: «حلول المسار الرقمي المتقدم»
 - [ ] Brand inside Arabic sentences stays Latin ("ADP Solutions")
-- [ ] Arabic hero headline adaptation: «تقنيات ذكية. / مصمَّمة لطموح المملكة.»
+- [ ] Arabic hero headline adaptation (see `content/ar/home.json` → `hero.title1` / `title2`)
 - [ ] Business hours: Sunday–Thursday, 09:00–18:00 AST
 - [ ] +966 55 358 4835 is also the WhatsApp number
-- [ ] Form recipient info@adpway.com; careers applications also go there until a careers inbox exists
+- [ ] Form recipient (site now shows sales@adpway.com; `CONTACT_TO_EMAIL` still defaults to info@adpway.com); careers applications also go there until a careers inbox exists
 - [ ] Newsletter provider (sign-ups currently e-mail the same inbox)
 - [ ] Analytics provider (nothing loads until configured and consented)
 - [ ] Hosting and e-mail providers and where they store data (Privacy Policy §5)
 - [ ] Contact person for PDPL data-subject requests (Privacy Policy §10)
 - [ ] Whether ADP holds an LCGPA local-content certificate (the site says only that ADP *supports* local-content commitments)
-- [ ] Expansion order (Riyadh → Eastern Province & Jeddah → GCC), the four lead offers and the six priority sectors
+- [ ] The four lead offers on the About page (Sovereign AI Platform, Agentic AI Platform, IoT & Edge Intelligence, Cybersecurity Consultation & Compliance)
 - [ ] Design decisions made for accessibility and speed:
   - [ ] `ink-500` grey darkened from #6B7280 to #616874 to pass WCAG AA on the warm sand backgrounds
   - [ ] Arabic text uses IBM Plex Sans Arabic Regular and SemiBold only (Medium renders as Regular)
 
 ## 3. Claims to verify against a current source (VERIFY)
 
+All site copy now follows the two ADP decks (Portfolio Summary Partner Briefing v3, Solutions Portfolio v1.2). Anything below came from those decks and still needs a source check before launch.
+
 Market statistics, all footnoted and stored in `content/sources.json` (add a `url` to each once verified):
 
-- [ ] 2026 declared Saudi Arabia's Year of AI (SDAIA)
-- [ ] Saudi AI market ≈ USD 976M (2026) → ≈ USD 5.1B (2031), 26.6% CAGR (MarketsandMarkets)
-- [ ] NSDAI 2030 targets: SAR 75B investment, 40% workforce basic skills, 20,000 specialists, 300+ startups, top 15 globally
-- [ ] Digital economy ≈ SAR 495B (2024), ≈ 15% of GDP (publisher to confirm)
-- [ ] Cybersecurity market ≈ USD 2.4B (2026) → ≈ USD 4.0B (2031) (publisher to confirm)
-- [ ] PDPL enforcement from 14 September 2024; NCA control set names; Cloud First policy owner
-- [ ] LCGPA 30% minimum for certain government IT/consulting tenders; RHQ programme 750+
-- [ ] ≈ 90% of urban water from desalination by 2030
+- [ ] Saudi AI market USD 2.1B (2025) → USD 16.9B (2032), 34.3% CAGR (MarketsandMarkets)
+- [ ] Cybersecurity USD 2.9B (2025) → USD 7.5B (2034), 11.3% CAGR (IMARC Group)
+- [ ] Internet of Things USD 10.7B (2025) → USD 30.3B (2034), 12.3% CAGR (IMARC Group)
+- [ ] Conversational AI 29.8% CAGR to 2034, from USD 159M in 2025 (IMARC Group)
+- [ ] Blockchain USD 381M (2025) → USD 38.1B (2034), 64.8% CAGR (IMARC Group)
 
-Typical outcomes (always labelled "typical" on the site):
+Partner and platform-vendor figures (shown with a VERIFY marker; the site says they are vendor figures reported as averages):
 
-- [ ] Homepage: 20%+ software cost reduction, 90%+ alarm noise suppressed, < 90 s network fault remediation, ~6 months payback
-- [ ] Hero badge tags: 24/7 in Arabic; every copy traceable; 20%+ IT savings; < 90 s fault fix; live water & energy
-- [ ] IT Cost Optimization: 20%+, 5× faster audit response, 75% less unbudgeted spend, ~6 months payback
-- [ ] Smart Network Management: 90%+ alarm suppression, < 90 s fault storms, proven at tier-1 telecom scale
-- [ ] Agentic AI: 24/7 coverage, lower cost per request, higher conversion, ~6 months payback
-- [ ] Data-Leak Protection: every copy traceable; every blocked capture attempt logged
+- [ ] IoT & Edge Intelligence: 30,000+ IoT devices deployed in live operation by the partner
+- [ ] Agentic AI Platform: 100M+ interactions, 50+ customers in production, 250% average ROI, 90% of clients at payback inside six months
+- [ ] Predictive DC Operations: 92% fewer critical incidents, 168h predictive lead time, 65% of routine O&M automated; power chain 40–55% and cooling 15–25% of outages
+- [ ] IT Asset Intelligence: 20% minimum average software cost reduction, 5x faster audit response, 75% less unbudgeted spend, 6-month payback
+- [ ] AI Security & Observability: 13 critical attack classes complete with zero alerts
 
 Regulatory references:
 
-- [ ] NCA Data Cybersecurity Controls items on the Data-Leak Protection page (meetings, screen capture, watermarking) and the ECC data-labelling item. Clause numbers are deliberately **not** shown; add them only after checking current NCA texts
-- [ ] "Frameworks we align to" lists (Cybersecurity, Data-Leak Protection, industry pages), including the NCA OT controls name on Energy & Utilities
-- [ ] GACA rules for drone operations (Drone page, Giga-projects page)
-- [ ] Vision Realization Program mapping on every solution and industry page and on the Vision 2030 page
-- [ ] VERIFY points inside the four insight articles
+- [ ] NCA clause numbers on the Data Watermarking page (DCC 1-3-1-3, 2-2-1-4, 2-4-1-1; ECC 2-7-3-2) and "NCA ECC (2-1)" on IT Asset Intelligence: shown as in the deck, check against current NCA texts
+- [ ] Framework table on the Compliance page (who each framework applies to, what we deliver)
+- [ ] Water mandates on IoT & Edge pages: MEWA electronic-metering mandate, National Water Strategy 2030, Treated Wastewater Reuse Policy, NWC smart-meter program, SWA · WERA reporting standards
+- [ ] Blockchain "Saudi market signals": REGA / Real Estate Registry tokenization infrastructure (November 2025), SFDA food-tracing pilot, Saudi Customs FASAH pilot, SAMA Project Aber and mBridge
+- [ ] "Aligned with" chips on every solution and sector page and on the Vision 2030 page
+- [ ] VERIFY points inside the four insight articles (the articles pre-date the decks and were not rewritten)
+
+Decisions taken while applying the decks, to confirm:
+
+- [ ] Partner and product names from the Solutions deck are **not** shown; the site uses the generic names from the Partner Briefing (Agentic AI Platform, Data Watermarking, AI Security & Observability, "our AIoT partner")
+- [ ] Contact e-mail changed to sales@adpway.com (as in the decks); the legal pages and `.env.example` still say info@adpway.com
+- [ ] Mission and vision statements on the About page were kept from the previous site (the decks do not contain them)
+- [ ] Deployment options (cloud / in-Kingdom / on-premise) on Data Watermarking and IT Asset Intelligence are not stated in the decks
 
 ## 4. Reviews
 

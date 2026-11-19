@@ -1,0 +1,35 @@
+{
+  "slug": "banking-finance",
+  "hero": {
+    "eyebrow": "Sectors · Banking & Finance",
+    "title1": "Banking & finance.",
+    "title2": "Sovereign AI and SAMA-aligned security.",
+    "subtitle": "AI call centers, a dedicated Sovereign AI Factory, SAMA CSF programs and trade-finance ledgers for banks and financial institutions."
+  },
+  "context": {
+    "title": "Where we play",
+    "body": "Banking is one of our two strongest fits, across almost the whole portfolio. Sovereign AI, Cybersecurity, Intelligent Operations and Blockchain are primary fits; IoT & Edge is a limited fit. The typical first engagement is an AI Call Center POC or a SAMA CSF assessment."
+  },
+  "challenges": [
+    {"title": "SAMA CSF", "body": "SAMA CSF applies to banks and SAMA-regulated financial institutions."},
+    {"title": "Dedicated AI on your own data", "body": "Banking and financial services are a destination for the single-tenant Sovereign AI Factory, with private Arabic-capable LLMs, RAG and AI agents."},
+    {"title": "Customer contact, 24x7", "body": "Voice and chat agents resolve queries 24x7, in Arabic and English, and hand over to a human when sentiment turns."},
+    {"title": "Asset inventory", "body": "SAMA's cyber framework requires an accurate, current inventory of technology assets."}
+  ],
+  "useCases": [
+    {"title": "AI Call Center POC", "body": "A live demo of all three agents, and a POC on your highest-volume call flows."},
+    {"title": "SAMA CSF assessment", "body": "A maturity assessment and remediation program."},
+    {"title": "Trade finance and settlement", "body": "Smart-contract invoices, letters of credit and multi-party settlement without manual reconciliation, aligned to the SAMA regulatory sandbox."},
+    {"title": "Lending agents", "body": "Lending is one of the eight vertical agent products live on the agentic AI platform."}
+  ],
+  "solutions": ["agentic-ai-platform", "cybersecurity-consultation-compliance", "sovereign-ai-platform", "data-watermarking", "it-asset-intelligence", "blockchain-trust-layer"],
+  "regulation": ["SAMA CSF", "SAMA regulatory sandbox", "NCA ECC", "PDPL (SDAIA)", "PCI-DSS"],
+  "vision2030": {
+    "body": "Our work is aligned with SAMA's framework for banks, alongside NCA and PDPL, with data and AI kept in-Kingdom.",
+    "programs": ["SAMA CSF", "SAMA regulatory sandbox", "PDPL"]
+  },
+  "seo": {
+    "title": "Banking & Finance Solutions | AI Call Center, SAMA CSF",
+    "description": "AI Call Center POCs, SAMA CSF assessments, a dedicated Sovereign AI Factory and trade-finance ledgers for banks and financial institutions in Saudi Arabia."
+  }
+}

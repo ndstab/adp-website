@@ -1,0 +1,82 @@
+{
+  "slug": "blockchain-trust-layer",
+  "hero": {
+    "eyebrow": "Blockchain & Digital Trust",
+    "title1": "Verifiable records,",
+    "title2": "hosted in-Kingdom.",
+    "subtitle": "Permissioned ledgers, tokenization and smart-contract assurance. It stands on its own as a set of solutions, and it strengthens everything else in the portfolio by making records, assets and audit evidence tamper-proof and verifiable."
+  },
+  "challenge": {
+    "title": "Why blockchain matters in the Kingdom now",
+    "body": "Saudi regulators are already putting property titles, trade and food supply chains on shared ledgers. Verifiable records are becoming national infrastructure.",
+    "points": [
+      "Property titles on-chain",
+      "Food traceability",
+      "Trade on a shared ledger",
+      "Digital settlement"
+    ]
+  },
+  "opportunity": {
+    "title": "Tamper-proof. Sovereign. Assured.",
+    "body": "Titles, certificates, contracts and audit events are anchored to a shared ledger, so any change is visible and provable. Permissioned nodes run in the client's data center or our Sovereign AI Factory, and the ledger is secured from the smart contract down to the consensus layer. The Saudi blockchain market is forecast to grow from USD 381M in 2025 to USD 38.1B in 2034.",
+    "sources": ["blockchain-market"]
+  },
+  "capabilities": [
+    {"title": "Asset Tokenization", "body": "Fractional ownership and digital title transfer for real estate and other real-world assets. Aligned to the REGA tokenization sandbox and RER."},
+    {"title": "Trusted Digital Records", "body": "Tamper-proof registries, certificates and contracts, verifiable in seconds by any authorized party. Aligned to Vision 2030 digital government."},
+    {"title": "Supply-Chain Traceability", "body": "Origin-to-shelf tracking of food, pharma and goods, shared securely across trading partners. Aligned to SFDA traceability and ZATCA FASAH."},
+    {"title": "Trade Finance & Settlement", "body": "Smart-contract invoices, letters of credit and multi-party settlement without manual reconciliation. Aligned to the SAMA regulatory sandbox."},
+    {"title": "Permissioned Enterprise Ledger", "body": "Hyperledger Fabric networks and dApps hosted in-Kingdom, integrated with ERP, IAM and core systems. Aligned to NCA ECC and PDPL data residency."},
+    {"title": "Blockchain Security Assurance", "body": "Smart-contract audits, node security and consensus-layer reviews, before and after go-live. Aligned to NCA ECC and SAMA CSF."}
+  ],
+  "applications": [
+    {"title": "AI decisions and model versions", "body": "Evidence from the Sovereign AI Platform, anchored to the same ledger."},
+    {"title": "Watermark and compliance audit trails", "body": "Audit trails from data watermarking and compliance programs, made tamper-proof."},
+    {"title": "IoT meter and sensor readings", "body": "Readings from IoT & Edge Intelligence, anchored as evidence."},
+    {"title": "Predictive Operations work orders", "body": "Work orders from Predictive DC Operations, verifiable after the fact."},
+    {"title": "Beyond the portfolio", "body": "Use cases extend to energy, healthcare, defence, agriculture and urban mobility."}
+  ],
+  "outcomes": [
+    {"value": "6", "label": "Blockchain solutions, each anchored to a Saudi priority", "verify": false},
+    {"value": "1", "label": "Trust layer across the portfolio", "verify": false}
+  ],
+  "sectors": ["government", "banking-finance", "retail-enterprise", "energy-utilities", "healthcare", "education-research"],
+  "vision2030": {
+    "body": "Six blockchain solutions, each tied to a Saudi priority, from the national real estate tokenization framework to digital government.",
+    "programs": ["REGA tokenization sandbox · RER", "Vision 2030 digital government", "SFDA traceability · ZATCA FASAH", "SAMA regulatory sandbox", "NCA ECC · PDPL data residency", "NCA ECC · SAMA CSF"]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Permissioned nodes run in the client's data center or our Sovereign AI Factory, aligned with NCA ECC and PDPL, and monitored by our managed SOC."
+  },
+  "extras": [
+    {
+      "title": "Saudi market signals",
+      "items": [
+        "Property titles on-chain: REGA and the Real Estate Registry launched national tokenization infrastructure in November 2025",
+        "Food traceability: SFDA has piloted blockchain tracing of food sources, with halal certificates recorded as tokens",
+        "Trade on a shared ledger: Saudi Customs piloted blockchain on the FASAH cross-border trade platform",
+        "Digital settlement: SAMA has tested distributed ledgers for cross-border settlement, from Project Aber to mBridge"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Commercial model",
+      "items": [
+        "Entry point: a Blockchain Use-Case Assessment that selects one high-value process and proves it on a pilot ledger",
+        "Project: ledger build, smart contracts and integration",
+        "Recurring: managed nodes, contract assurance and support"
+      ]
+    },
+    {
+      "title": "Assured, from contract to consensus",
+      "items": ["Smart-contract audits", "Node hardening", "Consensus-layer reviews", "Monitored by our managed SOC"]
+    }
+  ],
+  "seo": {
+    "title": "Blockchain Trust Layer: Tokenization & Trusted Records | KSA",
+    "description": "Permissioned ledgers, smart contracts and tokenization hosted in-Kingdom: asset tokenization, trusted records, supply-chain traceability and trade finance."
+  }
+}

@@ -1,15 +1,9 @@
 import {z} from 'zod';
 
-export const pillarIds = [
-  'core-infrastructure',
-  'intelligence',
-  'efficiency-operations',
-  'trust-security',
-  'smart-infrastructure'
-] as const;
+export const pillarIds = ['sovereign-ai', 'cybersecurity', 'iot-edge', 'intelligent-operations', 'blockchain-trust'] as const;
 export type PillarId = (typeof pillarIds)[number];
 
-export const pillarIcons = ['server', 'cpu', 'cloud', 'shield', 'drone'] as const;
+export const pillarIcons = ['cpu', 'shield', 'radio', 'bot', 'blocks'] as const;
 
 export const Pillar = z.object({
   id: z.enum(pillarIds),
@@ -35,13 +29,27 @@ export const Solution = z.object({
 });
 export type Solution = z.infer<typeof Solution>;
 
+/** How strongly a solution area fits a sector, as shown in the sector fit matrix. */
+export const fitLevels = ['primary', 'relevant', 'limited'] as const;
+export type FitLevel = (typeof fitLevels)[number];
+
 export const Industry = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
   order: z.number().int(),
   name: z.string().min(1),
   summary: z.string().min(1),
   image: z.string().startsWith('/images/'),
-  imageAlt: z.string().min(1)
+  imageAlt: z.string().min(1),
+  /** One entry per solution area. */
+  fit: z.object({
+    'sovereign-ai': z.enum(fitLevels),
+    cybersecurity: z.enum(fitLevels),
+    'iot-edge': z.enum(fitLevels),
+    'intelligent-operations': z.enum(fitLevels),
+    'blockchain-trust': z.enum(fitLevels)
+  }),
+  /** The low-risk first engagements we usually propose in this sector. */
+  firstEngagement: z.array(z.string().min(1)).min(1).max(3)
 });
 export type Industry = z.infer<typeof Industry>;
 
@@ -84,20 +92,19 @@ const Item = z.object({title: z.string().min(1), body: z.string().min(1)});
 const Hero = z.object({eyebrow: z.string().min(1), title1: z.string().min(1), title2: z.string().min(1), subtitle: z.string().min(1)});
 const Vision = z.object({
   body: z.string().min(1),
-  // Vision Realization Programs; every mapping is pending verification.
+  // National mandates, regulators and frameworks the work maps to; pending verification.
   programs: z.array(z.string().min(1)).min(1)
 });
 const Seo = z.object({title: z.string().min(1).max(70), description: z.string().min(50).max(170)});
 
 export const industrySlugs = [
   'government',
-  'bfsi',
+  'banking-finance',
   'energy-utilities',
-  'telecom',
+  'telecom-data-centers',
   'healthcare',
-  'giga-projects-construction',
-  'retail-hospitality',
-  'education'
+  'education-research',
+  'retail-enterprise'
 ] as const;
 
 /** Full solution page. Section order is fixed by the page template. */
@@ -108,8 +115,8 @@ export const SolutionDetail = z.object({
   opportunity: z.object({title: z.string().min(1), body: z.string().min(1), sources: z.array(z.string()).default([])}),
   capabilities: z.array(Item).min(4).max(8),
   applications: z.array(Item).min(4).max(6),
-  // Always presented as "typical" and flagged for verification.
-  outcomes: z.array(z.object({value: z.string().min(1), label: z.string().min(1)})).max(4),
+  // Partner and vendor figures keep the verification flag; set verify to false for plain facts.
+  outcomes: z.array(z.object({value: z.string().min(1), label: z.string().min(1), verify: z.boolean().default(true)})).max(4),
   sectors: z.array(z.enum(industrySlugs)).min(1),
   vision2030: Vision,
   deployment: z.object({cloud: z.boolean(), inKingdom: z.boolean(), onPrem: z.boolean(), note: z.string().min(1)}),

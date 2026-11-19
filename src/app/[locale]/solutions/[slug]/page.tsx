@@ -198,7 +198,7 @@ function SolutionView({locale, detail}: {locale: Locale; detail: SolutionDetail}
                     </bdi>
                     <p className="flex flex-wrap items-center gap-2 text-[13px] font-medium text-ink-700">
                       {o.label}
-                      <VerifyFlag />
+                      {o.verify && <VerifyFlag />}
                     </p>
                   </div>
                 </li>

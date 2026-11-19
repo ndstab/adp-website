@@ -1,0 +1,71 @@
+{
+  "slug": "it-asset-intelligence",
+  "hero": {
+    "eyebrow": "Intelligent Operations",
+    "title1": "Smarter spend.",
+    "title2": "Zero compliance surprises.",
+    "subtitle": "AI-driven IT asset management: one live view of every hardware and software asset, mapped to entitlements, contracts and spend."
+  },
+  "challenge": {
+    "title": "Why it matters in the Kingdom",
+    "body": "NCA ECC (2-1) and SAMA's cyber framework require an accurate, current inventory of technology assets, and EXPRO is driving spending efficiency across government.",
+    "points": [
+      "An accurate, current inventory of technology assets",
+      "License compliance risk before a vendor audit",
+      "Unused licenses and renewals that are not right-sized",
+      "Unbudgeted IT spend"
+    ]
+  },
+  "opportunity": {
+    "title": "One platform delivers both",
+    "body": "Audit-ready asset records and measurable IT savings. The platform flags compliance risk before a vendor audit does, and turns insight into savings by reclaiming unused licenses and right-sizing renewals.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Discover & normalize", "body": "Automated discovery of hardware, software and connected assets into one clean inventory."},
+    {"title": "Map entitlements", "body": "Licenses, contracts and renewals matched to what is actually deployed and used."},
+    {"title": "Review compliance", "body": "Continuous license-position checks flag risk before a vendor audit does."},
+    {"title": "Optimize spend", "body": "Reclaim unused licenses, right-size renewals and cut waste, with the reasoning shown."}
+  ],
+  "applications": [
+    {"title": "One live inventory of every IT asset", "body": "One live, normalized view of every hardware and software asset for the CIO."},
+    {"title": "Licenses matched to actual use", "body": "Entitlements, contracts and renewals mapped to what is deployed and used."},
+    {"title": "Audit-ready for NCA ECC and SAMA", "body": "The asset inventory controls in NCA's ECC and SAMA's framework, answered from one platform."},
+    {"title": "Spending efficiency", "body": "Measurable IT savings, in step with the government's spending-efficiency drive led by EXPRO."}
+  ],
+  "outcomes": [
+    {"value": "20%", "label": "Minimum average software cost reduction"},
+    {"value": "5x", "label": "Faster response to vendor license audits"},
+    {"value": "75%", "label": "Less unbudgeted IT spend"},
+    {"value": "6 mo", "label": "Average payback period"}
+  ],
+  "sectors": ["government", "banking-finance", "retail-enterprise", "telecom-data-centers", "healthcare"],
+  "vision2030": {
+    "body": "In the Kingdom it answers two mandates at once: the asset inventory controls in NCA's ECC and SAMA's framework, and the government's spending-efficiency drive led by EXPRO.",
+    "programs": ["NCA ECC (2-1)", "SAMA cyber framework", "EXPRO spending efficiency"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Discovery and inventory can run on-premise or in an in-Kingdom cloud tenant."
+  },
+  "extras": [
+    {
+      "title": "Offer",
+      "items": [
+        "How we start: discovery baseline and license-position report as the POC",
+        "Then a subscription with managed optimization"
+      ]
+    },
+    {
+      "title": "About the figures",
+      "items": ["Platform vendor figures", "Reported as average client outcomes"],
+      "verify": true
+    }
+  ],
+  "seo": {
+    "title": "IT Asset Intelligence: License Compliance & IT Spend | KSA",
+    "description": "One live inventory of every hardware and software asset, mapped to entitlements, contracts and spend. Audit-ready for NCA ECC and SAMA, with IT savings."
+  }
+}

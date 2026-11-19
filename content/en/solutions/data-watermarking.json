@@ -1,0 +1,80 @@
+{
+  "slug": "data-watermarking",
+  "hero": {
+    "eyebrow": "Cybersecurity · Data-centric protection",
+    "title1": "Accountability on every copy",
+    "title2": "of your data.",
+    "subtitle": "Screen, file and print watermarking with screen and application control, delivered by ADP: closing the screen, print and file gap that legacy DLP leaves open."
+  },
+  "challenge": {
+    "title": "The gap legacy DLP leaves open",
+    "body": "Legacy DLP leaves a gap at the screen, the printer and the file itself. Data shown in a meeting, captured from a screen, printed or exported to PDF needs to stay traceable to its source.",
+    "points": [
+      "Data shared in virtual and in-person meetings",
+      "Print Screen, snipping tools and screen capture",
+      "Prints and PDF exports",
+      "Word, Excel, PowerPoint and PDF files"
+    ]
+  },
+  "opportunity": {
+    "title": "Every screen, file and printout traceable to its source",
+    "body": "Data watermarking makes every screen, file and printout traceable to its source, and blocks screen sharing and capture of critical applications. It maps directly to NCA's Data Cybersecurity Controls on meetings, screen capture and document watermarking, and to the ECC labelling requirement.",
+    "sources": ["nca-controls"]
+  },
+  "capabilities": [
+    {"title": "Screen watermark", "body": "Visible watermark on screens and inside applications."},
+    {"title": "File watermark", "body": "Word, Excel, PowerPoint and PDF, applied automatically with integrity monitoring."},
+    {"title": "Print watermark", "body": "Custom pattern on every print and PDF export."},
+    {"title": "Screen control", "body": "Blocks unauthorised screen sharing and capture of critical apps; every attempt recorded."},
+    {"title": "Application control", "body": "Blocks snipping tools, PrintScreen and unauthorised apps, with time-stamped audit."}
+  ],
+  "applications": [
+    {"title": "Virtual and in-person meetings", "body": "Secure handling of data when it is shown in a meeting."},
+    {"title": "Devices processing documents", "body": "Print Screen and screen capture disabled where documents are processed."},
+    {"title": "Documents through their lifecycle", "body": "Watermarks on creation, storage, printing and screen, traceable to user or device."},
+    {"title": "Data labelling by classification", "body": "Automated labelling by classification, including watermarks."}
+  ],
+  "outcomes": [
+    {"value": "Every copy", "label": "Traceable to user and device", "verify": false},
+    {"value": "Every attempt", "label": "At unauthorised screen sharing or capture recorded", "verify": false}
+  ],
+  "sectors": ["government", "banking-finance", "energy-utilities", "telecom-data-centers", "healthcare"],
+  "vision2030": {
+    "body": "Supports NCA data cybersecurity controls, and is also aligned with SDAIA PDPL, ISO/IEC 27002, PCI-DSS, NIST and GCC data-protection laws.",
+    "programs": ["NCA DCC", "NCA ECC", "SDAIA PDPL", "ISO/IEC 27002", "PCI-DSS", "NIST", "GCC data-protection laws"]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Offered as a per-user or per-endpoint subscription, applied on the devices that process your documents."
+  },
+  "extras": [
+    {
+      "title": "What each watermark can carry",
+      "items": ["User name and domain", "Device and IP address", "Date and time", "Text and logo"]
+    },
+    {
+      "title": "Saudi NCA controls addressed",
+      "items": [
+        "DCC 1-3-1-3: secure handling of data in virtual and in-person meetings",
+        "DCC 2-2-1-4: disable Print Screen and screen capture on devices processing documents",
+        "DCC 2-4-1-1: watermark documents on creation, storage, printing and screen, traceable to user or device",
+        "ECC 2-7-3-2: automate data labelling by classification, including watermarks"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Offer",
+      "items": [
+        "How we start: pilot on a user group, with your own policies",
+        "Live demo and pilot-group POC available",
+        "Per-user or per-endpoint subscription"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Data Watermarking: Screen, File & Print Traceability | KSA",
+    "description": "Screen, file and print watermarking with screen and application control. Every copy traceable to user and device, supporting NCA data cybersecurity controls."
+  }
+}

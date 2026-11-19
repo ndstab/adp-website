@@ -1,0 +1,91 @@
+{
+  "slug": "sovereign-ai-platform",
+  "hero": {
+    "eyebrow": "Flagship · Sovereign AI",
+    "title1": "One sovereign AI architecture.",
+    "title2": "Two ways to market.",
+    "subtitle": "We design, build and operate in-Kingdom GPU and AI platforms for regulated workloads, from facility and GPUs up to models, agents and 24x7 operations."
+  },
+  "challenge": {
+    "title": "One partner rather than five vendors",
+    "body": "A sovereign AI platform spans the facility, GPU compute, the data platform, MLOps, private models and the use cases themselves, with security and operations running through every layer. We design and integrate the whole stack, so you deal with one partner.",
+    "points": [
+      "Regulated entities need dedicated, single-tenant capacity, air-gapped where required",
+      "SMEs, developers and universities need in-country GPU capacity with no upfront investment",
+      "Security and governance aligned with NCA ECC / CCC, PDPL and SDAIA AI Ethics",
+      "Operations embedded from the facility up, from day one"
+    ]
+  },
+  "opportunity": {
+    "title": "We build it. We fill it. We run it.",
+    "body": "It is one AI factory architecture: we design the facility, power and cooling, build the GPU compute and network, deploy the sovereign AI and cloud platform with security and compliance built in, integrate operations from day one, and fill it with use cases and AI agents. The Saudi AI market is forecast to grow from USD 2.1B in 2025 to USD 16.9B in 2032.",
+    "sources": ["ai-market"]
+  },
+  "capabilities": [
+    {"title": "Use Cases & AI Agents", "body": "Document intelligence, Arabic and English copilots, AI call center, analytics and decision support."},
+    {"title": "Models & Inference", "body": "Private open-weight LLMs (Arabic-capable), RAG, fine-tuning, inference serving and guardrails."},
+    {"title": "MLOps & Orchestration", "body": "Kubernetes, model registry and evaluation, pipelines, usage metering and cost governance."},
+    {"title": "Sovereign Data Platform", "body": "Ingestion, vector DB, feature store, data classification, and encryption at rest and in transit."},
+    {"title": "GPU Compute & Storage", "body": "GPU clusters, high-speed fabric and parallel storage, with capacity sized per workload."},
+    {"title": "Facility & Hosting", "body": "A dedicated AI factory in a client or sovereign facility, or an operator GPU cloud for GPUaaS / AIaaS."},
+    {"title": "Security & Governance", "body": "Zero-trust access and tenant isolation, GPU runtime security, and a blockchain-anchored audit trail and AI policy, across every layer."},
+    {"title": "Managed GPU/AI Operations", "body": "24x7 NOC and SOC monitoring; AIOps for utilization, health and capacity; model performance and drift monitoring; SLA-backed L2/L3 support."}
+  ],
+  "applications": [
+    {"title": "Sovereign AI Factory", "body": "Dedicated, single-tenant and in-Kingdom, for government and ministries, banking and financial services, defence and security, and energy, health and critical infrastructure."},
+    {"title": "GPUaaS / AIaaS with an operator", "body": "Shared, multi-tenant and sold as-a-service, for SMEs and start-ups, mid-market enterprises, software and AI developers, and universities and research."},
+    {"title": "Private Arabic-capable LLMs", "body": "Private LLMs, RAG and AI agents running on the client's own data."},
+    {"title": "GPU-as-a-Service", "body": "On-demand, in-country GPU capacity with no upfront investment."},
+    {"title": "AI-as-a-Service", "body": "Hosted models, inference APIs and ready AI apps, such as the AI Call Center, on the operator marketplace."},
+    {"title": "Operations, run or handed over", "body": "ADP-run 24x7 operations, or a structured handover to the client's team."}
+  ],
+  "outcomes": [
+    {"value": "5", "label": "Delivery phases, each ending with a decision gate and a tangible deliverable", "verify": false},
+    {"value": "2–3", "label": "First use cases taken to production in the onboarding phase", "verify": false},
+    {"value": "24x7", "label": "NOC and SOC monitoring under a managed GPU/AI service", "verify": false}
+  ],
+  "sectors": ["government", "banking-finance", "telecom-data-centers", "education-research", "energy-utilities", "healthcare"],
+  "vision2030": {
+    "body": "Security and governance run across every layer, aligned with NCA, PDPL and SDAIA's AI ethics principles, and the data and AI stay in the Kingdom in both delivery models.",
+    "programs": ["NCA ECC / CCC", "PDPL", "SDAIA AI Ethics"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "A dedicated GPU cluster in the client's data center or a sovereign facility, air-gapped where required, or a multi-tenant GPU cloud implemented in a telecom or data center operator's facility."
+  },
+  "extras": [
+    {
+      "title": "From strategy to a running platform in five phases",
+      "items": [
+        "1 · Assess & Strategize: use-case portfolio and value case, data classification and residency, regulatory mapping. Deliverable: AI strategy and prioritized roadmap",
+        "2 · Design & Size: target architecture, GPU sizing per workload, hosting model and security design. Deliverable: high-level and low-level design, BoQ",
+        "3 · Build & Integrate: infrastructure and platform deployment; IAM, SIEM and data-source integration; security hardening and testing. Deliverable: accepted, production-ready platform",
+        "4 · Onboard Use Cases: first 2–3 use cases to production, model evaluation and guardrails, user training and adoption. Deliverable: live use cases with measured outcomes",
+        "5 · Operate & Scale: managed GPU/AI service, capacity and cost governance, continuous compliance evidence. Deliverable: SLA-backed operations and growth plan"
+      ]
+    },
+    {
+      "title": "Sovereign AI Factory: commercial model",
+      "items": [
+        "Entry: Sovereign AI Readiness Assessment",
+        "Project: design and build of the AI factory",
+        "Recurring: managed AI factory service and use-case onboarding"
+      ]
+    },
+    {
+      "title": "GPUaaS / AIaaS with an operator: commercial model",
+      "items": [
+        "Entry: operator business case and GPU sizing",
+        "Project: platform implementation with the operator",
+        "Recurring: managed operations and revenue share on GPU-hours and AI services",
+        "Tenant isolation, metering and billing, with ADP operating the platform"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sovereign AI Platform: AI Factory & GPUaaS | Saudi Arabia",
+    "description": "In-Kingdom GPU and AI platforms designed, built and operated by ADP: a dedicated Sovereign AI Factory, or GPUaaS / AIaaS with an operator."
+  }
+}

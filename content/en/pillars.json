@@ -1,67 +1,67 @@
 [
   {
-    "id": "core-infrastructure",
+    "id": "sovereign-ai",
     "order": 1,
-    "orbitOrder": 4,
-    "icon": "server",
-    "name": "Core Infrastructure & Engineering",
-    "label": "Infrastructure",
-    "short": "Integrated ICT infrastructure, data centres and software engineering, built and supported by our own team.",
-    "outcome": {
-      "label": "Networks · <90s fault fix",
-      "verify": true
-    }
-  },
-  {
-    "id": "intelligence",
-    "order": 2,
     "orbitOrder": 1,
     "icon": "cpu",
-    "name": "Intelligence",
-    "label": "Intelligence",
-    "short": "Agentic AI, analytics and enterprise AI platforms built on your own data.",
+    "name": "Sovereign AI",
+    "label": "Sovereign AI",
+    "short": "In-Kingdom GPU and AI platforms, from facility and GPUs up to models, agents and 24x7 operations. Our flagship.",
     "outcome": {
-      "label": "Agentic AI · 24/7 in Arabic",
-      "verify": true
+      "label": "Sovereign AI · we build it, fill it, run it",
+      "verify": false
     }
   },
   {
-    "id": "efficiency-operations",
-    "order": 3,
-    "orbitOrder": 3,
-    "icon": "cloud",
-    "name": "Efficiency & Operations",
-    "label": "Operations",
-    "short": "IT cost optimization, service management, autonomous networks and cloud modernization.",
-    "outcome": {
-      "label": "IT cost · 20%+ savings",
-      "verify": true
-    }
-  },
-  {
-    "id": "trust-security",
-    "order": 4,
+    "id": "cybersecurity",
+    "order": 2,
     "orbitOrder": 2,
     "icon": "shield",
-    "name": "Trust & Security",
-    "label": "Security",
-    "short": "Cybersecurity, governance, data-leak protection and trusted digital records.",
+    "name": "Cybersecurity",
+    "label": "Cybersecurity",
+    "short": "We turn regulation into a working security program, then protect data and AI workloads with specialist platforms.",
     "outcome": {
-      "label": "Data-leak protection · every copy traceable",
+      "label": "Data watermarking · every copy traceable",
+      "verify": false
+    }
+  },
+  {
+    "id": "iot-edge",
+    "order": 3,
+    "orbitOrder": 3,
+    "icon": "radio",
+    "name": "IoT & Edge",
+    "label": "IoT & Edge",
+    "short": "Field-to-command-centre AIoT for water, energy and infrastructure, led by smart water.",
+    "outcome": {
+      "label": "IoT · 30,000+ partner devices live",
       "verify": true
     }
   },
   {
-    "id": "smart-infrastructure",
+    "id": "intelligent-operations",
+    "order": 4,
+    "orbitOrder": 4,
+    "icon": "bot",
+    "name": "Intelligent Operations",
+    "label": "Intelligent Ops",
+    "short": "Governed AI agents, predictive data center operations and IT asset intelligence: measurable outcomes, delivered as a service.",
+    "outcome": {
+      "label": "AI Call Center · Arabic & English, 24x7",
+      "verify": false
+    }
+  },
+  {
+    "id": "blockchain-trust",
     "order": 5,
     "orbitOrder": 5,
-    "icon": "drone",
-    "name": "Smart Infrastructure & Physical World",
-    "label": "Physical world",
-    "short": "Industrial IoT, drone operations, geospatial intelligence and site security.",
+    "icon": "blocks",
+    "name": "Blockchain & Digital Trust",
+    "label": "Blockchain",
+    "short": "Permissioned ledgers, smart contracts and tokenization, hosted in-Kingdom, that make records, assets and evidence tamper-proof and verifiable.",
     "outcome": {
-      "label": "IoT · live water & energy",
-      "verify": true
+      "label": "Trust layer · tamper-proof records",
+      "verify": false
     }
   }
 ]

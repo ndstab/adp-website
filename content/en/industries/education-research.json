@@ -1,0 +1,33 @@
+{
+  "slug": "education-research",
+  "hero": {
+    "eyebrow": "Sectors · Education & Research",
+    "title1": "Education & research.",
+    "title2": "In-country GPU capacity, on demand.",
+    "subtitle": "GPU-as-a-Service for universities and research with no upfront investment, plus governed AI agents on the same platform."
+  },
+  "context": {
+    "title": "Where we play",
+    "body": "For education and research, Sovereign AI is the primary fit; Cybersecurity, Intelligent Operations and Blockchain are relevant; IoT & Edge is a limited fit. The typical first engagement is GPUaaS for research, or AI agents."
+  },
+  "challenges": [
+    {"title": "GPU capacity without upfront investment", "body": "Universities and research are a destination for GPUaaS / AIaaS: on-demand, in-country GPU capacity with no upfront investment."},
+    {"title": "Arabic-capable models", "body": "Private open-weight, Arabic-capable LLMs, with RAG, fine-tuning and guardrails."},
+    {"title": "Certificates that can be verified", "body": "Tamper-proof certificates and records, verifiable in seconds by any authorized party."}
+  ],
+  "useCases": [
+    {"title": "GPUaaS for research", "body": "In-country GPU capacity and AI services consumed by the hour, on an operator's GPU cloud."},
+    {"title": "AI agents", "body": "Governed AI agents on one platform, with shared data, memory and guardrails."},
+    {"title": "Trusted digital records", "body": "Tamper-proof registries, certificates and contracts on a permissioned ledger hosted in-Kingdom."}
+  ],
+  "solutions": ["sovereign-ai-platform", "agentic-ai-platform", "blockchain-trust-layer", "cybersecurity-consultation-compliance"],
+  "regulation": ["PDPL (SDAIA)", "SDAIA AI Ethics", "NCA ECC"],
+  "vision2030": {
+    "body": "In-country GPU capacity and hosted models for universities and research, with data and AI kept in-Kingdom.",
+    "programs": ["SDAIA AI Ethics", "PDPL"]
+  },
+  "seo": {
+    "title": "Education & Research Solutions | GPUaaS in Saudi Arabia",
+    "description": "On-demand, in-country GPU capacity for universities and research with no upfront investment, plus governed AI agents and trusted digital records."
+  }
+}

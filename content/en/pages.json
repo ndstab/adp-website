@@ -3,31 +3,31 @@
     "label": "Breadcrumb",
     "home": "Home",
     "solutions": "Solutions",
-    "industries": "Industries"
+    "industries": "Sectors"
   },
   "solutionsHub": {
     "meta": {
       "title": "Solutions",
-      "description": "Thirteen solutions in five pillars: infrastructure, intelligence, efficiency, trust and the physical world. Curated, localized and delivered in Saudi Arabia."
+      "description": "Nine solutions in five areas: Sovereign AI, Cybersecurity, IoT & Edge, Intelligent Operations and Blockchain. ADP-delivered, partner-enabled, hosted in-Kingdom."
     },
-    "chip": "Solutions",
-    "title1": "Five pillars.",
-    "title2": "Thirteen solutions, one accountable team.",
-    "sub": "Our own engineering combined with solutions already proven in production, delivered with our global technology alliance and localized for the Kingdom.",
-    "jump": "Jump to a pillar",
+    "chip": "Solutions portfolio",
+    "title1": "Nine solutions.",
+    "title2": "One accountable partner.",
+    "sub": "Five solution areas, each solution with a live demo, a fixed-scope first step (assessment or pilot), project delivery and a managed-service path. One trust layer runs across the portfolio: the same ledger anchors AI decisions, compliance audit trails, IoT readings and work orders from every solution.",
+    "jump": "Jump to a solution area",
     "count": "{count, plural, one {# solution} other {# solutions}}",
     "explore": "Explore"
   },
   "solutionPage": {
     "whatItDoes": "What it does",
-    "whatItDoesSub": "Capabilities delivered and supported by ADP Solutions, with our global technology alliance.",
-    "applications": "Applications",
-    "outcomes": "Typical outcomes",
-    "outcomesNote": "Typical results from production deployments. Actual results depend on your environment and are confirmed during the proof of value.",
-    "outcomesEmpty": "We agree measurable success criteria with you before the proof of value starts, and report against them.",
-    "sectors": "Sectors",
+    "whatItDoesSub": "Designed, delivered and operated by ADP, with specialist platforms behind every pillar.",
+    "applications": "Use cases",
+    "outcomes": "Key figures",
+    "outcomesNote": "Figures marked for verification are partner and platform-vendor figures, reported as averages and subject to integration and baseline requirements. We agree success measures with you before any assessment or POC.",
+    "outcomesEmpty": "We agree success measures with you before the assessment or POC starts, and report against them.",
+    "sectors": "Target sectors",
     "vision": "Vision 2030 alignment",
-    "programs": "Related Vision Realization Programs",
+    "programs": "Aligned with",
     "deployment": "Deployment options",
     "cloud": "Cloud",
     "inKingdom": "In-Kingdom",
@@ -37,65 +37,80 @@
     "engage": "How we engage",
     "engageSteps": [
       {
-        "title": "Discover",
-        "body": "A short workshop to define the outcome, the data and the constraints."
+        "title": "Discovery Workshop",
+        "body": "We map your priorities, regulatory obligations and current estate against the portfolio."
       },
       {
-        "title": "Prove",
-        "body": "A fixed-scope proof of value with agreed success measures."
+        "title": "Live Demo",
+        "body": "We demonstrate the relevant solutions on real workflows, in Arabic and English."
       },
       {
-        "title": "Deliver",
-        "body": "Deploy, integrate and localize, in-Kingdom or on your premises."
+        "title": "Assessment or POC",
+        "body": "A fixed-scope assessment or POC with agreed success measures."
       },
       {
-        "title": "Operate & transfer",
-        "body": "Managed operations and hands-on knowledge transfer to your team."
+        "title": "Deploy & Operate",
+        "body": "We deliver the project and run it as an SLA-backed managed service."
       }
     ],
-    "related": "More in this pillar",
+    "related": "More in this area",
     "sources": "Sources",
-    "ctaTitle1": "Talk to a specialist",
-    "ctaTitle2": "about {solution}.",
-    "ctaSub": "Tell us about your environment and goals. We will propose a fixed-scope proof of value.",
-    "ctaButton": "Book a consultation",
-    "applicationsTitle": "Where it makes a difference",
-    "outcomesTitle": "What good looks like",
-    "deploymentTitle": "Runs where your data must live",
-    "engageTitle": "From first workshop to handover",
-    "sectorsTitle": "Built for these sectors",
-    "visionTitle": "Aligned with national priorities",
+    "ctaTitle1": "Ready to demo",
+    "ctaTitle2": "{solution}.",
+    "ctaSub": "We will demonstrate it on real workflows, in Arabic and English, and scope a fixed-scope assessment or POC with you.",
+    "ctaButton": "Book a demo",
+    "applicationsTitle": "Where it applies",
+    "outcomesTitle": "The numbers behind it",
+    "deploymentTitle": "Hosted in-Kingdom, in every model",
+    "engageTitle": "From first conversation to a running service",
+    "sectorsTitle": "Target sectors",
+    "visionTitle": "Mapped to NCA, SDAIA and sector mandates",
     "challengeChip": "Context",
     "extrasChip": "Details"
   },
   "industriesHub": {
     "meta": {
-      "title": "Industries",
-      "description": "Technology solutions for Saudi government, banking, energy and utilities, telecom, healthcare, giga-projects, retail and hospitality, and education."
+      "title": "Sectors",
+      "description": "Where ADP plays: government and public sector, banking and finance, energy and utilities, telecom and data centers, healthcare, education and retail."
     },
-    "chip": "Industries",
-    "title1": "Built for the sectors",
-    "title2": "shaping the Kingdom.",
-    "sub": "Our priority sectors, each with the solutions, regulation and Vision 2030 context that matter most to it.",
+    "chip": "Where we play",
+    "title1": "Target sectors and",
+    "title2": "typical first engagements.",
+    "sub": "Government and banking are our strongest fit across almost the whole portfolio. Energy and utilities lead with IoT and OT security. Telecom and data center operators are the natural host for GPU and AI as-a-Service.",
     "explore": "Explore sector",
-    "solutionsCount": "{count, plural, one {# recommended solution} other {# recommended solutions}}"
+    "solutionsCount": "{count, plural, one {# recommended solution} other {# recommended solutions}}",
+    "fit": {
+      "chip": "Sector fit",
+      "title1": "Five solution areas,",
+      "title2": "seven target sectors.",
+      "sub": "In every sector we have a clear, low-risk first engagement, which is usually where a joint opportunity starts.",
+      "sector": "Sector",
+      "first": "Typical first engagement",
+      "primary": "Primary fit",
+      "relevant": "Relevant",
+      "limited": "Limited fit",
+      "note": "Riyadh-first, extending across the Kingdom's government, GIGA-project and enterprise accounts."
+    }
   },
   "industryPage": {
-    "challenges": "Challenges we hear",
-    "useCases": "Where we help",
-    "solutions": "Recommended solutions",
+    "challenges": "Sector priorities",
+    "useCases": "Where we start",
+    "solutions": "Solutions that fit",
     "regulation": "Frameworks we align to",
     "regulationNote": "We describe alignment and support your compliance. We do not hold or claim regulatory licences on your behalf.",
     "vision": "Vision 2030 alignment",
-    "programs": "Related Vision Realization Programs",
+    "programs": "Aligned with",
     "ctaTitle1": "Let's talk about",
     "ctaTitle2": "your {industry} priorities.",
-    "ctaButton": "Book a consultation",
-    "challengesTitle": "What leaders in this sector tell us",
-    "useCasesTitle": "Where we help first",
-    "solutionsTitle": "Solutions that fit",
-    "visionTitle": "Aligned with national priorities",
+    "ctaButton": "Book a demo",
+    "challengesTitle": "What matters in this sector",
+    "useCasesTitle": "Use cases and first engagements",
+    "solutionsTitle": "The portfolio for this sector",
+    "visionTitle": "Mapped to NCA, SDAIA and sector mandates",
     "regulationTitle": "Compliance-aware delivery",
-    "contextChip": "Context"
+    "contextChip": "Context",
+    "first": "Typical first engagement",
+    "firstTitle": "A clear, low-risk first step",
+    "firstNote": "A fixed-scope assessment or pilot with agreed success measures that proves value fast. It then grows into a project and an SLA-backed managed service."
   }
 }

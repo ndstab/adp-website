@@ -13,7 +13,7 @@ import {CtaBand} from '@/components/home/CtaBand';
 import {JsonLd} from '@/components/ui/JsonLd';
 
 // Footnote numbers follow the order the sources first appear on the page.
-const SOURCES = ['year-of-ai', 'ai-market', 'nsdai'];
+const SOURCES = ['ai-market', 'cyber-market', 'blockchain-market'];
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const {locale} = (await params) as {locale: Locale};

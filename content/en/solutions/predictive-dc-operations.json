@@ -1,0 +1,76 @@
+{
+  "slug": "predictive-dc-operations",
+  "hero": {
+    "eyebrow": "Intelligent Operations",
+    "title1": "From reactive maintenance",
+    "title2": "to predictive certainty.",
+    "subtitle": "AIOps for data centers and critical facilities: predictive AI on power, cooling and facility telemetry, linked to work orders."
+  },
+  "challenge": {
+    "title": "Why it works",
+    "body": "Power chain and cooling cause most data center outages, and both show degradation days to weeks before failure. The data already sits in the BMS; we act on it.",
+    "points": [
+      "Power chain: 40–55% of data center outages",
+      "Cooling: 15–25% of data center outages",
+      "Degradation shows days to weeks before failure",
+      "The data already sits in the BMS"
+    ]
+  },
+  "opportunity": {
+    "title": "The biggest causes of downtime are also the most predictable",
+    "body": "Predictive DC Operations unifies IT and OT telemetry with predictive AI and maintenance workflows. We detect degradation around a week before a threshold alarm, then raise the SLA-bound work order and dispatch the vendor and parts, with a human approving critical actions.",
+    "sources": []
+  },
+  "capabilities": [
+    {"title": "Real-time OT analytics", "body": "Vibration, thermal, harmonics, power and environmental telemetry."},
+    {"title": "Predictive AI engine", "body": "Anomaly detection, remaining-life insight and criticality scoring."},
+    {"title": "CMMS / CAFM workflows", "body": "SLA-bound work orders, with vendor and parts dispatch."},
+    {"title": "Governed closure", "body": "Human approval, evidence, audit trail and compliance mapping."},
+    {"title": "Private LLM copilots", "body": "Copilots on private LLMs, with zero data egress."}
+  ],
+  "applications": [
+    {"title": "Power chain", "body": "Predictive AI on power telemetry, where 40–55% of outages originate."},
+    {"title": "Cooling", "body": "Early detection of degradation in cooling, the source of 15–25% of outages."},
+    {"title": "Data center operators", "body": "A subscription per site, MW or asset count, starting with a POC on existing BMS telemetry."},
+    {"title": "Critical facilities", "body": "The same AIOps on power, cooling and facility telemetry for critical facilities."},
+    {"title": "Sovereign AI factories", "body": "Intelligent operations is a layer of our AI factory architecture: DCIM, AIOps and a single pane of glass."}
+  ],
+  "outcomes": [
+    {"value": "92%", "label": "Reduction in critical incidents"},
+    {"value": "168h", "label": "Predictive lead time before failure"},
+    {"value": "65%", "label": "Routine O&M activities automated"}
+  ],
+  "sectors": ["telecom-data-centers", "government", "banking-finance"],
+  "vision2030": {
+    "body": "Closure is governed: human approval, evidence, an audit trail and compliance mapping on every work order, with the data kept in-Kingdom.",
+    "programs": ["Human-approved, audited closure", "Compliance mapping", "Zero data egress"]
+  },
+  "deployment": {
+    "cloud": false,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Runs on the telemetry that already sits in your BMS, with private LLM copilots and zero data egress."
+  },
+  "extras": [
+    {
+      "title": "Offer",
+      "items": [
+        "How we start: pilot on existing BMS data",
+        "POC on existing BMS telemetry",
+        "Subscription per site, MW or asset count"
+      ]
+    },
+    {
+      "title": "About the figures",
+      "items": [
+        "Platform vendor figures",
+        "Subject to full platform integration and facility baseline requirements being met"
+      ],
+      "verify": true
+    }
+  ],
+  "seo": {
+    "title": "Predictive DC Operations: AIOps for Data Centers | KSA",
+    "description": "Predictive AI on power, cooling and facility telemetry, linked to SLA-bound work orders with human-approved, audited closure. POC on existing BMS data."
+  }
+}

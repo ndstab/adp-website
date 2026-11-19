@@ -1,0 +1,90 @@
+{
+  "slug": "cybersecurity-consultation-compliance",
+  "hero": {
+    "eyebrow": "Cybersecurity",
+    "title1": "We turn regulation into",
+    "title2": "a working security program.",
+    "subtitle": "Six consultation services, delivered by ADP's bilingual team and backed by our managed SOC partner ecosystem."
+  },
+  "challenge": {
+    "title": "The frameworks we work against",
+    "body": "Each framework applies to a different set of entities and asks for different evidence. We work against all of them, from NCA ECC for government and critical infrastructure through to PDPL, ISO/IEC 27001 and SAMA's framework for banks.",
+    "points": [
+      "NCA ECC, CCC, DCC, OTCC and CSCC",
+      "PDPL (SDAIA), for all entities processing personal data in the Kingdom",
+      "ISO/IEC 27001, for organizations seeking a certified ISMS",
+      "SAMA CSF, for banks and SAMA-regulated financial institutions"
+    ]
+  },
+  "opportunity": {
+    "title": "One lifecycle, from first assessment to continuous compliance",
+    "body": "Every compliance engagement follows one lifecycle: assess, prioritize, remediate, certify and monitor. The final step, monitoring, is where compliance becomes a continuous managed service. The Saudi cybersecurity market is forecast to grow from USD 2.9B in 2025 to USD 7.5B in 2034.",
+    "sources": ["cyber-market", "nca-controls"]
+  },
+  "capabilities": [
+    {"title": "Governance & Compliance", "body": "NCA ECC, CCC, DCC, OTCC and CSCC readiness; PDPL; ISO/IEC 27001 implementation and certification support."},
+    {"title": "Risk & Gap Assessment", "body": "Control-by-control gap analysis, risk register and a prioritized, costed remediation roadmap."},
+    {"title": "Offensive Security", "body": "Vulnerability assessment and penetration testing, application security testing and red-team exercises."},
+    {"title": "Security Architecture", "body": "Zero-trust, cloud and network security design; OT/ICS segmentation and secure remote access."},
+    {"title": "vCISO & Security Program", "body": "Virtual CISO, policies and procedures, awareness programs and board-level reporting."},
+    {"title": "SOC & Incident Readiness", "body": "SOC design and onboarding, incident-response playbooks and tabletop exercises."}
+  ],
+  "applications": [
+    {"title": "NCA ECC", "body": "For government entities and critical national infrastructure: gap assessment, remediation roadmap, policy set and self-assessment support."},
+    {"title": "NCA CCC", "body": "For cloud service providers and cloud consumers: cloud security posture review, control mapping and provider due diligence."},
+    {"title": "NCA DCC", "body": "For entities handling classified and sensitive data: data classification, protection controls and watermarking."},
+    {"title": "NCA OTCC", "body": "For operators of OT/ICS environments: OT asset inventory, segmentation design and OT monitoring."},
+    {"title": "PDPL (SDAIA)", "body": "For all entities processing personal data in the Kingdom: data mapping, privacy impact assessments and records of processing."},
+    {"title": "SAMA CSF", "body": "For banks and SAMA-regulated financial institutions: maturity assessment and remediation program."}
+  ],
+  "outcomes": [
+    {"value": "6", "label": "Consultation services, from governance to SOC and incident readiness", "verify": false},
+    {"value": "8", "label": "Frameworks covered, from NCA ECC to SAMA CSF", "verify": false},
+    {"value": "5", "label": "Lifecycle stages: assess, prioritize, remediate, certify, monitor", "verify": false}
+  ],
+  "sectors": ["government", "banking-finance", "energy-utilities", "telecom-data-centers", "healthcare", "education-research", "retail-enterprise"],
+  "vision2030": {
+    "body": "Every offer starts with a fixed-scope assessment or pilot, and our work is aligned with NCA, SDAIA and PDPL, SAMA, ISO 27001 and NIST.",
+    "programs": ["NCA", "SDAIA / PDPL", "SAMA", "ISO 27001", "NIST"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "A consultation practice delivered by our bilingual team. Security architecture covers zero-trust, cloud, network and OT/ICS environments, and monitoring runs through our managed SOC partner ecosystem."
+  },
+  "extras": [
+    {
+      "title": "Compliance lifecycle",
+      "items": [
+        "1 · Assess: scope, baseline and gap analysis",
+        "2 · Prioritize: risk-ranked, costed roadmap",
+        "3 · Remediate: policies, controls and technology",
+        "4 · Certify: audit readiness and evidence",
+        "5 · Monitor: continuous compliance and SOC"
+      ]
+    },
+    {
+      "title": "Commercial model",
+      "items": [
+        "How we start: NCA / PDPL gap assessment",
+        "Fixed-fee assessments",
+        "Implementation projects",
+        "vCISO and compliance retainers",
+        "Managed SOC and monitoring"
+      ]
+    },
+    {
+      "title": "Also covered",
+      "items": [
+        "NCA CSCC, for owners of critical systems: critical-system identification, hardening and testing",
+        "ISO/IEC 27001, for organizations seeking a certified ISMS: ISMS design, internal audit and certification readiness",
+        "NIST alignment"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Cybersecurity Consultation & Compliance | NCA, PDPL, SAMA",
+    "description": "Governance, risk and gap assessment, offensive security, security architecture, vCISO and SOC readiness, aligned with NCA, PDPL, ISO/IEC 27001 and SAMA CSF."
+  }
+}

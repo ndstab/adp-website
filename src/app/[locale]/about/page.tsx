@@ -34,7 +34,6 @@ export default async function AboutPage({params}: Params) {
 function About({locale}: {locale: Locale}) {
   const t = useTranslations('company.about');
   const tp = useTranslations('pages.breadcrumb');
-  const why = useTranslations('home.contact.why');
   const stats = t.raw('stats') as Array<{label: string; value: string}>;
   const paragraphs = t.raw('story.paragraphs') as string[];
   const missionCards = t.raw('mission.cards') as Array<{title: string; body: string}>;
@@ -145,7 +144,7 @@ function About({locale}: {locale: Locale}) {
       <section aria-labelledby="why-title" className="container-site py-20 sm:py-28">
         <SectionHeading id="why-title" chip={t('why.chip')} title1={t('why.title')} />
         <ul className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {(why.raw('points') as string[]).map((point) => (
+          {(t.raw('why.points') as string[]).map((point) => (
             <li key={point} className="flex items-start gap-3 rounded-[var(--radius-card)] bg-sand-100 p-5 text-[15px] font-medium text-navy-900 ring-1 ring-navy-900/[0.04]">
               <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-gold-500 text-navy-900">
                 <Check aria-hidden strokeWidth={2.25} className="size-3.5" />

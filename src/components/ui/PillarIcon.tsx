@@ -1,12 +1,12 @@
-import {Cloud, Cpu, Drone, Server, ShieldCheck, type LucideProps} from 'lucide-react';
+import {Blocks, Bot, Cpu, RadioTower, ShieldCheck, type LucideProps} from 'lucide-react';
 import type {Pillar} from '@/content/schema';
 
 const icons = {
   cpu: Cpu,
   shield: ShieldCheck,
-  cloud: Cloud,
-  server: Server,
-  drone: Drone
+  radio: RadioTower,
+  bot: Bot,
+  blocks: Blocks
 } as const;
 
 export function PillarIcon({icon, ...props}: {icon: Pillar['icon']} & LucideProps) {

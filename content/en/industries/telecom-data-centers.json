@@ -1,0 +1,35 @@
+{
+  "slug": "telecom-data-centers",
+  "hero": {
+    "eyebrow": "Sectors · Telecom & Data Center Operators",
+    "title1": "Telecom & data center operators.",
+    "title2": "The natural host for GPU and AI as-a-Service.",
+    "subtitle": "We implement a multi-tenant GPU and AI cloud in the operator's facility and operate the platform, with predictive operations for power and cooling."
+  },
+  "context": {
+    "title": "Where we play",
+    "body": "Telecom and data center operators are the natural host for GPU and AI as-a-Service. Sovereign AI, Cybersecurity and Intelligent Operations are primary fits; IoT & Edge is relevant; Blockchain is a limited fit. The typical first engagement is a GPUaaS / AIaaS build or a Predictive DC POC."
+  },
+  "challenges": [
+    {"title": "In-country GPU, sold as-a-service", "body": "Smaller organizations want to consume in-country GPU capacity and AI services by the hour or by the call, with no upfront investment."},
+    {"title": "Tenant isolation, proven", "body": "Without visibility inside the GPU, tenant separation and VRAM hygiene are assumed, not proven."},
+    {"title": "Power and cooling outages", "body": "Power chain (40–55%) and cooling (15–25%) cause most data center outages, and both show degradation days to weeks before failure."},
+    {"title": "NCA CCC", "body": "NCA CCC applies to cloud service providers and cloud consumers."}
+  ],
+  "useCases": [
+    {"title": "GPUaaS / AIaaS build", "body": "Operator business case and GPU sizing, platform implementation with the operator, then managed operations and revenue share on GPU-hours and AI services."},
+    {"title": "Predictive DC POC", "body": "A POC on existing BMS telemetry, then a subscription per site, MW or asset count."},
+    {"title": "GPU Compute Assessment", "body": "We deploy the agent, baseline the environment and show what is running, and what should not be."},
+    {"title": "AI apps on the operator marketplace", "body": "Hosted models, inference APIs and ready AI apps, such as the AI Call Center."}
+  ],
+  "solutions": ["sovereign-ai-platform", "predictive-dc-operations", "ai-security-observability", "agentic-ai-platform", "cybersecurity-consultation-compliance", "it-asset-intelligence"],
+  "regulation": ["NCA CCC", "NCA ECC", "PDPL (SDAIA)", "SDAIA AI Ethics"],
+  "vision2030": {
+    "body": "In-country GPU capacity and AI services for SMEs and start-ups, mid-market enterprises, software and AI developers, and universities and research.",
+    "programs": ["NCA CCC", "PDPL", "SDAIA AI Ethics"]
+  },
+  "seo": {
+    "title": "Telecom & Data Center Operators | GPUaaS & Predictive DC",
+    "description": "Multi-tenant GPUaaS / AIaaS built with telecom and data center operators, plus predictive operations for power and cooling and GPU runtime security."
+  }
+}

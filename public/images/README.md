@@ -11,17 +11,17 @@ Rules for replacements: Saudi and GCC professionals in modern settings (includin
 | `home/riyadh-cityscape-day.jpg` | Reserved (About, Vision 2030) | Riyadh cityscape by day | Riyadh skyline by day | 1600 |
 | `home/data-centre-aisle.jpg` | Home · "Sovereign by design" card | Server-room aisle | In-Kingdom data centre (ideally a client or partner site you may show) | 1200 |
 | `home/data-centre-cabinets.jpg` | Reserved (Solutions) | White server cabinets | Data centre interior | 1200 |
-| `home/drone-site-survey.jpg` | Reserved (Drone solution) | Quadcopter in flight | Survey drone over a Saudi site (no counter-drone imagery) | 1200 |
+| `home/drone-site-survey.jpg` | Reserved (not used) | Quadcopter in flight | Survey drone over a Saudi site (no counter-drone imagery) | 1200 |
 | `home/business-handshake.jpg` | Home · "Why ADP" card | Saudi professionals shaking hands across a desk | ADP team with a client, Riyadh office | 1400 |
-| `industries/government-riyadh.jpg` | Industries · Government | Al Faisaliah Tower area | Government district or service centre (no emblems) | 1000 |
-| `industries/professional-mobile-banking.jpg` | Industries · BFSI | Saudi professional using a banking app | Banking / fintech scene | 1000 |
-| `industries/solar-farm-desert.jpg` | Industries · Energy & Utilities | Desert solar farm | Saudi solar or desalination plant | 1000 |
-| `industries/water-treatment-aerial.jpg` | Reserved (IoT solution) | Water-treatment tanks, aerial | Desalination or water network asset | 1200 |
-| `industries/telecom-tower.jpg` | Industries · Telecom | Telecom tower | Saudi telecom site | 1000 |
-| `industries/healthcare-corridor.jpg` | Industries · Healthcare | Hospital corridor | Saudi hospital (no patients' faces) | 1000 |
-| `industries/construction-tower-cranes.jpg` | Industries · Giga-projects | Tower cranes at dusk | Giga-project construction site | 1000 |
-| `industries/hotel-lobby.jpg` | Industries · Retail & Hospitality | Hotel lobby | Saudi hotel, mall or retail space | 1000 |
-| `industries/university-lecture.jpg` | Industries · Education | Lecture hall | Saudi university or training centre | 1000 |
+| `industries/government-riyadh.jpg` | Sectors · Government & Public Sector | Al Faisaliah Tower area | Government district or service centre (no emblems) | 1000 |
+| `industries/professional-mobile-banking.jpg` | Sectors · Banking & Finance | Saudi professional using a banking app | Banking / fintech scene | 1000 |
+| `industries/solar-farm-desert.jpg` | Reserved (Energy & Utilities) | Desert solar farm | Saudi solar or desalination plant | 1000 |
+| `industries/water-treatment-aerial.jpg` | Sectors · Energy & Utilities | Water-treatment tanks, aerial | Desalination or water network asset | 1200 |
+| `industries/telecom-tower.jpg` | Sectors · Telecom & Data Center Operators | Telecom tower | Saudi telecom site | 1000 |
+| `industries/healthcare-corridor.jpg` | Sectors · Healthcare | Hospital corridor | Saudi hospital (no patients' faces) | 1000 |
+| `industries/construction-tower-cranes.jpg` | Reserved (not used) | Tower cranes at dusk | Giga-project construction site | 1000 |
+| `industries/hotel-lobby.jpg` | Sectors · Retail & Enterprise | Hotel lobby | Saudi hotel, mall or retail space | 1000 |
+| `industries/university-lecture.jpg` | Sectors · Education & Research | Lecture hall | Saudi university or training centre | 1000 |
 | `about/riyadh-metro-towers.jpg` | Reserved (About hero) | KAFD towers and metro | About-page hero, Riyadh | 2000 |
 | `about/professional-woman-tablet.jpg` | Reserved (About values) | Professional woman with tablet | ADP team member at work | 1200 |
 | `about/professional-woman-laptop.jpg` | Reserved (About / Careers) | Professional woman with laptop | ADP team member at work | 1200 |

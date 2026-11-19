@@ -21,12 +21,12 @@ const pillars = {
   ar: Pillar.array().length(5).parse(arPillars)
 };
 const solutions = {
-  en: Solution.array().length(13).parse(enSolutions),
-  ar: Solution.array().length(13).parse(arSolutions)
+  en: Solution.array().length(9).parse(enSolutions),
+  ar: Solution.array().length(9).parse(arSolutions)
 };
 const industries = {
-  en: Industry.array().length(8).parse(enIndustries),
-  ar: Industry.array().length(8).parse(arIndustries)
+  en: Industry.array().length(7).parse(enIndustries),
+  ar: Industry.array().length(7).parse(arIndustries)
 };
 const faq = {
   en: FaqGroup.array().parse(enFaq),

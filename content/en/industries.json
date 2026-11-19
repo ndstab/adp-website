@@ -2,65 +2,113 @@
   {
     "slug": "government",
     "order": 1,
-    "name": "Government",
-    "summary": "Citizen services in Arabic, protected records and in-Kingdom hosting.",
+    "name": "Government & Public Sector",
+    "summary": "Sovereign AI, NCA-aligned security, AI agents and verifiable records for ministries and public entities.",
     "image": "/images/industries/government-riyadh.jpg",
-    "imageAlt": "Riyadh city centre with the Al Faisaliah Tower and modern government buildings under a blue sky"
+    "imageAlt": "Riyadh city centre with the Al Faisaliah Tower and modern government buildings under a blue sky",
+    "fit": {
+      "sovereign-ai": "primary",
+      "cybersecurity": "primary",
+      "iot-edge": "relevant",
+      "intelligent-operations": "primary",
+      "blockchain-trust": "primary"
+    },
+    "firstEngagement": ["NCA gap assessment", "Sovereign AI readiness"]
   },
   {
-    "slug": "bfsi",
+    "slug": "banking-finance",
     "order": 2,
-    "name": "Banking, Financial Services & Insurance",
-    "summary": "Digital onboarding, resilient digital channels and SAMA-aligned security.",
+    "name": "Banking & Finance",
+    "summary": "AI call centers, dedicated sovereign AI, SAMA-aligned security and trade-finance ledgers.",
     "image": "/images/industries/professional-mobile-banking.jpg",
-    "imageAlt": "Saudi professional in a red shemagh reviewing a mobile banking app beside a laptop"
+    "imageAlt": "Saudi professional in a red shemagh reviewing a mobile banking app beside a laptop",
+    "fit": {
+      "sovereign-ai": "primary",
+      "cybersecurity": "primary",
+      "iot-edge": "limited",
+      "intelligent-operations": "primary",
+      "blockchain-trust": "primary"
+    },
+    "firstEngagement": ["AI Call Center POC", "SAMA CSF assessment"]
   },
   {
     "slug": "energy-utilities",
     "order": 3,
     "name": "Energy & Utilities",
-    "summary": "Live visibility of water networks, solar assets and remote field sites.",
-    "image": "/images/industries/solar-farm-desert.jpg",
-    "imageAlt": "Rows of solar panels stretching across a desert plain towards distant mountains"
+    "summary": "Live monitoring and automation of water and energy networks, with OT security built in.",
+    "image": "/images/industries/water-treatment-aerial.jpg",
+    "imageAlt": "Aerial view of circular settling tanks at a water-treatment plant",
+    "fit": {
+      "sovereign-ai": "relevant",
+      "cybersecurity": "primary",
+      "iot-edge": "primary",
+      "intelligent-operations": "relevant",
+      "blockchain-trust": "relevant"
+    },
+    "firstEngagement": ["IoT pilot zone", "OT security assessment"]
   },
   {
-    "slug": "telecom",
+    "slug": "telecom-data-centers",
     "order": 4,
-    "name": "Telecom",
-    "summary": "Autonomous network operations at carrier scale, with full data residency.",
+    "name": "Telecom & Data Center Operators",
+    "summary": "GPU and AI as-a-Service built with operators, and predictive operations for the facility.",
     "image": "/images/industries/telecom-tower.jpg",
-    "imageAlt": "Telecommunications tower with mobile antennas and microwave dishes against a clear blue sky"
+    "imageAlt": "Telecommunications tower with mobile antennas and microwave dishes against a clear blue sky",
+    "fit": {
+      "sovereign-ai": "primary",
+      "cybersecurity": "primary",
+      "iot-edge": "relevant",
+      "intelligent-operations": "primary",
+      "blockchain-trust": "limited"
+    },
+    "firstEngagement": ["GPUaaS / AIaaS build", "Predictive DC POC"]
   },
   {
     "slug": "healthcare",
     "order": 5,
     "name": "Healthcare",
-    "summary": "Appointment agents, protected patient records and dependable infrastructure.",
+    "summary": "AI call centers in Arabic and English, and PDPL-ready protection of personal data.",
     "image": "/images/industries/healthcare-corridor.jpg",
-    "imageAlt": "Bright, curved hospital corridor with floor-to-ceiling windows and waiting chairs"
+    "imageAlt": "Bright, curved hospital corridor with floor-to-ceiling windows and waiting chairs",
+    "fit": {
+      "sovereign-ai": "relevant",
+      "cybersecurity": "primary",
+      "iot-edge": "limited",
+      "intelligent-operations": "primary",
+      "blockchain-trust": "relevant"
+    },
+    "firstEngagement": ["AI Call Center", "PDPL readiness"]
   },
   {
-    "slug": "giga-projects-construction",
+    "slug": "education-research",
     "order": 6,
-    "name": "Giga-projects & Construction",
-    "summary": "Drone progress tracking, smart concrete and site security for giga-scale builds.",
-    "image": "/images/industries/construction-tower-cranes.jpg",
-    "imageAlt": "Tower cranes silhouetted against a pink and violet dusk sky over a construction site"
-  },
-  {
-    "slug": "retail-hospitality",
-    "order": 7,
-    "name": "Retail & Hospitality",
-    "summary": "Guest and shopper journeys that convert, in Arabic and English.",
-    "image": "/images/industries/hotel-lobby.jpg",
-    "imageAlt": "Contemporary hotel lobby with marble floors, lounge seating and a gold chandelier installation"
-  },
-  {
-    "slug": "education",
-    "order": 8,
-    "name": "Education",
-    "summary": "Student services, campus networks and analytics for learning outcomes.",
+    "name": "Education & Research",
+    "summary": "On-demand, in-country GPU capacity for research, and governed AI agents.",
     "image": "/images/industries/university-lecture.jpg",
-    "imageAlt": "University students attentive in a sunlit lecture hall"
+    "imageAlt": "University students attentive in a sunlit lecture hall",
+    "fit": {
+      "sovereign-ai": "primary",
+      "cybersecurity": "relevant",
+      "iot-edge": "limited",
+      "intelligent-operations": "relevant",
+      "blockchain-trust": "relevant"
+    },
+    "firstEngagement": ["GPUaaS for research", "AI agents"]
+  },
+  {
+    "slug": "retail-enterprise",
+    "order": 7,
+    "name": "Retail & Enterprise",
+    "summary": "AI agents across the customer journey, and tighter control of IT assets and spend.",
+    "image": "/images/industries/hotel-lobby.jpg",
+    "imageAlt": "Contemporary hotel lobby with marble floors, lounge seating and a gold chandelier installation",
+    "fit": {
+      "sovereign-ai": "relevant",
+      "cybersecurity": "relevant",
+      "iot-edge": "limited",
+      "intelligent-operations": "primary",
+      "blockchain-trust": "relevant"
+    },
+    "firstEngagement": ["AI agents", "IT Asset Intelligence"]
   }
 ]

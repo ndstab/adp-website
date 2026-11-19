@@ -4,16 +4,16 @@
     "label": "General",
     "items": [
       {
-        "q": "What does ADP Solutions do?",
-        "a": "ADP Solutions (Advanced Digital Pathway Solutions) is a Saudi technology company headquartered in Riyadh. We deliver end-to-end solutions across ICT infrastructure, artificial intelligence, data analytics, software development, cloud and cybersecurity for government entities, public-sector organizations and enterprises."
+        "q": "What does ADP do?",
+        "a": "Advanced Digital Pathway Solutions (ADP) is a Riyadh-headquartered technology company. We design, deliver and operate solutions across five areas: Sovereign AI, Cybersecurity, IoT & Edge, Intelligent Operations, and Blockchain & Digital Trust, for government, public-sector and enterprise clients across the Kingdom, as prime contractor and single accountable partner."
       },
       {
         "q": "Where do you operate?",
-        "a": "We are Saudi-headquartered and serve the GCC. We start in Riyadh, then the Eastern Province and Jeddah, and then the wider GCC."
+        "a": "We are Riyadh-first, extending across the Kingdom's government, GIGA-project and enterprise accounts."
       },
       {
         "q": "Do you work in Arabic?",
-        "a": "Yes. Our consultants, our support desk and our AI agents all work in Arabic and English. Our AI solutions can run on Arabic-first language models."
+        "a": "Yes. Pre-sales, delivery and support run in Arabic and English, we demonstrate solutions on real workflows in both languages, and the AI Call Center handles voice and chat in Arabic and English, 24x7."
       }
     ]
   },
@@ -22,16 +22,20 @@
     "label": "Solutions",
     "items": [
       {
-        "q": "Who builds the technology you deliver?",
-        "a": "We combine our own engineering with curated solutions from our global technology alliance that are already proven in production. We localize them for the Kingdom, deliver them under one Saudi contract and stay accountable for the outcome."
+        "q": "What is in the portfolio?",
+        "a": "Nine solutions in five areas: the Sovereign AI Platform; Cybersecurity Consultation & Compliance, Data Watermarking and AI Security & Observability; IoT & Edge Intelligence; the Agentic AI Platform with the AI Call Center as lead use case, Predictive DC Operations and IT Asset Intelligence; and the Blockchain Trust Layer. Each comes with a live demo, a fixed-scope first step, project delivery and a managed-service path."
       },
       {
-        "q": "Can AI agents work with our existing systems?",
-        "a": "Yes. Agents connect to your CRM, ticketing and core systems, and to channels such as WhatsApp, e-mail and voice, through APIs. They act only within the permissions and guardrails you define, and sensitive steps can require human approval."
+        "q": "What is the Sovereign AI Platform?",
+        "a": "Our flagship: one sovereign AI architecture with two ways to market. For regulated entities such as banks, government and defence, we design, build and operate a dedicated Sovereign AI Factory, in their own facility or a sovereign one, air-gapped where needed. For the SME market, we implement a multi-tenant GPU and AI cloud with a telecom or data center operator. In both cases ADP runs the platform."
       },
       {
-        "q": "How can IT cost optimization help fund AI?",
-        "a": "Discovering every asset, reclaiming unused licences and right-sizing contracts usually frees budget inside the software estate. Many organizations use those savings to fund their first production AI projects."
+        "q": "Who provides the technology?",
+        "a": "The portfolio is ADP-delivered, partner-enabled and hosted in-Kingdom. We design and integrate the whole stack and operate it, with assessed specialist platforms behind every pillar, so you deal with one partner rather than five vendors."
+      },
+      {
+        "q": "How does blockchain fit with the other solutions?",
+        "a": "It is one trust layer across the portfolio. The same ledger anchors AI decisions, compliance audit trails, IoT readings and work orders from every solution, and it also stands on its own as a set of six blockchain solutions."
       }
     ]
   },
@@ -41,11 +45,11 @@
     "items": [
       {
         "q": "Can our data stay in the Kingdom?",
-        "a": "Yes. Our solutions offer in-Kingdom cloud and on-premise deployment options to support data-residency requirements under the PDPL and sector regulations."
+        "a": "Yes. We are sovereign by design: data, AI and ledgers stay in-Kingdom, in every model, whether in your own data center, a sovereign facility or an operator's GPU cloud, and air-gapped where required."
       },
       {
-        "q": "Are your solutions aligned with NCA controls?",
-        "a": "Our delivery is aligned to the National Cybersecurity Authority's controls, including the Essential Cybersecurity Controls, and supports compliance with the PDPL and the SAMA cybersecurity framework. We assess compliance for your specific environment; we do not hold or claim regulatory licences on your behalf."
+        "q": "Which regulations is your work aligned with?",
+        "a": "Our work is aligned with NCA (ECC, CCC, DCC, OTCC and CSCC), SDAIA and PDPL, SAMA, ISO 27001 and NIST. We assess compliance for your specific environment and support it; we do not hold or claim regulatory licences on your behalf."
       }
     ]
   },
@@ -55,11 +59,15 @@
     "items": [
       {
         "q": "How does an engagement start?",
-        "a": "With a short discovery session, followed by a fixed-scope proof-of-value pilot with agreed success measures. We scale only what proves its value."
+        "a": "In four steps: a discovery workshop, where we map your priorities, regulatory obligations and current estate against the portfolio; a live demo on real workflows, in Arabic and English; a fixed-scope assessment or POC with agreed success measures; then we deliver the project and run it as an SLA-backed managed service."
       },
       {
-        "q": "Do you transfer knowledge to our team?",
-        "a": "Yes. Every engagement includes knowledge transfer, and we prioritize Saudi talent in our delivery teams so capability stays in the Kingdom after go-live."
+        "q": "What does a first step look like?",
+        "a": "It depends on the solution: an NCA / PDPL gap assessment, a watermarking pilot on a user group, a GPU security assessment, an IoT pilot zone, a demo and pilot on your top call flows, a pilot on existing BMS data, a discovery baseline and license report, or a blockchain use-case assessment and pilot ledger."
+      },
+      {
+        "q": "What is the commercial model?",
+        "a": "One commercial pattern: a first step, which is a fixed-scope assessment or pilot that proves value fast; a project, covering design, build, integration and onboarding; and a managed service, with subscription and SLA-backed operations."
       }
     ]
   }

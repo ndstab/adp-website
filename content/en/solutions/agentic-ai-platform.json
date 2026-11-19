@@ -1,0 +1,86 @@
+{
+  "slug": "agentic-ai-platform",
+  "hero": {
+    "eyebrow": "Intelligent Operations · Lead use case: AI Call Center",
+    "title1": "One agentic AI platform.",
+    "title2": "AI Call Center first.",
+    "subtitle": "A horizontal platform where a team of governed AI agents works on one live customer context. We lead with the AI Call Center: Arabic and English, voice and chat, 24x7."
+  },
+  "challenge": {
+    "title": "Three moments in the customer journey",
+    "body": "The AI Call Center is the contact center product of the platform, hosted in-Kingdom and delivered by ADP. It covers three moments: routine inbound calls, complex calls handled by a person, and the follow-up once a ticket is resolved.",
+    "points": [
+      "High-volume, well-defined calls: bookings, resets, FAQs and transactions",
+      "Complex calls, where the live agent needs knowledge and suggested replies",
+      "Resolved tickets that need the fix and the customer's satisfaction confirmed"
+    ]
+  },
+  "opportunity": {
+    "title": "Land and expand",
+    "body": "Start with the AI Call Center, then add sales, marketing and sector agents on the same platform, data and guardrails. Adding a vertical is domain logic and integrations, not a new build. Saudi conversational AI is forecast to grow at a 29.8% CAGR to 2034, from USD 159M in 2025.",
+    "sources": ["conversational-ai-market"]
+  },
+  "capabilities": [
+    {"title": "AI Call Center Agent", "body": "Inbound, fully autonomous. Handles the full call end to end: bookings, resets, FAQs and transactions. Best for high-volume, well-defined calls."},
+    {"title": "AI Call Center Assistant", "body": "Inbound, human co-pilot. Works alongside the live agent, surfaces knowledge, suggests replies and auto-fills CRM notes."},
+    {"title": "AI Call-Out Agent", "body": "Outbound, proactive. Calls once the ticket is resolved, confirms the fix and satisfaction, and reopens or escalates if not fixed."},
+    {"title": "Experience and channels", "body": "Web, WhatsApp, voice, email and in-app."},
+    {"title": "Agent runtime and orchestration", "body": "Planning, memory, tool use and guardrails: one runtime, shared memory and set of guardrails under every vertical."},
+    {"title": "Intelligence and knowledge", "body": "Models, retrieval, reasoning and evaluation."},
+    {"title": "Data and integration fabric", "body": "One live record across every system, with 50+ integrations."},
+    {"title": "Sovereign GPU infrastructure", "body": "In-Kingdom hosting in an AI Factory or operator GPU cloud, with tenant isolation and GPU inference for voice and LLMs."}
+  ],
+  "applications": [
+    {"title": "Support: serve everyone, instantly", "body": "Voice and chat agents resolve queries 24x7, in Arabic and English, hand over to a human when sentiment turns, and a call-out agent confirms every resolved ticket."},
+    {"title": "Acquisition: win the next customer", "body": "Agents greet every visitor and guide the journey, and ads land straight in an agent conversation, for lower acquisition cost and better return on ad spend."},
+    {"title": "Lifetime value: grow every customer", "body": "Sales agents revive, upsell and cross-sell, and win-back campaigns run on their own, for more repeat purchases and higher lifetime value."},
+    {"title": "Eight vertical agent products live", "body": "Sales, SEO & GEO, marketing, reporting, call centre, retail D2C, hotel operations and lending."},
+    {"title": "Four more verticals in build", "body": "Insurance, logistics, healthcare and field service."}
+  ],
+  "outcomes": [
+    {"value": "100M+", "label": "Customer interactions handled on the platform"},
+    {"value": "50+", "label": "Customers in production"},
+    {"value": "250%", "label": "Average return on investment"},
+    {"value": "90%", "label": "Of clients at payback inside six months"}
+  ],
+  "sectors": ["banking-finance", "government", "telecom-data-centers", "retail-enterprise", "healthcare", "education-research"],
+  "vision2030": {
+    "body": "The whole stack runs on sovereign GPU infrastructure in-Kingdom, either in a client's AI factory or on an operator's GPU cloud, with each client as an isolated tenant.",
+    "programs": ["NCA", "SDAIA", "PDPL"]
+  },
+  "deployment": {
+    "cloud": true,
+    "inKingdom": true,
+    "onPrem": true,
+    "note": "Speech recognition, LLM reasoning and voice synthesis run on GPU in-Kingdom: in a client's Sovereign AI Factory, or as AIaaS on an operator's GPU cloud. Each client has its own knowledge base, call flows and CRM integration."
+  },
+  "extras": [
+    {
+      "title": "How the agents work",
+      "items": [
+        "1 · Sense: one live customer context from every system",
+        "2 · Think: 360° profiles, intent, sentiment, predictions",
+        "3 · Act: agents run sales, support and journeys",
+        "4 · Monitor: every agent run traced and measured",
+        "5 · Evolve: agents learn from each run"
+      ]
+    },
+    {
+      "title": "One connected experience",
+      "items": ["More volume deflected", "Shorter handling time", "No missed follow-ups"]
+    },
+    {
+      "title": "Offer",
+      "items": [
+        "How we start: demo plus pilot on your top call flows",
+        "Live demo of all three agents",
+        "POC on your highest-volume call flows",
+        "Per-agent, per-minute or per-interaction pricing"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Agentic AI Platform & AI Call Center | Saudi Arabia",
+    "description": "Governed AI agents on one live customer context. The AI Call Center handles voice and chat in Arabic and English, 24x7, hosted on GPU in-Kingdom."
+  }
+}

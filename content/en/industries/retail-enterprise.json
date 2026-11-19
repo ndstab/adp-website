@@ -1,0 +1,35 @@
+{
+  "slug": "retail-enterprise",
+  "hero": {
+    "eyebrow": "Sectors · Retail & Enterprise",
+    "title1": "Retail & enterprise.",
+    "title2": "AI agents across the customer journey.",
+    "subtitle": "Support, acquisition and lifetime-value agents on one platform, and IT asset intelligence that cuts software spend."
+  },
+  "context": {
+    "title": "Where we play",
+    "body": "For retail and enterprise, Intelligent Operations is the primary fit; Sovereign AI, Cybersecurity and Blockchain are relevant; IoT & Edge is a limited fit. The typical first engagement is AI agents or IT Asset Intelligence."
+  },
+  "challenges": [
+    {"title": "Serve everyone, instantly", "body": "Voice and chat agents resolve queries 24x7, in Arabic and English."},
+    {"title": "Win the next customer", "body": "Agents greet every visitor and guide the journey, and ads land straight in an agent conversation."},
+    {"title": "Grow every customer", "body": "Sales agents revive, upsell and cross-sell, and win-back campaigns run on their own."},
+    {"title": "Control software spend", "body": "Reclaim unused licenses, right-size renewals and cut waste, with the reasoning shown."}
+  ],
+  "useCases": [
+    {"title": "AI agents", "body": "Start with the AI Call Center, then add sales and marketing agents on the same platform, data and guardrails."},
+    {"title": "IT Asset Intelligence", "body": "A discovery baseline and license-position report as the POC, then a subscription with managed optimization."},
+    {"title": "Retail D2C and hotel operations", "body": "Two of the eight vertical agent products live today."},
+    {"title": "Supply-chain traceability", "body": "Origin-to-shelf tracking of food, pharma and goods, shared securely across trading partners."}
+  ],
+  "solutions": ["agentic-ai-platform", "it-asset-intelligence", "blockchain-trust-layer", "cybersecurity-consultation-compliance", "sovereign-ai-platform"],
+  "regulation": ["PDPL (SDAIA)", "PCI-DSS", "SFDA traceability · ZATCA FASAH"],
+  "vision2030": {
+    "body": "In-country AI services with no upfront investment for SMEs and mid-market enterprises, with data and AI kept in-Kingdom.",
+    "programs": ["PDPL", "SFDA traceability · ZATCA FASAH"]
+  },
+  "seo": {
+    "title": "Retail & Enterprise Solutions | AI Agents, IT Asset Intelligence",
+    "description": "AI agents for support, acquisition and lifetime value, plus IT asset intelligence and supply-chain traceability for Saudi retailers and enterprises."
+  }
+}
